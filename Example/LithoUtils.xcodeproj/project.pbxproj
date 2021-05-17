@@ -312,12 +312,14 @@
 				"${PODS_ROOT}/Target Support Files/Pods-LithoUtils_Example/Pods-LithoUtils_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/FunNet/FunNet.framework",
 				"${BUILT_PRODUCTS_DIR}/LithoOperators/LithoOperators.framework",
+				"${BUILT_PRODUCTS_DIR}/LithoUtils/LithoUtils.framework",
 				"${BUILT_PRODUCTS_DIR}/Prelude/Prelude.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FunNet.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LithoOperators.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LithoUtils.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Prelude.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

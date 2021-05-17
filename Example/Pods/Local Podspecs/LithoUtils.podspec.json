@@ -2,8 +2,17 @@
   "name": "LithoUtils",
   "version": "0.1.0",
   "summary": "A short description of LithoUtils.",
+  "swift_versions": [
+    "4.0",
+    "4.1",
+    "4.2",
+    "5.0",
+    "5.1",
+    "5.2",
+    "5.3"
+  ],
   "description": "LithoUtils gives developers a library of shortcuts, streamlining the common operations that occur in iOS development and allowing developers to focus on whatever makes their project unique. Examples include UIViewController functions returning a closure to push or present another UIViewController onto it, functions that bind publishers to arbitrary properties of UI elements, and helper methods that help differentiate the iOS environment the developer is developing on.",
-  "homepage": "https://github.com/ThryvInc/LithoUtils",
+  "homepage": "https://github.com/ThryvInc/litho-utils",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,13 +21,18 @@
     "Lithobyte": ""
   },
   "source": {
-    "git": "https://github.com/ThryvInc/LithoUtils.git",
+    "git": "https://github.com/ThryvInc/litho-utils.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "9.0"
+    "ios": "13.0"
   },
   "source_files": "LithoUtils/Classes/**/*",
+  "dependencies": {
+    "LithoOperators": [
+
+    ]
+  },
   "subspecs": [
     {
       "name": "Base",
@@ -29,10 +43,8 @@
     },
     {
       "name": "Combine",
-      "platforms": {
-        "ios": "13.0"
-      },
       "source_files": "LithoUtils/Classes/Combine/**/*.swift"
     }
-  ]
+  ],
+  "swift_version": "5.3"
 }

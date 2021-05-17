@@ -6,158 +6,173 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		6C1AB688A5C9DE02C75AC815D03E671F /* LithoUtils */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = 386E0686822913D1D80F0C35274E85D4 /* Build configuration list for PBXAggregateTarget "LithoUtils" */;
-			buildPhases = (
-			);
-			dependencies = (
-			);
-			name = LithoUtils;
-			productName = LithoUtils;
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
-		01399DF3123D50C0F71BF5DAC835E566 /* LithoOperators-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AFF0D6BAAC49037057692F900B3D1446 /* LithoOperators-dummy.m */; };
+		080B99C293209E8ED811D922ACFAAAE0 /* Curry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C5F4B1596B62A36936874BF61544AA /* Curry.swift */; };
 		0D29F49BDB040B4FA3133AB3AA93C353 /* NetworkCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544F6584AEA817B22DF13F403CF6F26F /* NetworkCall.swift */; };
 		140DB1F589E8F60F24808C2077CF3323 /* Stubbable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860FB3DA9D9A3E9DBAAE1ABE7531D50B /* Stubbable.swift */; };
-		171D70E6E603322124658704F55EF7DC /* Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5B5852DEF73D0150F673F3C2EE4C4C /* Optional.swift */; };
+		19D0E1B1D69819EA46634A8A54C25D5E /* BindViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0995C1078FA37CDA259F88570B5EE7B5 /* BindViewModel.swift */; };
 		1F92193DF04628B442B81772C738256C /* FunNet-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AB85DF3CE178388FDAE7548028D82DF5 /* FunNet-dummy.m */; };
+		21F4ECE5F9DD2B92A77CEEFF69150C0F /* Tuple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2330C296E35D1123E394067499316F14 /* Tuple.swift */; };
+		32D03E8B952BE0A63DACA176D9D2F1B1 /* Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5B5852DEF73D0150F673F3C2EE4C4C /* Optional.swift */; };
 		3324E492916CFAA848AE5B731ACB22FF /* Pods-LithoUtils_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DFE97E4233E30A7BDEB46B53C696D0B /* Pods-LithoUtils_Example-dummy.m */; };
-		57B1EEC579608C835D8060EEA50063CE /* Fix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B43BCD1E16544056D3833801DFCB04 /* Fix.swift */; };
-		596EBCF168273027D21BA7FBF2F4EF38 /* LithoOperators-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 136DE7C141F43130E21625BC4AB4D68F /* LithoOperators-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40763533320BC1187458C482B755EA0B /* UIViewController+BarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95ED371B1554429CCE12467C30B90F95 /* UIViewController+BarButtonItem.swift */; };
+		460D2D77D31EC59DEBB269A56050D071 /* Prelude-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDAF0AB89622061075A1729D7EE29BF /* Prelude-dummy.m */; };
+		51F7F152254B10F79DFA8D0951205704 /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0F1021ECE6BABBE292EF45888CE164 /* Application.swift */; };
 		5AB800729F0055A295CEB234FD4DC94A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7321C9A8DD1912F4220CD201CAFC96F /* Foundation.framework */; };
 		5C25FE478568972676DE4F1416E153AC /* FunNetCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99FF2A778AF963937E5A62CC31E4B56 /* FunNetCall.swift */; };
-		6027460602C209F6E674571D9BD7300D /* Prelude-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6804B6F763C7E63E456CA7F37AD59799 /* Prelude-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6445A67D2653027600A68669 /* BindViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6445A67C2653027600A68669 /* BindViewModel.swift */; };
-		66B50D088E1678622AD8489CE8B0C291 /* Flip.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C038ACB76D3B43F68AD3D488CD2A09 /* Flip.swift */; };
+		5D9BA5AF9C61809FC70ABDDEAF22188D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7321C9A8DD1912F4220CD201CAFC96F /* Foundation.framework */; };
+		6445A68B26531F1900A68669 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6445A68926531F1500A68669 /* Alert.swift */; };
+		6445A68F26531F9100A68669 /* Configurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6445A68D26531F8E00A68669 /* Configurable.swift */; };
+		6445A69226531FB500A68669 /* UIColor+hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6445A69026531FB100A68669 /* UIColor+hex.swift */; };
+		6445A69826531FFA00A68669 /* iOSFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6445A69626531FF700A68669 /* iOSFunctions.swift */; };
+		6445A69926531FFE00A68669 /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6445A69426531FD400A68669 /* Styles.swift */; };
+		6445A69C2653205E00A68669 /* CanIndicateActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6445A69B2653205E00A68669 /* CanIndicateActivity.swift */; };
 		689B55273EB2D80FBE2116566FDE6FE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7321C9A8DD1912F4220CD201CAFC96F /* Foundation.framework */; };
 		6C3662A8CDBE42B6C7EDE7E81D0E4027 /* StubHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5205FF19910C70404D281C4F6C42D10 /* StubHolder.swift */; };
-		73E5492E1331532AD39C8200AF367255 /* LithoOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4212CD075F49AE6B3856358D8DD33C54 /* LithoOperators.swift */; };
 		7FA7A4DF2456D5DFF2684CD02172D205 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB53B91EA5AE5E100B9ADF7A8CC3549 /* Endpoint.swift */; };
-		867BAEAD8AE82A8E1F5F01DE05CB0D83 /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0F1021ECE6BABBE292EF45888CE164 /* Application.swift */; };
-		8A8D9FE3F4F79AE47EE7EF91359CDDF5 /* Compose.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3F7E6DA5773B7E50603A51F682D538 /* Compose.swift */; };
+		804ADBC55A09CA24264259736F0C0666 /* LithoOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4212CD075F49AE6B3856358D8DD33C54 /* LithoOperators.swift */; };
+		808CB7DCDDE0CFAB5F53557E16B20DFA /* Flip.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C038ACB76D3B43F68AD3D488CD2A09 /* Flip.swift */; };
+		87D9268BAA6CC1C518A863BD7316CADF /* LithoOperators.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAAE7E1D981844151AD592A243A8833D /* LithoOperators.framework */; };
 		9745F887988A2D80C74F00AC8343C747 /* ServerConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F67BC42CA334DFC284F31AD691C9AA /* ServerConfiguration.swift */; };
 		9ECB4BF8565D8075F028411850C3E73E /* LithoOperators.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAAE7E1D981844151AD592A243A8833D /* LithoOperators.framework */; };
 		A5C3FB31DFF0AF0F28C8A15523F31E23 /* Requests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01826ED6B1A5A2E6155040CC6E413CC /* Requests.swift */; };
 		AB8945189DDF67206DEB47405CC9189C /* Combine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 911FF32C6FF774A7460573489D1970B4 /* Combine.framework */; };
-		B2FBEBFD53B9036AA6C4EB063AA1E42A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7321C9A8DD1912F4220CD201CAFC96F /* Foundation.framework */; };
+		AC6801482D3AE427A379937991B7F5A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7321C9A8DD1912F4220CD201CAFC96F /* Foundation.framework */; };
 		B6D56C5D962373773F7766AEC704CC41 /* Pods-LithoUtils_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16966DFF7F592693B55804A8F91B715B /* Pods-LithoUtils_Tests-dummy.m */; };
 		BA13FC0F2C0F58189DA7BDEC0F8B67C7 /* CombineNetCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = B178EBCCE31FFCB30D88F0946FD83079 /* CombineNetCall.swift */; };
 		BD7CA525C3BD0A004735B475DCD2D2E9 /* Pods-LithoUtils_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FB7101A932915FE2D38F09C5D7C91FF /* Pods-LithoUtils_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C2B65C8E760811C07687AE88811A9955 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7321C9A8DD1912F4220CD201CAFC96F /* Foundation.framework */; };
 		C3EE5727E80065A6AAD8F5930028F511 /* NetworkResponder.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1BC4C20D9CF196843201BFB262C49B /* NetworkResponder.swift */; };
 		C7C09B5DF8DB045B982CAC516DF83CDC /* Pods-LithoUtils_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E66FCB335684D9E7FCD8E3681647F40 /* Pods-LithoUtils_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CEEB32F2E64584DFBF7304DE1C62B985 /* Prelude.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F105A913473B8519AE635A5BCAD6F129 /* Prelude.framework */; };
-		D32FCD2E2D437DCA4B9E6351F681A99B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7321C9A8DD1912F4220CD201CAFC96F /* Foundation.framework */; };
-		D48DC4EB8F7BF6D6C6F56161B40D600E /* Prelude.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298796148B31CE8CCC174F82F68750B7 /* Prelude.swift */; };
+		CE698266689623D4031283EE66C78752 /* LithoOperators-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 136DE7C141F43130E21625BC4AB4D68F /* LithoOperators-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E130A899F64C9BB28F5F59A4E2A306D4 /* Prelude.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F105A913473B8519AE635A5BCAD6F129 /* Prelude.framework */; };
 		E59C6F0D5C66D05C4BB1EAD238CC2DA3 /* URLLoadingErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6742FF7A56D149A8420291F1AC6873D /* URLLoadingErrorHandler.swift */; };
-		EBC4F132C0F6EDE82F9BE3CB463397B7 /* Curry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C5F4B1596B62A36936874BF61544AA /* Curry.swift */; };
-		EBC9B4371275E3F10B89BD3A5C9BF8ED /* Tuple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2330C296E35D1123E394067499316F14 /* Tuple.swift */; };
+		E6390E9718CC35799225CF6BD8FF24CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7321C9A8DD1912F4220CD201CAFC96F /* Foundation.framework */; };
+		E8D732500F8310DE5349F3B6A2CCA686 /* LithoOperators-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AFF0D6BAAC49037057692F900B3D1446 /* LithoOperators-dummy.m */; };
+		EB7CA191B6ABF8E888A3F1AFB1E98957 /* Prelude-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6804B6F763C7E63E456CA7F37AD59799 /* Prelude-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ED068654FC8B1A3406B6D5402C5A1DE7 /* NetworkErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CAAD8DC171B610AFFCD5185059B0921 /* NetworkErrorHandler.swift */; };
-		F809163073F8CFFF8AE984B170C1B891 /* Prelude-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDAF0AB89622061075A1729D7EE29BF /* Prelude-dummy.m */; };
+		EDE4F111AF4ABEB6C29C2F6179C9235A /* Prelude.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298796148B31CE8CCC174F82F68750B7 /* Prelude.swift */; };
+		F1758C0AE183EC28B1D9941EDCBC17A8 /* Compose.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3F7E6DA5773B7E50603A51F682D538 /* Compose.swift */; };
+		F778EF991377F4C2DEC6E0F21E5A8319 /* Fix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B43BCD1E16544056D3833801DFCB04 /* Fix.swift */; };
+		FA29ACCA6EAB853003DD4F615115C436 /* LithoUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AC90C41AA0A15436727712608BF168F0 /* LithoUtils-dummy.m */; };
+		FB37EB5601C80BD17FF5F98D2317EE41 /* LithoUtils-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C04151774271DC7759AE3E231B546E3 /* LithoUtils-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FFC062FF7CA148C3F6190D8CC8D3D5C7 /* FunNet-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F970540685CEE829DF01B42ECC335D4 /* FunNet-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3EC31EA297A3C9C52D20A7DEE5E2C913 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F23B1651D4D0DDA611CCBAFB8BFEED54;
-			remoteInfo = LithoOperators;
-		};
-		5B71B6E6853732B4FA54C0865ADAFF87 /* PBXContainerItemProxy */ = {
+		0928958D2055334820D66D20FFF4CF2A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = BDE9651E3D91FEDF74EB17C3CBDD3742;
 			remoteInfo = Prelude;
 		};
-		81EE6C655AC9BDAEB52D682FF57453C8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 53CD685FC2E9A4950DF443B5D9D621CA;
-			remoteInfo = FunNet;
-		};
-		AFB91201A89E6456C7B84C3760CAC27D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BCA6961C31080EEBCAA5AADE07FCA544;
-			remoteInfo = "Pods-LithoUtils_Example";
-		};
-		B8A134188642432185B7142DC8909E95 /* PBXContainerItemProxy */ = {
+		2EAA41658FC25A585691324AE5F40D75 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = F23B1651D4D0DDA611CCBAFB8BFEED54;
 			remoteInfo = LithoOperators;
 		};
-		BDE3FFB85AA904468E091B1818A6D9F0 /* PBXContainerItemProxy */ = {
+		4585E1EB29E21E7FB8948B19EBE77E4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F23B1651D4D0DDA611CCBAFB8BFEED54;
+			remoteInfo = LithoOperators;
+		};
+		7A13E6389DD31F660FD6FEBA5DA3AFB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDE9651E3D91FEDF74EB17C3CBDD3742;
+			remoteInfo = Prelude;
+		};
+		9730A324AFB83777FE106718549315F7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 6C1AB688A5C9DE02C75AC815D03E671F;
 			remoteInfo = LithoUtils;
 		};
-		D18DBF466CAF0EA6016DA147547164DE /* PBXContainerItemProxy */ = {
+		A6456AABC2D1F1EC6765F45738A2F5FE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = BDE9651E3D91FEDF74EB17C3CBDD3742;
-			remoteInfo = Prelude;
+			remoteGlobalIDString = BCA6961C31080EEBCAA5AADE07FCA544;
+			remoteInfo = "Pods-LithoUtils_Example";
+		};
+		E71F58D0F3E60EFC41A273EE5C993D14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F23B1651D4D0DDA611CCBAFB8BFEED54;
+			remoteInfo = LithoOperators;
+		};
+		FF711921580657CD8FB78381F4360442 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53CD685FC2E9A4950DF443B5D9D621CA;
+			remoteInfo = FunNet;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0078713D148CC0587B11165DD664B717 /* Prelude-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Prelude-Info.plist"; sourceTree = "<group>"; };
+		041CA5F8CB09E40BB1F5483EA422464A /* LithoUtils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LithoUtils-prefix.pch"; sourceTree = "<group>"; };
+		0995C1078FA37CDA259F88570B5EE7B5 /* BindViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BindViewModel.swift; sourceTree = "<group>"; };
 		0C376C30B56D7B0221C150F216519645 /* Pods-LithoUtils_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LithoUtils_Example.release.xcconfig"; sourceTree = "<group>"; };
 		0FC679A41D0D34FD873B7D9F9E6BE8BB /* Prelude.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Prelude.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		136DE7C141F43130E21625BC4AB4D68F /* LithoOperators-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LithoOperators-umbrella.h"; sourceTree = "<group>"; };
 		16966DFF7F592693B55804A8F91B715B /* Pods-LithoUtils_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LithoUtils_Tests-dummy.m"; sourceTree = "<group>"; };
+		18998056EE538E242161D80A6E5E8072 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		18F8562619A47B35F3E19C37B113CD76 /* FunNet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FunNet.release.xcconfig; sourceTree = "<group>"; };
 		1B3F7E6DA5773B7E50603A51F682D538 /* Compose.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Compose.swift; path = Prelude/Compose.swift; sourceTree = "<group>"; };
 		20574C340C819F6F8A2A6D65C9FC616C /* FunNet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FunNet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		21CE3CAED36B2B8754B6444F9ECAD709 /* LithoOperators-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LithoOperators-Info.plist"; sourceTree = "<group>"; };
 		2330C296E35D1123E394067499316F14 /* Tuple.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Tuple.swift; path = Prelude/Tuple.swift; sourceTree = "<group>"; };
+		24DC06F9F777C9EA2DC948BD3B5B135F /* LithoUtils-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LithoUtils-Info.plist"; sourceTree = "<group>"; };
 		25F77EA46ADFCC785D8ADF162BF109EB /* Pods-LithoUtils_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LithoUtils_Tests-Info.plist"; sourceTree = "<group>"; };
+		285E9237595C4D1E5A6DAC35F71D6FAC /* LithoUtils.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LithoUtils.release.xcconfig; sourceTree = "<group>"; };
 		28E2C2D631B984526BA7B6116D311718 /* FunNet-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FunNet-prefix.pch"; sourceTree = "<group>"; };
 		298796148B31CE8CCC174F82F68750B7 /* Prelude.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Prelude.swift; path = Prelude/Prelude.swift; sourceTree = "<group>"; };
-		29AFFED63CA1B6A708E1087A99F07742 /* LithoUtils.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LithoUtils.release.xcconfig; sourceTree = "<group>"; };
-		2F937021E37443E0C75D9307AEAB75EA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		394B10BCE851D62BCCFA7621ADC3EAA8 /* FunNet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FunNet.debug.xcconfig; sourceTree = "<group>"; };
 		3B72AF33FBB0E491681A774284136071 /* Pods-LithoUtils_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LithoUtils_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		4212CD075F49AE6B3856358D8DD33C54 /* LithoOperators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LithoOperators.swift; path = Sources/LithoOperators/Classes/LithoOperators.swift; sourceTree = "<group>"; };
 		544F6584AEA817B22DF13F403CF6F26F /* NetworkCall.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkCall.swift; path = FunNet/Classes/Core/NetworkCall.swift; sourceTree = "<group>"; };
-		58542104C689D0E9476D754E6F9178FA /* LithoUtils.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LithoUtils.debug.xcconfig; sourceTree = "<group>"; };
 		5DFE97E4233E30A7BDEB46B53C696D0B /* Pods-LithoUtils_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LithoUtils_Example-dummy.m"; sourceTree = "<group>"; };
-		6445A6782652F19B00A68669 /* UIViewController+BarButtonItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+BarButtonItem.swift"; sourceTree = "<group>"; };
-		6445A67C2653027600A68669 /* BindViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindViewModel.swift; sourceTree = "<group>"; };
+		614596BC1FB933BCB93AF68663DAA295 /* LithoUtils.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = LithoUtils.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6445A68926531F1500A68669 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		6445A68D26531F8E00A68669 /* Configurable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configurable.swift; sourceTree = "<group>"; };
+		6445A69026531FB100A68669 /* UIColor+hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+hex.swift"; sourceTree = "<group>"; };
+		6445A69426531FD400A68669 /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
+		6445A69626531FF700A68669 /* iOSFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSFunctions.swift; sourceTree = "<group>"; };
+		6445A69B2653205E00A68669 /* CanIndicateActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanIndicateActivity.swift; sourceTree = "<group>"; };
 		6804B6F763C7E63E456CA7F37AD59799 /* Prelude-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Prelude-umbrella.h"; sourceTree = "<group>"; };
-		683C68F56E61F15FA2CC02B51762D146 /* LithoUtils.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = LithoUtils.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		68B43BCD1E16544056D3833801DFCB04 /* Fix.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Fix.swift; path = Prelude/Fix.swift; sourceTree = "<group>"; };
 		6CAAD8DC171B610AFFCD5185059B0921 /* NetworkErrorHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkErrorHandler.swift; path = FunNet/Classes/Core/NetworkErrorHandler.swift; sourceTree = "<group>"; };
-		6E9CA561995C3965DBC892E393525F04 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		756B07A858BED1B55E5E2F6560B9FC08 /* Pods-LithoUtils_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LithoUtils_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		7AA878E2C4532CC63F145DF0F536273E /* FunNet-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FunNet-Info.plist"; sourceTree = "<group>"; };
 		7B1FDA18040231616C5E9E31CD9D397C /* LithoOperators-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LithoOperators-prefix.pch"; sourceTree = "<group>"; };
 		7E66FCB335684D9E7FCD8E3681647F40 /* Pods-LithoUtils_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LithoUtils_Tests-umbrella.h"; sourceTree = "<group>"; };
 		860FB3DA9D9A3E9DBAAE1ABE7531D50B /* Stubbable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stubbable.swift; path = FunNet/Classes/Core/Stubbable.swift; sourceTree = "<group>"; };
+		8CB08583764FBF4D415F7642154364CB /* LithoUtils.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LithoUtils.debug.xcconfig; sourceTree = "<group>"; };
 		8DB53B91EA5AE5E100B9ADF7A8CC3549 /* Endpoint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Endpoint.swift; path = FunNet/Classes/Core/Endpoint.swift; sourceTree = "<group>"; };
 		8E6D3174BF9C51B4A3EC6E39DC6802CC /* Prelude.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Prelude.debug.xcconfig; sourceTree = "<group>"; };
 		8FB7101A932915FE2D38F09C5D7C91FF /* Pods-LithoUtils_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LithoUtils_Example-umbrella.h"; sourceTree = "<group>"; };
 		911FF32C6FF774A7460573489D1970B4 /* Combine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Combine.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Combine.framework; sourceTree = DEVELOPER_DIR; };
+		95ED371B1554429CCE12467C30B90F95 /* UIViewController+BarButtonItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIViewController+BarButtonItem.swift"; sourceTree = "<group>"; };
 		98C5F4B1596B62A36936874BF61544AA /* Curry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Curry.swift; path = Prelude/Curry.swift; sourceTree = "<group>"; };
+		9C04151774271DC7759AE3E231B546E3 /* LithoUtils-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LithoUtils-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F970540685CEE829DF01B42ECC335D4 /* FunNet-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FunNet-umbrella.h"; sourceTree = "<group>"; };
+		A394C95E639462E9FDF5F6528C627C8F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		A80E4598D285B099B5E911F2A73F413D /* LithoOperators.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LithoOperators.modulemap; sourceTree = "<group>"; };
 		A91A6D11432075E81830710869742FD3 /* Pods-LithoUtils_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LithoUtils_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		AAAE7E1D981844151AD592A243A8833D /* LithoOperators.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LithoOperators.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB85DF3CE178388FDAE7548028D82DF5 /* FunNet-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FunNet-dummy.m"; sourceTree = "<group>"; };
+		AC90C41AA0A15436727712608BF168F0 /* LithoUtils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LithoUtils-dummy.m"; sourceTree = "<group>"; };
 		AD5D7DF3606FC25C8814DD627B8FD16B /* Pods-LithoUtils_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LithoUtils_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		AFF0D6BAAC49037057692F900B3D1446 /* LithoOperators-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LithoOperators-dummy.m"; sourceTree = "<group>"; };
 		B01826ED6B1A5A2E6155040CC6E413CC /* Requests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Requests.swift; path = FunNet/Classes/Core/Requests.swift; sourceTree = "<group>"; };
@@ -170,11 +185,13 @@
 		C75BB1DA02A379BBB51BB17A4761F500 /* Pods_LithoUtils_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LithoUtils_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8FD5640C9BD4B3CE2AC4B74D347A3A1 /* LithoOperators.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LithoOperators.debug.xcconfig; sourceTree = "<group>"; };
 		CA0F1021ECE6BABBE292EF45888CE164 /* Application.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Application.swift; path = Prelude/Application.swift; sourceTree = "<group>"; };
+		D115576C85F820B62F6C146A2903CA50 /* LithoUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LithoUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2380DD34FA4C2080D63A3B64845DE87 /* Pods-LithoUtils_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LithoUtils_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D2C038ACB76D3B43F68AD3D488CD2A09 /* Flip.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Flip.swift; path = Prelude/Flip.swift; sourceTree = "<group>"; };
 		D6742FF7A56D149A8420291F1AC6873D /* URLLoadingErrorHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLLoadingErrorHandler.swift; path = FunNet/Classes/Core/URLLoadingErrorHandler.swift; sourceTree = "<group>"; };
 		D71BF16788D06BA532D382C76F56F5E5 /* LithoOperators.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LithoOperators.release.xcconfig; sourceTree = "<group>"; };
 		D9F6C6CAD3C75772E429133567ED34F9 /* Pods-LithoUtils_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LithoUtils_Tests.modulemap"; sourceTree = "<group>"; };
+		DCF1567D4FAE5F654C5B83FC8FA6F8CD /* LithoUtils.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LithoUtils.modulemap; sourceTree = "<group>"; };
 		DF505428794B6BCA5E15779246A25B39 /* FunNet.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FunNet.modulemap; sourceTree = "<group>"; };
 		E7321C9A8DD1912F4220CD201CAFC96F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		EA56865F0348CCC59B701E4A18C11DD8 /* Pods-LithoUtils_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LithoUtils_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -192,12 +209,12 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2022A6A7663A19DC56664AF0C77A2611 /* Frameworks */ = {
+		5C11D1AEC33ACC97FC0B14920F9C8625 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2FBEBFD53B9036AA6C4EB063AA1E42A /* Foundation.framework in Frameworks */,
-				CEEB32F2E64584DFBF7304DE1C62B985 /* Prelude.framework in Frameworks */,
+				E6390E9718CC35799225CF6BD8FF24CA /* Foundation.framework in Frameworks */,
+				87D9268BAA6CC1C518A863BD7316CADF /* LithoOperators.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,14 +223,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2B65C8E760811C07687AE88811A9955 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		62409FA8D0C37C91F96AEA7B351179C8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D32FCD2E2D437DCA4B9E6351F681A99B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,11 +236,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7878C477275DCF2C8550623411FEC12D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC6801482D3AE427A379937991B7F5A1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B58E182CB39667DF3A1C8561D8F121C2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				5AB800729F0055A295CEB234FD4DC94A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF36360AA3C01E0AA8AF2FE85363DC68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D9BA5AF9C61809FC70ABDDEAF22188D /* Foundation.framework in Frameworks */,
+				E130A899F64C9BB28F5F59A4E2A306D4 /* Prelude.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,16 +272,6 @@
 			name = Combine;
 			sourceTree = "<group>";
 		};
-		129E60C63ADC7AFA863B0FEFA3B4F0D1 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				6E9CA561995C3965DBC892E393525F04 /* LICENSE */,
-				683C68F56E61F15FA2CC02B51762D146 /* LithoUtils.podspec */,
-				2F937021E37443E0C75D9307AEAB75EA /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		14300E44C46FEE04CC343CCDA8F00912 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -266,14 +282,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		15A8831C1167D1EDE7DFC95A45016189 /* Support Files */ = {
+		17F8BEA8900A1ACF623B1FE513165BB9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				58542104C689D0E9476D754E6F9178FA /* LithoUtils.debug.xcconfig */,
-				29AFFED63CA1B6A708E1087A99F07742 /* LithoUtils.release.xcconfig */,
+				20574C340C819F6F8A2A6D65C9FC616C /* FunNet.framework */,
+				F02BB82B3FFD1B4A5BE1C7443584444C /* LithoOperators.framework */,
+				D115576C85F820B62F6C146A2903CA50 /* LithoUtils.framework */,
+				C6265AF52033EB1BB7DFBBC68E78340C /* Pods_LithoUtils_Example.framework */,
+				C75BB1DA02A379BBB51BB17A4761F500 /* Pods_LithoUtils_Tests.framework */,
+				0FC679A41D0D34FD873B7D9F9E6BE8BB /* Prelude.framework */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/LithoUtils";
+			name = Products;
 			sourceTree = "<group>";
 		};
 		2FD9BF17EF09ACE2BA6C293AA5AB7C88 /* Core */ = {
@@ -306,6 +325,15 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Prelude";
+			sourceTree = "<group>";
+		};
+		4836FD915C404B0185F4194576D8A744 /* Combine */ = {
+			isa = PBXGroup;
+			children = (
+				0995C1078FA37CDA259F88570B5EE7B5 /* BindViewModel.swift */,
+			);
+			name = Combine;
+			path = LithoUtils/Classes/Combine;
 			sourceTree = "<group>";
 		};
 		4CAF7E8A847934E9BF9BBFD8D52B048A /* iOS */ = {
@@ -348,40 +376,57 @@
 			path = Prelude;
 			sourceTree = "<group>";
 		};
-		6445A6762652F15200A68669 /* Base */ = {
+		6445A68826531F0C00A68669 /* Alert */ = {
 			isa = PBXGroup;
 			children = (
-				6445A6782652F19B00A68669 /* UIViewController+BarButtonItem.swift */,
+				6445A68926531F1500A68669 /* Alert.swift */,
 			);
-			name = Base;
-			path = LithoUtils/Classes/Base;
+			path = Alert;
 			sourceTree = "<group>";
 		};
-		6445A6772652F15C00A68669 /* Combine */ = {
+		6445A68C26531F7A00A68669 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				6445A67C2653027600A68669 /* BindViewModel.swift */,
+				95ED371B1554429CCE12467C30B90F95 /* UIViewController+BarButtonItem.swift */,
+				6445A68D26531F8E00A68669 /* Configurable.swift */,
+				6445A69026531FB100A68669 /* UIColor+hex.swift */,
 			);
-			name = Combine;
-			path = LithoUtils/Classes/Combine;
+			path = Extensions;
 			sourceTree = "<group>";
 		};
-		872A196C4A7F83343C8075877178054B /* Products */ = {
+		6445A69326531FCC00A68669 /* Functions */ = {
 			isa = PBXGroup;
 			children = (
-				20574C340C819F6F8A2A6D65C9FC616C /* FunNet.framework */,
-				F02BB82B3FFD1B4A5BE1C7443584444C /* LithoOperators.framework */,
-				C6265AF52033EB1BB7DFBBC68E78340C /* Pods_LithoUtils_Example.framework */,
-				C75BB1DA02A379BBB51BB17A4761F500 /* Pods_LithoUtils_Tests.framework */,
-				0FC679A41D0D34FD873B7D9F9E6BE8BB /* Prelude.framework */,
+				6445A69426531FD400A68669 /* Styles.swift */,
+				6445A69626531FF700A68669 /* iOSFunctions.swift */,
 			);
-			name = Products;
+			path = Functions;
 			sourceTree = "<group>";
 		};
-		A8491617E92743D28E5F4FB1A51FCA95 /* Development Pods */ = {
+		6445A69A2653204C00A68669 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				FA3B58D556F9A867039F62DB5AA5118C /* LithoUtils */,
+				6445A69B2653205E00A68669 /* CanIndicateActivity.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		76A565AB8428A3C861A6C3A8EBE399F2 /* LithoUtils */ = {
+			isa = PBXGroup;
+			children = (
+				C28CBA507C6C5110E0BACF875F7548F7 /* Base */,
+				4836FD915C404B0185F4194576D8A744 /* Combine */,
+				C2C161BCA629A81089A33E924155E72A /* Pod */,
+				BE2C0F2ADEEF1633023E3D4DAC394D81 /* Support Files */,
+			);
+			name = LithoUtils;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		8495317E3A7E2462E44537FEF50EC41A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				76A565AB8428A3C861A6C3A8EBE399F2 /* LithoUtils */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -405,14 +450,51 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		BE2C0F2ADEEF1633023E3D4DAC394D81 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCF1567D4FAE5F654C5B83FC8FA6F8CD /* LithoUtils.modulemap */,
+				AC90C41AA0A15436727712608BF168F0 /* LithoUtils-dummy.m */,
+				24DC06F9F777C9EA2DC948BD3B5B135F /* LithoUtils-Info.plist */,
+				041CA5F8CB09E40BB1F5483EA422464A /* LithoUtils-prefix.pch */,
+				9C04151774271DC7759AE3E231B546E3 /* LithoUtils-umbrella.h */,
+				8CB08583764FBF4D415F7642154364CB /* LithoUtils.debug.xcconfig */,
+				285E9237595C4D1E5A6DAC35F71D6FAC /* LithoUtils.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LithoUtils";
+			sourceTree = "<group>";
+		};
+		C28CBA507C6C5110E0BACF875F7548F7 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				6445A69A2653204C00A68669 /* Models */,
+				6445A69326531FCC00A68669 /* Functions */,
+				6445A68C26531F7A00A68669 /* Extensions */,
+				6445A68826531F0C00A68669 /* Alert */,
+			);
+			name = Base;
+			path = LithoUtils/Classes/Base;
+			sourceTree = "<group>";
+		};
+		C2C161BCA629A81089A33E924155E72A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A394C95E639462E9FDF5F6528C627C8F /* LICENSE */,
+				614596BC1FB933BCB93AF68663DAA295 /* LithoUtils.podspec */,
+				18998056EE538E242161D80A6E5E8072 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				A8491617E92743D28E5F4FB1A51FCA95 /* Development Pods */,
+				8495317E3A7E2462E44537FEF50EC41A /* Development Pods */,
 				14300E44C46FEE04CC343CCDA8F00912 /* Frameworks */,
 				B3380D4AA778C0FA02F67806CDE0F1CA /* Pods */,
-				872A196C4A7F83343C8075877178054B /* Products */,
+				17F8BEA8900A1ACF623B1FE513165BB9 /* Products */,
 				E7C389ABA4A65DAF74F1059CB35B5641 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -468,18 +550,6 @@
 			path = "Target Support Files/Pods-LithoUtils_Example";
 			sourceTree = "<group>";
 		};
-		FA3B58D556F9A867039F62DB5AA5118C /* LithoUtils */ = {
-			isa = PBXGroup;
-			children = (
-				6445A6772652F15C00A68669 /* Combine */,
-				6445A6762652F15200A68669 /* Base */,
-				129E60C63ADC7AFA863B0FEFA3B4F0D1 /* Pod */,
-				15A8831C1167D1EDE7DFC95A45016189 /* Support Files */,
-			);
-			name = LithoUtils;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		FD20AC98404025CBF495C5F71A22B33C /* Pods-LithoUtils_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -499,6 +569,22 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		391F2041EF699D5B917259238D679615 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB37EB5601C80BD17FF5F98D2317EE41 /* LithoUtils-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		654424F69422FA19E1C90D4C5F179B30 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE698266689623D4031283EE66C78752 /* LithoOperators-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6B98356D68A580F445E48A6C4ED4C0CF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -515,27 +601,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A9C7E4709AFF186900B6DD6D4833E63D /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6027460602C209F6E674571D9BD7300D /* Prelude-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BEBC307C568F795880790DD48D09E918 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				596EBCF168273027D21BA7FBF2F4EF38 /* LithoOperators-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		CABDDDEAC88A730ED98F82F098EFBD68 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				BD7CA525C3BD0A004735B475DCD2D2E9 /* Pods-LithoUtils_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3E941A0B68BE179211FD5FDEABB353B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB7CA191B6ABF8E888A3F1AFB1E98957 /* Prelude-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -554,11 +632,30 @@
 			buildRules = (
 			);
 			dependencies = (
-				7F37AA480754B8287632815E00CAFE0B /* PBXTargetDependency */,
+				B833BFAC8DA97C3CDC454292AFD2F592 /* PBXTargetDependency */,
 			);
 			name = FunNet;
 			productName = FunNet;
 			productReference = 20574C340C819F6F8A2A6D65C9FC616C /* FunNet.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6C1AB688A5C9DE02C75AC815D03E671F /* LithoUtils */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AED0B921C6735B231D2C6D711783F961 /* Build configuration list for PBXNativeTarget "LithoUtils" */;
+			buildPhases = (
+				391F2041EF699D5B917259238D679615 /* Headers */,
+				9BF6944DBE38B20ABFD263153B5E75DE /* Sources */,
+				5C11D1AEC33ACC97FC0B14920F9C8625 /* Frameworks */,
+				939A4CD782F1F51AF5E3DB4008B95F3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC225A9F857D833B9A978DA95F3CF0F8 /* PBXTargetDependency */,
+			);
+			name = LithoUtils;
+			productName = LithoUtils;
+			productReference = D115576C85F820B62F6C146A2903CA50 /* LithoUtils.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		BCA6961C31080EEBCAA5AADE07FCA544 /* Pods-LithoUtils_Example */ = {
@@ -573,10 +670,10 @@
 			buildRules = (
 			);
 			dependencies = (
-				EAF3B12AD6BECEC694A4BB4401599F57 /* PBXTargetDependency */,
-				CAB2F3B19399219B669677EBC72F2FED /* PBXTargetDependency */,
-				B31C4D0FFA7C718A9EC8A5CF1BC2CDCC /* PBXTargetDependency */,
-				A9ADF692F8F7502B26E57C500413D423 /* PBXTargetDependency */,
+				479E76A8E507CB386EC4DF14E589AB56 /* PBXTargetDependency */,
+				2C8373A765CF3B775652873B02C33184 /* PBXTargetDependency */,
+				8D1CA4EEA8DFC484517DF23CF2E1138F /* PBXTargetDependency */,
+				29732D50F0BDC02EEC9C27E65E80DD35 /* PBXTargetDependency */,
 			);
 			name = "Pods-LithoUtils_Example";
 			productName = "Pods-LithoUtils_Example";
@@ -585,12 +682,12 @@
 		};
 		BDE9651E3D91FEDF74EB17C3CBDD3742 /* Prelude */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 87A4EDEADA29398F0018C5FF3A2F47CC /* Build configuration list for PBXNativeTarget "Prelude" */;
+			buildConfigurationList = B0B8D26801F1BCB24C2814DDAAA5E7C6 /* Build configuration list for PBXNativeTarget "Prelude" */;
 			buildPhases = (
-				A9C7E4709AFF186900B6DD6D4833E63D /* Headers */,
-				B7D77A3A795FA955F156256763C3F244 /* Sources */,
-				62409FA8D0C37C91F96AEA7B351179C8 /* Frameworks */,
-				E6DF3E07EBFB9D3B3DE295EFA18640BA /* Resources */,
+				D3E941A0B68BE179211FD5FDEABB353B /* Headers */,
+				5F54933D2E6AE26A71D18BCA134152DF /* Sources */,
+				7878C477275DCF2C8550623411FEC12D /* Frameworks */,
+				F1E3287A60325242207B07B213D8019F /* Resources */,
 			);
 			buildRules = (
 			);
@@ -613,7 +710,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				2985F5FE101ECEE2EF20415BD928BB9D /* PBXTargetDependency */,
+				03CD7829DEBCCD0DF3BE6F218621235C /* PBXTargetDependency */,
 			);
 			name = "Pods-LithoUtils_Tests";
 			productName = "Pods-LithoUtils_Tests";
@@ -622,17 +719,17 @@
 		};
 		F23B1651D4D0DDA611CCBAFB8BFEED54 /* LithoOperators */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13F3E0427654578E22D1EA8A26745CCC /* Build configuration list for PBXNativeTarget "LithoOperators" */;
+			buildConfigurationList = 87CC30BED22FA8DB988787EE01028BA6 /* Build configuration list for PBXNativeTarget "LithoOperators" */;
 			buildPhases = (
-				BEBC307C568F795880790DD48D09E918 /* Headers */,
-				BBCCC787F6E512B63E633AB5A8A5333D /* Sources */,
-				2022A6A7663A19DC56664AF0C77A2611 /* Frameworks */,
-				9771084DA537BC87DB20253309F9CBB3 /* Resources */,
+				654424F69422FA19E1C90D4C5F179B30 /* Headers */,
+				11CA3FDE09C50ABA996FDB14B812D8ED /* Sources */,
+				DF36360AA3C01E0AA8AF2FE85363DC68 /* Frameworks */,
+				BC4BCD7519043B945EA30BFD4C54BC64 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				763ACCCA43119F1B6BC003F39A219A36 /* PBXTargetDependency */,
+				00E7176889F2744918015A9F81AEB3D9 /* PBXTargetDependency */,
 			);
 			name = LithoOperators;
 			productName = LithoOperators;
@@ -657,7 +754,7 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 872A196C4A7F83343C8075877178054B /* Products */;
+			productRefGroup = 17F8BEA8900A1ACF623B1FE513165BB9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -686,7 +783,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9771084DA537BC87DB20253309F9CBB3 /* Resources */ = {
+		939A4CD782F1F51AF5E3DB4008B95F3E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -700,7 +797,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E6DF3E07EBFB9D3B3DE295EFA18640BA /* Resources */ = {
+		BC4BCD7519043B945EA30BFD4C54BC64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1E3287A60325242207B07B213D8019F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -710,6 +814,31 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		11CA3FDE09C50ABA996FDB14B812D8ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8D732500F8310DE5349F3B6A2CCA686 /* LithoOperators-dummy.m in Sources */,
+				804ADBC55A09CA24264259736F0C0666 /* LithoOperators.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F54933D2E6AE26A71D18BCA134152DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51F7F152254B10F79DFA8D0951205704 /* Application.swift in Sources */,
+				F1758C0AE183EC28B1D9941EDCBC17A8 /* Compose.swift in Sources */,
+				080B99C293209E8ED811D922ACFAAAE0 /* Curry.swift in Sources */,
+				F778EF991377F4C2DEC6E0F21E5A8319 /* Fix.swift in Sources */,
+				808CB7DCDDE0CFAB5F53557E16B20DFA /* Flip.swift in Sources */,
+				32D03E8B952BE0A63DACA176D9D2F1B1 /* Optional.swift in Sources */,
+				460D2D77D31EC59DEBB269A56050D071 /* Prelude-dummy.m in Sources */,
+				EDE4F111AF4ABEB6C29C2F6179C9235A /* Prelude.swift in Sources */,
+				21F4ECE5F9DD2B92A77CEEFF69150C0F /* Tuple.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7B73D809DADA7194EA616652230020C2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -718,28 +847,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B7D77A3A795FA955F156256763C3F244 /* Sources */ = {
+		9BF6944DBE38B20ABFD263153B5E75DE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				867BAEAD8AE82A8E1F5F01DE05CB0D83 /* Application.swift in Sources */,
-				8A8D9FE3F4F79AE47EE7EF91359CDDF5 /* Compose.swift in Sources */,
-				EBC4F132C0F6EDE82F9BE3CB463397B7 /* Curry.swift in Sources */,
-				57B1EEC579608C835D8060EEA50063CE /* Fix.swift in Sources */,
-				66B50D088E1678622AD8489CE8B0C291 /* Flip.swift in Sources */,
-				171D70E6E603322124658704F55EF7DC /* Optional.swift in Sources */,
-				F809163073F8CFFF8AE984B170C1B891 /* Prelude-dummy.m in Sources */,
-				D48DC4EB8F7BF6D6C6F56161B40D600E /* Prelude.swift in Sources */,
-				EBC9B4371275E3F10B89BD3A5C9BF8ED /* Tuple.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BBCCC787F6E512B63E633AB5A8A5333D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				01399DF3123D50C0F71BF5DAC835E566 /* LithoOperators-dummy.m in Sources */,
-				73E5492E1331532AD39C8200AF367255 /* LithoOperators.swift in Sources */,
+				6445A68F26531F9100A68669 /* Configurable.swift in Sources */,
+				19D0E1B1D69819EA46634A8A54C25D5E /* BindViewModel.swift in Sources */,
+				6445A69C2653205E00A68669 /* CanIndicateActivity.swift in Sources */,
+				FA29ACCA6EAB853003DD4F615115C436 /* LithoUtils-dummy.m in Sources */,
+				6445A69926531FFE00A68669 /* Styles.swift in Sources */,
+				6445A69826531FFA00A68669 /* iOSFunctions.swift in Sources */,
+				6445A69226531FB500A68669 /* UIColor+hex.swift in Sources */,
+				6445A68B26531F1900A68669 /* Alert.swift in Sources */,
+				40763533320BC1187458C482B755EA0B /* UIViewController+BarButtonItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -752,7 +872,6 @@
 				1F92193DF04628B442B81772C738256C /* FunNet-dummy.m in Sources */,
 				5C25FE478568972676DE4F1416E153AC /* FunNetCall.swift in Sources */,
 				0D29F49BDB040B4FA3133AB3AA93C353 /* NetworkCall.swift in Sources */,
-				6445A67D2653027600A68669 /* BindViewModel.swift in Sources */,
 				ED068654FC8B1A3406B6D5402C5A1DE7 /* NetworkErrorHandler.swift in Sources */,
 				C3EE5727E80065A6AAD8F5930028F511 /* NetworkResponder.swift in Sources */,
 				A5C3FB31DFF0AF0F28C8A15523F31E23 /* Requests.swift in Sources */,
@@ -774,54 +893,93 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2985F5FE101ECEE2EF20415BD928BB9D /* PBXTargetDependency */ = {
+		00E7176889F2744918015A9F81AEB3D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Prelude;
+			target = BDE9651E3D91FEDF74EB17C3CBDD3742 /* Prelude */;
+			targetProxy = 0928958D2055334820D66D20FFF4CF2A /* PBXContainerItemProxy */;
+		};
+		03CD7829DEBCCD0DF3BE6F218621235C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-LithoUtils_Example";
 			target = BCA6961C31080EEBCAA5AADE07FCA544 /* Pods-LithoUtils_Example */;
-			targetProxy = AFB91201A89E6456C7B84C3760CAC27D /* PBXContainerItemProxy */;
+			targetProxy = A6456AABC2D1F1EC6765F45738A2F5FE /* PBXContainerItemProxy */;
 		};
-		763ACCCA43119F1B6BC003F39A219A36 /* PBXTargetDependency */ = {
+		29732D50F0BDC02EEC9C27E65E80DD35 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Prelude;
 			target = BDE9651E3D91FEDF74EB17C3CBDD3742 /* Prelude */;
-			targetProxy = 5B71B6E6853732B4FA54C0865ADAFF87 /* PBXContainerItemProxy */;
+			targetProxy = 7A13E6389DD31F660FD6FEBA5DA3AFB7 /* PBXContainerItemProxy */;
 		};
-		7F37AA480754B8287632815E00CAFE0B /* PBXTargetDependency */ = {
+		2C8373A765CF3B775652873B02C33184 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LithoOperators;
 			target = F23B1651D4D0DDA611CCBAFB8BFEED54 /* LithoOperators */;
-			targetProxy = B8A134188642432185B7142DC8909E95 /* PBXContainerItemProxy */;
+			targetProxy = E71F58D0F3E60EFC41A273EE5C993D14 /* PBXContainerItemProxy */;
 		};
-		A9ADF692F8F7502B26E57C500413D423 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Prelude;
-			target = BDE9651E3D91FEDF74EB17C3CBDD3742 /* Prelude */;
-			targetProxy = D18DBF466CAF0EA6016DA147547164DE /* PBXContainerItemProxy */;
-		};
-		B31C4D0FFA7C718A9EC8A5CF1BC2CDCC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = LithoUtils;
-			target = 6C1AB688A5C9DE02C75AC815D03E671F /* LithoUtils */;
-			targetProxy = BDE3FFB85AA904468E091B1818A6D9F0 /* PBXContainerItemProxy */;
-		};
-		CAB2F3B19399219B669677EBC72F2FED /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = LithoOperators;
-			target = F23B1651D4D0DDA611CCBAFB8BFEED54 /* LithoOperators */;
-			targetProxy = 3EC31EA297A3C9C52D20A7DEE5E2C913 /* PBXContainerItemProxy */;
-		};
-		EAF3B12AD6BECEC694A4BB4401599F57 /* PBXTargetDependency */ = {
+		479E76A8E507CB386EC4DF14E589AB56 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FunNet;
 			target = 53CD685FC2E9A4950DF443B5D9D621CA /* FunNet */;
-			targetProxy = 81EE6C655AC9BDAEB52D682FF57453C8 /* PBXContainerItemProxy */;
+			targetProxy = FF711921580657CD8FB78381F4360442 /* PBXContainerItemProxy */;
+		};
+		8D1CA4EEA8DFC484517DF23CF2E1138F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LithoUtils;
+			target = 6C1AB688A5C9DE02C75AC815D03E671F /* LithoUtils */;
+			targetProxy = 9730A324AFB83777FE106718549315F7 /* PBXContainerItemProxy */;
+		};
+		AC225A9F857D833B9A978DA95F3CF0F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LithoOperators;
+			target = F23B1651D4D0DDA611CCBAFB8BFEED54 /* LithoOperators */;
+			targetProxy = 2EAA41658FC25A585691324AE5F40D75 /* PBXContainerItemProxy */;
+		};
+		B833BFAC8DA97C3CDC454292AFD2F592 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LithoOperators;
+			target = F23B1651D4D0DDA611CCBAFB8BFEED54 /* LithoOperators */;
+			targetProxy = 4585E1EB29E21E7FB8948B19EBE77E4F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		316D6E1DC47FAFD0795AC00111AB9E2E /* Debug */ = {
+		0AC2181D858A8FBB5F291F626ADCA7F4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C8FD5640C9BD4B3CE2AC4B74D347A3A1 /* LithoOperators.debug.xcconfig */;
+			baseConfigurationReference = 285E9237595C4D1E5A6DAC35F71D6FAC /* LithoUtils.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LithoUtils/LithoUtils-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LithoUtils/LithoUtils-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LithoUtils/LithoUtils.modulemap";
+				PRODUCT_MODULE_NAME = LithoUtils;
+				PRODUCT_NAME = LithoUtils;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0B702CB8D760047F61315008B57A99BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E6D3174BF9C51B4A3EC6E39DC6802CC /* Prelude.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -832,18 +990,18 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LithoOperators/LithoOperators-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LithoOperators/LithoOperators-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Prelude/Prelude-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Prelude/Prelude-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LithoOperators/LithoOperators.modulemap";
-				PRODUCT_MODULE_NAME = LithoOperators;
-				PRODUCT_NAME = LithoOperators;
+				MODULEMAP_FILE = "Target Support Files/Prelude/Prelude.modulemap";
+				PRODUCT_MODULE_NAME = Prelude;
+				PRODUCT_NAME = Prelude;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.3;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -882,38 +1040,7 @@
 			};
 			name = Debug;
 		};
-		4D7CF6D02079F75E633C894778B0A001 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8E6D3174BF9C51B4A3EC6E39DC6802CC /* Prelude.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Prelude/Prelude-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Prelude/Prelude-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Prelude/Prelude.modulemap";
-				PRODUCT_MODULE_NAME = Prelude;
-				PRODUCT_NAME = Prelude;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		61F9F6EB14168D80D3BA848B81926C9E /* Release */ = {
+		5E606211F2B83A6BBC1FC77E6C13E5EB /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BC3391AC982AB943F62E7F1077F9DA95 /* Prelude.release.xcconfig */;
 			buildSettings = {
@@ -973,6 +1100,38 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8D728FD9FC9B731C0A6F22F1AAAEFA27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D71BF16788D06BA532D382C76F56F5E5 /* LithoOperators.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LithoOperators/LithoOperators-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LithoOperators/LithoOperators-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LithoOperators/LithoOperators.modulemap";
+				PRODUCT_MODULE_NAME = LithoOperators;
+				PRODUCT_NAME = LithoOperators;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1043,21 +1202,6 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Debug;
-		};
-		90885B4AB77A2A38EDB398F1D811BDDD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 58542104C689D0E9476D754E6F9178FA /* LithoUtils.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -1157,25 +1301,9 @@
 			};
 			name = Release;
 		};
-		AEB28EE01CC40392A8BE1A0FE32B9E44 /* Release */ = {
+		CB0916BB85DC14A802C9CE81C0E63C04 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 29AFFED63CA1B6A708E1087A99F07742 /* LithoUtils.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		C5E348A0778F1C0A3331E8103A0B51F6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D71BF16788D06BA532D382C76F56F5E5 /* LithoOperators.release.xcconfig */;
+			baseConfigurationReference = C8FD5640C9BD4B3CE2AC4B74D347A3A1 /* LithoOperators.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1199,11 +1327,10 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		D7DCE3BFAAF72BFF3B8889B72337A4E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1233,6 +1360,38 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D9E999BB9E597A6CAEE40F566225690B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CB08583764FBF4D415F7642154364CB /* LithoUtils.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LithoUtils/LithoUtils-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LithoUtils/LithoUtils-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LithoUtils/LithoUtils.modulemap";
+				PRODUCT_MODULE_NAME = LithoUtils;
+				PRODUCT_NAME = LithoUtils;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1309,24 +1468,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		13F3E0427654578E22D1EA8A26745CCC /* Build configuration list for PBXNativeTarget "LithoOperators" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				316D6E1DC47FAFD0795AC00111AB9E2E /* Debug */,
-				C5E348A0778F1C0A3331E8103A0B51F6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		386E0686822913D1D80F0C35274E85D4 /* Build configuration list for PBXAggregateTarget "LithoUtils" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				90885B4AB77A2A38EDB398F1D811BDDD /* Debug */,
-				AEB28EE01CC40392A8BE1A0FE32B9E44 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1354,11 +1495,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		87A4EDEADA29398F0018C5FF3A2F47CC /* Build configuration list for PBXNativeTarget "Prelude" */ = {
+		87CC30BED22FA8DB988787EE01028BA6 /* Build configuration list for PBXNativeTarget "LithoOperators" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4D7CF6D02079F75E633C894778B0A001 /* Debug */,
-				61F9F6EB14168D80D3BA848B81926C9E /* Release */,
+				CB0916BB85DC14A802C9CE81C0E63C04 /* Debug */,
+				8D728FD9FC9B731C0A6F22F1AAAEFA27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1368,6 +1509,24 @@
 			buildConfigurations = (
 				D7DCE3BFAAF72BFF3B8889B72337A4E8 /* Debug */,
 				930F5905E999155791D5050AC13664D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AED0B921C6735B231D2C6D711783F961 /* Build configuration list for PBXNativeTarget "LithoUtils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9E999BB9E597A6CAEE40F566225690B /* Debug */,
+				0AC2181D858A8FBB5F291F626ADCA7F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0B8D26801F1BCB24C2814DDAAA5E7C6 /* Build configuration list for PBXNativeTarget "Prelude" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B702CB8D760047F61315008B57A99BD /* Debug */,
+				5E606211F2B83A6BBC1FC77E6C13E5EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
