@@ -1,0 +1,38 @@
+{
+  "name": "LithoUtils",
+  "version": "0.1.0",
+  "summary": "A short description of LithoUtils.",
+  "description": "LithoUtils gives developers a library of shortcuts, streamlining the common operations that occur in iOS development and allowing developers to focus on whatever makes their project unique. Examples include UIViewController functions returning a closure to push or present another UIViewController onto it, functions that bind publishers to arbitrary properties of UI elements, and helper methods that help differentiate the iOS environment the developer is developing on.",
+  "homepage": "https://github.com/ThryvInc/LithoUtils",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Lithobyte": ""
+  },
+  "source": {
+    "git": "https://github.com/ThryvInc/LithoUtils.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "LithoUtils/Classes/**/*",
+  "subspecs": [
+    {
+      "name": "Base",
+      "platforms": {
+        "ios": "9.0"
+      },
+      "source_files": "LithoUtils/Classes/Base/**/*.swift"
+    },
+    {
+      "name": "Combine",
+      "platforms": {
+        "ios": "13.0"
+      },
+      "source_files": "LithoUtils/Classes/Combine/**/*.swift"
+    }
+  ]
+}

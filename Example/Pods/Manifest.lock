@@ -1,0 +1,49 @@
+PODS:
+  - FunNet/Combine (0.1.1):
+    - FunNet/Core
+    - LithoOperators
+  - FunNet/Core (0.1.1):
+    - LithoOperators
+  - LithoOperators (0.1.4):
+    - Prelude
+  - LithoUtils (0.1.0):
+    - LithoUtils/Base (= 0.1.0)
+    - LithoUtils/Combine (= 0.1.0)
+  - LithoUtils/Base (0.1.0)
+  - LithoUtils/Combine (0.1.0)
+  - Prelude (3.0.0)
+
+DEPENDENCIES:
+  - FunNet/Combine (from `https://github.com/schrockblock/funnet`)
+  - LithoOperators (from `https://github.com/ThryvInc/LithoOperators`)
+  - LithoUtils (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Prelude
+
+EXTERNAL SOURCES:
+  FunNet:
+    :git: https://github.com/schrockblock/funnet
+  LithoOperators:
+    :git: https://github.com/ThryvInc/LithoOperators
+  LithoUtils:
+    :path: "../"
+
+CHECKOUT OPTIONS:
+  FunNet:
+    :commit: 9ca5a81f8b96a71b2cd671fca642a152823c3704
+    :git: https://github.com/schrockblock/funnet
+  LithoOperators:
+    :commit: d4096580fd12b7ef793698cbaf7fbcdbb0bc27ff
+    :git: https://github.com/ThryvInc/LithoOperators
+
+SPEC CHECKSUMS:
+  FunNet: e66d2df77a5663556970a1914c5911ecde2842ef
+  LithoOperators: 8fc0c6a49e34a8d1ca01b777844f58e36c062d9f
+  LithoUtils: 8e2269a91971e64e1114d2b93404ebfead6c000c
+  Prelude: fe4cc0fd961d34edf48fe6b04d05c863449efb0a
+
+PODFILE CHECKSUM: d614b50956f687068b71ccc60804d9e483330e0d
+
+COCOAPODS: 1.10.0

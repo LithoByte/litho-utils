@@ -1,14 +1,12 @@
 use_frameworks!
 
-platform :ios, '9.0'
+platform :ios, '13.0'
 
 target 'LithoUtils_Example' do
   pod 'LithoUtils', :path => '../'
-
+  pod 'FunNet/Combine', git: 'https://github.com/schrockblock/funnet'
+  pod 'LithoOperators', git: 'https://github.com/ThryvInc/LithoOperators'
   target 'LithoUtils_Tests' do
     inherit! :search_paths
-
-    pod 'Quick', '~> 2.2.0'
-    pod 'Nimble', '~> 8.0.7'
   end
 end

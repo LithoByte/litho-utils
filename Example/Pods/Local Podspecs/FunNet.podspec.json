@@ -1,0 +1,81 @@
+{
+  "name": "FunNet",
+  "version": "0.1.1",
+  "summary": "FunNet provides a foundation for reusable functional networking in Swift.",
+  "swift_versions": [
+    "4.2",
+    "5.0",
+    "5.1",
+    "5.2",
+    "5.3"
+  ],
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/schrockblock/funnet",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Elliot": ""
+  },
+  "source": {
+    "git": "https://github.com/schrockblock/funnet.git",
+    "tag": "0.1.1"
+  },
+  "social_media_url": "https://twitter.com/elliot_schrock",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "FunNet/Classes/**/*",
+  "dependencies": {
+    "LithoOperators": [
+
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "Core",
+      "source_files": "FunNet/Classes/Core/**/*.swift",
+      "dependencies": {
+        "LithoOperators": [
+
+        ]
+      }
+    },
+    {
+      "name": "Combine",
+      "source_files": "FunNet/Classes/Combine/**/*.swift",
+      "platforms": {
+        "ios": "13.0"
+      },
+      "dependencies": {
+        "FunNet/Core": [
+
+        ]
+      },
+      "frameworks": "Combine"
+    },
+    {
+      "name": "ReactiveSwift",
+      "source_files": "FunNet/Classes/ReactiveSwift/**/*",
+      "dependencies": {
+        "FunNet/Core": [
+
+        ],
+        "ReactiveSwift": [
+
+        ]
+      }
+    },
+    {
+      "name": "Multipart",
+      "source_files": "FunNet/Classes/Multipart/**/*.swift",
+      "dependencies": {
+        "LithoOperators": [
+
+        ]
+      }
+    }
+  ],
+  "swift_version": "5.3"
+}

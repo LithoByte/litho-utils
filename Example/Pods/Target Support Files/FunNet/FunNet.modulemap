@@ -1,0 +1,6 @@
+framework module FunNet {
+  umbrella header "FunNet-umbrella.h"
+
+  export *
+  module * { export * }
+}

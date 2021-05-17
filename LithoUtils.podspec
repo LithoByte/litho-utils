@@ -10,6 +10,7 @@ Pod::Spec.new do |s|
   s.name             = 'LithoUtils'
   s.version          = '0.1.0'
   s.summary          = 'A short description of LithoUtils.'
+  s.swift_versions = ['4.0', '4.1', '4.2', '5.0', '5.1', '5.2', '5.3']
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,25 +19,30 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+LithoUtils gives developers a library of shortcuts, streamlining the common operations that occur in iOS development and allowing developers to focus on whatever makes their project unique. Examples include UIViewController functions returning a closure to push or present another UIViewController onto it, functions that bind publishers to arbitrary properties of UI elements, and helper methods that help differentiate the iOS environment the developer is developing on.
                        DESC
 
-  s.homepage         = 'https://github.com/cjc8@williams.edu/LithoUtils'
+  s.homepage         = 'https://github.com/ThryvInc/litho-utils'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'cjc8@williams.edu' => 'cjc8@williams.edu' }
-  s.source           = { :git => 'https://github.com/cjc8@williams.edu/LithoUtils.git', :tag => s.version.to_s }
+  s.author           = { 'Lithobyte' => '' }
+  s.source           = { :git => 'https://github.com/ThryvInc/litho-utils.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '13.0'
 
   s.source_files = 'LithoUtils/Classes/**/*'
+  s.resources = 'LithoUtils/**/*.xib'
   
-  # s.resource_bundles = {
-  #   'LithoUtils' => ['LithoUtils/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.subspec 'Base' do |sp|
+      sp.ios.deployment_target = '9.0'
+      sp.source_files = 'LithoUtils/Classes/Base/**/*.swift'
+      sp.resources = 'LithoUtils/Classes/Base/**/*.xib'
+  end
+  
+  s.subspec 'Combine' do |sp|
+    sp.ios.deployment_target = '13.0'
+    sp.source_files = 'LithoUtils/Classes/Combine/**/*.swift'
+    sp.resources = 'LithoUtils/Classes/Combine/**/*.xib'
+  end
 end

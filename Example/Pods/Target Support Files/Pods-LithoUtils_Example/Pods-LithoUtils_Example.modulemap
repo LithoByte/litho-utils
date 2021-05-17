@@ -1,0 +1,6 @@
+framework module Pods_LithoUtils_Example {
+  umbrella header "Pods-LithoUtils_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
