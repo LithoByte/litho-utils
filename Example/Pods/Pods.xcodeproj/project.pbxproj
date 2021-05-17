@@ -31,6 +31,7 @@
 		5AB800729F0055A295CEB234FD4DC94A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7321C9A8DD1912F4220CD201CAFC96F /* Foundation.framework */; };
 		5C25FE478568972676DE4F1416E153AC /* FunNetCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99FF2A778AF963937E5A62CC31E4B56 /* FunNetCall.swift */; };
 		6027460602C209F6E674571D9BD7300D /* Prelude-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6804B6F763C7E63E456CA7F37AD59799 /* Prelude-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6445A67D2653027600A68669 /* BindViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6445A67C2653027600A68669 /* BindViewModel.swift */; };
 		66B50D088E1678622AD8489CE8B0C291 /* Flip.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C038ACB76D3B43F68AD3D488CD2A09 /* Flip.swift */; };
 		689B55273EB2D80FBE2116566FDE6FE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7321C9A8DD1912F4220CD201CAFC96F /* Foundation.framework */; };
 		6C3662A8CDBE42B6C7EDE7E81D0E4027 /* StubHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5205FF19910C70404D281C4F6C42D10 /* StubHolder.swift */; };
@@ -135,7 +136,7 @@
 		58542104C689D0E9476D754E6F9178FA /* LithoUtils.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LithoUtils.debug.xcconfig; sourceTree = "<group>"; };
 		5DFE97E4233E30A7BDEB46B53C696D0B /* Pods-LithoUtils_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LithoUtils_Example-dummy.m"; sourceTree = "<group>"; };
 		6445A6782652F19B00A68669 /* UIViewController+BarButtonItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+BarButtonItem.swift"; sourceTree = "<group>"; };
-		6445A67A2652F1EF00A68669 /* UIViewController+PushPop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+PushPop.swift"; sourceTree = "<group>"; };
+		6445A67C2653027600A68669 /* BindViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindViewModel.swift; sourceTree = "<group>"; };
 		6804B6F763C7E63E456CA7F37AD59799 /* Prelude-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Prelude-umbrella.h"; sourceTree = "<group>"; };
 		683C68F56E61F15FA2CC02B51762D146 /* LithoUtils.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = LithoUtils.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		68B43BCD1E16544056D3833801DFCB04 /* Fix.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Fix.swift; path = Prelude/Fix.swift; sourceTree = "<group>"; };
@@ -351,7 +352,6 @@
 			isa = PBXGroup;
 			children = (
 				6445A6782652F19B00A68669 /* UIViewController+BarButtonItem.swift */,
-				6445A67A2652F1EF00A68669 /* UIViewController+PushPop.swift */,
 			);
 			name = Base;
 			path = LithoUtils/Classes/Base;
@@ -360,6 +360,7 @@
 		6445A6772652F15C00A68669 /* Combine */ = {
 			isa = PBXGroup;
 			children = (
+				6445A67C2653027600A68669 /* BindViewModel.swift */,
 			);
 			name = Combine;
 			path = LithoUtils/Classes/Combine;
@@ -751,6 +752,7 @@
 				1F92193DF04628B442B81772C738256C /* FunNet-dummy.m in Sources */,
 				5C25FE478568972676DE4F1416E153AC /* FunNetCall.swift in Sources */,
 				0D29F49BDB040B4FA3133AB3AA93C353 /* NetworkCall.swift in Sources */,
+				6445A67D2653027600A68669 /* BindViewModel.swift in Sources */,
 				ED068654FC8B1A3406B6D5402C5A1DE7 /* NetworkErrorHandler.swift in Sources */,
 				C3EE5727E80065A6AAD8F5930028F511 /* NetworkResponder.swift in Sources */,
 				A5C3FB31DFF0AF0F28C8A15523F31E23 /* Requests.swift in Sources */,
