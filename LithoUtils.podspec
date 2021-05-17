@@ -37,12 +37,10 @@ LithoUtils gives developers a library of shortcuts, streamlining the common oper
   s.subspec 'Base' do |sp|
       sp.ios.deployment_target = '9.0'
       sp.source_files = 'LithoUtils/Classes/Base/**/*.swift'
-      sp.resources = 'LithoUtils/Classes/Base/**/*.xib'
   end
   
   s.subspec 'Combine' do |sp|
     sp.ios.deployment_target = '13.0'
     sp.source_files = 'LithoUtils/Classes/Combine/**/*.swift'
-    sp.resources = 'LithoUtils/Classes/Combine/**/*.xib'
   end
 end
