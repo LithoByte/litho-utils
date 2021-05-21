@@ -157,17 +157,17 @@
 		098A93F28CF9258EE0647EC29A8F5E06 /* Prelude-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Prelude-dummy.m"; sourceTree = "<group>"; };
 		0C376C30B56D7B0221C150F216519645 /* Pods-LithoUtils_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LithoUtils_Example.release.xcconfig"; sourceTree = "<group>"; };
 		0E7970489AC062342445C9F90DD15EAA /* Requests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Requests.swift; path = FunNet/Classes/Core/Requests.swift; sourceTree = "<group>"; };
-		0FC679A41D0D34FD873B7D9F9E6BE8BB /* Prelude.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Prelude.framework; path = Prelude.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FC679A41D0D34FD873B7D9F9E6BE8BB /* Prelude.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Prelude.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1017A456D4681218DA8D647558BBFCC2 /* LithoUtils-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LithoUtils-umbrella.h"; sourceTree = "<group>"; };
 		129A79A763CCFFBB0A3606157B579B8C /* LithoUtils.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LithoUtils.debug.xcconfig; sourceTree = "<group>"; };
 		1596BB365C06E9F8A3814F08D8117019 /* StubHolder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StubHolder.swift; path = FunNet/Classes/Core/StubHolder.swift; sourceTree = "<group>"; };
-		1625646DB035E380339899EF4E6A6FA6 /* fuikit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = fuikit.framework; path = fuikit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1625646DB035E380339899EF4E6A6FA6 /* fuikit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = fuikit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		16966DFF7F592693B55804A8F91B715B /* Pods-LithoUtils_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LithoUtils_Tests-dummy.m"; sourceTree = "<group>"; };
 		18B6E2F819E1BD8009FFA7213ADA84B5 /* LithoUtils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LithoUtils-dummy.m"; sourceTree = "<group>"; };
 		1B437BAA755506AC831170683553150F /* FunNet-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FunNet-prefix.pch"; sourceTree = "<group>"; };
 		2003BB4FF9A1C347FD2F402DCA1B35F4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		200A534D34156DAD3CA4437F6133B5B6 /* LithoOperators.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LithoOperators.modulemap; sourceTree = "<group>"; };
-		20574C340C819F6F8A2A6D65C9FC616C /* FunNet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FunNet.framework; path = FunNet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		20574C340C819F6F8A2A6D65C9FC616C /* FunNet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FunNet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		22B75BBEBAF54FC3791CF882F794F2F5 /* ServerConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerConfiguration.swift; path = FunNet/Classes/Core/ServerConfiguration.swift; sourceTree = "<group>"; };
 		244F04C04D6DFB5452E228B3DB4937DA /* iOSFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = iOSFunctions.swift; sourceTree = "<group>"; };
 		25F77EA46ADFCC785D8ADF162BF109EB /* Pods-LithoUtils_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LithoUtils_Tests-Info.plist"; sourceTree = "<group>"; };
@@ -218,7 +218,7 @@
 		99A6F5632DBDD1EABC4B2CA2A3A37B32 /* LithoUtils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LithoUtils-prefix.pch"; sourceTree = "<group>"; };
 		9B0950312FFD3621DC82DFDB5CF33002 /* FUIViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FUIViewController.swift; path = fuikit/Classes/Core/FUIViewController.swift; sourceTree = "<group>"; };
 		9BEC8E0B8B0EDFAE0C8F0CFB1A321E03 /* fuikit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "fuikit-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F89DDC3E9A0ED635DCC2E184B9E6030 /* Prelude.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Prelude.modulemap; sourceTree = "<group>"; };
 		A181DC6572A701F0007F98A10041CACF /* FUITableViewDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FUITableViewDelegate.swift; path = fuikit/Classes/Core/FUITableViewDelegate.swift; sourceTree = "<group>"; };
 		A663664CB80C3594AB66DAF38BC4C4D1 /* CombineNetCall.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CombineNetCall.swift; path = FunNet/Classes/Combine/CombineNetCall.swift; sourceTree = "<group>"; };
@@ -235,12 +235,12 @@
 		BF5C8C63972AC9811503FE7055BE405B /* LithoOperators-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LithoOperators-prefix.pch"; sourceTree = "<group>"; };
 		C0A757C6FFD6B530111F7B50A338A303 /* FunNet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FunNet.debug.xcconfig; sourceTree = "<group>"; };
 		C28485139252E45E35EF3521B38276F7 /* Prelude.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Prelude.debug.xcconfig; sourceTree = "<group>"; };
-		C50FCBCBC2F429C0A8AB0CA1EFB3F290 /* LithoUtils.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LithoUtils.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C6265AF52033EB1BB7DFBBC68E78340C /* Pods_LithoUtils_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LithoUtils_Example.framework; path = "Pods-LithoUtils_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C75BB1DA02A379BBB51BB17A4761F500 /* Pods_LithoUtils_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LithoUtils_Tests.framework; path = "Pods-LithoUtils_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C50FCBCBC2F429C0A8AB0CA1EFB3F290 /* LithoUtils.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = LithoUtils.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C6265AF52033EB1BB7DFBBC68E78340C /* Pods_LithoUtils_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LithoUtils_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C75BB1DA02A379BBB51BB17A4761F500 /* Pods_LithoUtils_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LithoUtils_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C837F7094D8ABC2B7B49A7BEB16C5F27 /* UIColor+hex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIColor+hex.swift"; sourceTree = "<group>"; };
 		CC3585DB425DEA1DBACA0A85A3061A38 /* Prelude-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Prelude-prefix.pch"; sourceTree = "<group>"; };
-		D115576C85F820B62F6C146A2903CA50 /* LithoUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LithoUtils.framework; path = LithoUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D115576C85F820B62F6C146A2903CA50 /* LithoUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LithoUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2380DD34FA4C2080D63A3B64845DE87 /* Pods-LithoUtils_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LithoUtils_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D530A1FC80212F7BE852B7D37E299FF8 /* FunNet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FunNet.release.xcconfig; sourceTree = "<group>"; };
 		D6AEC30BA01FF22514B3B2328D8B1F9A /* URLLoadingErrorHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLLoadingErrorHandler.swift; path = FunNet/Classes/Core/URLLoadingErrorHandler.swift; sourceTree = "<group>"; };
@@ -252,16 +252,16 @@
 		E744ACD01A39FD927B5B207112954E9D /* FUITableViewDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FUITableViewDataSource.swift; path = fuikit/Classes/Core/FUITableViewDataSource.swift; sourceTree = "<group>"; };
 		EA56865F0348CCC59B701E4A18C11DD8 /* Pods-LithoUtils_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LithoUtils_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		EB479303AC05521AA8BDC6B87F4DDC44 /* Pods-LithoUtils_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LithoUtils_Example-Info.plist"; sourceTree = "<group>"; };
-		EC2B25D89EE3B8FAD2050F7C94D07DB5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		EC2B25D89EE3B8FAD2050F7C94D07DB5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		EDAB075931DCEA3666B6CD90118EE6AD /* Alert.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
-		F02BB82B3FFD1B4A5BE1C7443584444C /* LithoOperators.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LithoOperators.framework; path = LithoOperators.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F02BB82B3FFD1B4A5BE1C7443584444C /* LithoOperators.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LithoOperators.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0AD8AA2123A50121E0A940481FD1536 /* LithoOperators-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LithoOperators-Info.plist"; sourceTree = "<group>"; };
 		F4AECFD124F5ECC514DFCBB1300333F7 /* NetworkErrorHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkErrorHandler.swift; path = FunNet/Classes/Core/NetworkErrorHandler.swift; sourceTree = "<group>"; };
 		F5D44F676DC043FFB86CBF575E08F5C0 /* Pods-LithoUtils_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LithoUtils_Example.modulemap"; sourceTree = "<group>"; };
 		F5DB604DC5283986D6449CC02BED0320 /* FCBPeripheralManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FCBPeripheralManager.swift; path = fuikit/Classes/FCB/FCBPeripheralManager.swift; sourceTree = "<group>"; };
 		F72FFD26018AA79A29442D34DB1EDCBC /* FUITextFieldDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FUITextFieldDelegate.swift; path = fuikit/Classes/Core/FUITextFieldDelegate.swift; sourceTree = "<group>"; };
 		F7C8410C4ECC75A063AEB29DAF0F1DAE /* FCBCentralManagerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FCBCentralManagerDelegate.swift; path = fuikit/Classes/FCB/FCBCentralManagerDelegate.swift; sourceTree = "<group>"; };
-		FBA5C48D3B9F592E1F88A5727F7E58DE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		FBA5C48D3B9F592E1F88A5727F7E58DE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		FD16F373F02119525BCEE26C2013D58A /* Pods-LithoUtils_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LithoUtils_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		FE6DFDBF458CB4B99C09D75FEF3A3DF5 /* NetworkCall.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkCall.swift; path = FunNet/Classes/Core/NetworkCall.swift; sourceTree = "<group>"; };
 		FFDA174D038FDD40224C5E89A675F65E /* FunNet-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FunNet-dummy.m"; sourceTree = "<group>"; };
@@ -339,7 +339,6 @@
 				C837F7094D8ABC2B7B49A7BEB16C5F27 /* UIColor+hex.swift */,
 				91B38832CB79C69A9AF2E1427AC58EEB /* UIViewController+BarButtonItem.swift */,
 			);
-			name = Extensions;
 			path = Extensions;
 			sourceTree = "<group>";
 		};
@@ -356,7 +355,6 @@
 				470635AEA5549106F2A43E7066894A2F /* Tuple.swift */,
 				ECD7CE43720F42D6CA6680DE45367BFC /* Support Files */,
 			);
-			name = Prelude;
 			path = Prelude;
 			sourceTree = "<group>";
 		};
@@ -382,7 +380,6 @@
 			children = (
 				45856DCBAFE7DF7A1962F4C83F35B3E0 /* CanIndicateActivity.swift */,
 			);
-			name = Models;
 			path = Models;
 			sourceTree = "<group>";
 		};
@@ -409,7 +406,6 @@
 				A21A6CF47589BF28D6C4F9C00F218EBF /* Resources */,
 				BFFED390393F611126B9CE81F647167E /* Support Files */,
 			);
-			name = fuikit;
 			path = fuikit;
 			sourceTree = "<group>";
 		};
@@ -418,7 +414,6 @@
 			children = (
 				EDAB075931DCEA3666B6CD90118EE6AD /* Alert.swift */,
 			);
-			name = Alert;
 			path = Alert;
 			sourceTree = "<group>";
 		};
@@ -438,7 +433,6 @@
 				77E65A60D51AE534DB2981F2D26F6D98 /* Core */,
 				94DD13A7DA410DC3DEF84EA8C6B93CDA /* Support Files */,
 			);
-			name = FunNet;
 			path = FunNet;
 			sourceTree = "<group>";
 		};
@@ -509,7 +503,6 @@
 				244F04C04D6DFB5452E228B3DB4937DA /* iOSFunctions.swift */,
 				94DAFF77ABAB25339A6C78B5A286BFA6 /* Styles.swift */,
 			);
-			name = Functions;
 			path = Functions;
 			sourceTree = "<group>";
 		};
@@ -554,10 +547,9 @@
 		C4B83111F61A21AFD4C5D03DCB4E3E25 /* LithoUtils */ = {
 			isa = PBXGroup;
 			children = (
-				DE94EFF0BE8153936E4A3F7C77FFD354 /* Base */,
-				D6F07E353F6E9D8ECEE4D824DB48271F /* Core */,
-				8A87C81EF6DBB015B4D016C653C2E049 /* Pod */,
 				2E2027E016B3755C146EB30AFEEAA1A3 /* Post13 */,
+				DE94EFF0BE8153936E4A3F7C77FFD354 /* Base */,
+				8A87C81EF6DBB015B4D016C653C2E049 /* Pod */,
 				F4BFDE72E855E648382D97BC9A7AF4F0 /* Support Files */,
 			);
 			name = LithoUtils;
@@ -574,13 +566,6 @@
 				EB71801FF14D43F3857A1B8036E83F7A /* Products */,
 				E7C389ABA4A65DAF74F1059CB35B5641 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D6F07E353F6E9D8ECEE4D824DB48271F /* Core */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Core;
 			sourceTree = "<group>";
 		};
 		DDBED00E42810C3D6B4B7C771E82AAA1 /* Support Files */ = {
@@ -712,7 +697,6 @@
 				8CD1D50C7A5310507971344A3F6D982D /* LithoOperators.swift */,
 				DDBED00E42810C3D6B4B7C771E82AAA1 /* Support Files */,
 			);
-			name = LithoOperators;
 			path = LithoOperators;
 			sourceTree = "<group>";
 		};
@@ -1502,8 +1486,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
