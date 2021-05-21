@@ -31,19 +31,18 @@
   "dependencies": {
     "LithoOperators": [
 
+    ],
+    "fuikit": [
+
     ]
   },
   "subspecs": [
     {
-      "name": "Base",
+      "name": "Core",
       "platforms": {
-        "ios": "9.0"
+        "ios": "11.0"
       },
       "source_files": "LithoUtils/Classes/Base/**/*.swift"
-    },
-    {
-      "name": "Combine",
-      "source_files": "LithoUtils/Classes/Combine/**/*.swift"
     }
   ],
   "swift_version": "5.3"
