@@ -26,6 +26,9 @@
 		5AB800729F0055A295CEB234FD4DC94A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7321C9A8DD1912F4220CD201CAFC96F /* Foundation.framework */; };
 		5C25FE478568972676DE4F1416E153AC /* FunNetCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99FF2A778AF963937E5A62CC31E4B56 /* FunNetCall.swift */; };
 		5E9D825F3CBB0C98766DAFAE144F2828 /* Tuple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2330C296E35D1123E394067499316F14 /* Tuple.swift */; };
+		643173F8265C313F00BB682B /* UIViewController+DismissKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643173F7265C313F00BB682B /* UIViewController+DismissKeyboard.swift */; };
+		643173FA265C317100BB682B /* UIImage+Resize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643173F9265C317100BB682B /* UIImage+Resize.swift */; };
+		643173FC265C319600BB682B /* UIWindow+Present.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643173FB265C319600BB682B /* UIWindow+Present.swift */; };
 		6491A3E35378A9F2036FE51D7A7F5167 /* iOSFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC0686F9712513E7C78A13DD34E8C1C /* iOSFunctions.swift */; };
 		689B55273EB2D80FBE2116566FDE6FE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7321C9A8DD1912F4220CD201CAFC96F /* Foundation.framework */; };
 		6C3662A8CDBE42B6C7EDE7E81D0E4027 /* StubHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5205FF19910C70404D281C4F6C42D10 /* StubHolder.swift */; };
@@ -123,15 +126,15 @@
 		0BFDC8F376A062853EA254AB435E5416 /* UIViewController+BarButtonItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIViewController+BarButtonItem.swift"; sourceTree = "<group>"; };
 		0C376C30B56D7B0221C150F216519645 /* Pods-LithoUtils_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LithoUtils_Example.release.xcconfig"; sourceTree = "<group>"; };
 		0CB7771A9EFB767003061B3FCC7D96FE /* LithoUtils.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LithoUtils.debug.xcconfig; sourceTree = "<group>"; };
-		0F681B0A7BE6D144B76F7C0DB2EF297B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		0FC679A41D0D34FD873B7D9F9E6BE8BB /* Prelude.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Prelude.framework; path = Prelude.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F681B0A7BE6D144B76F7C0DB2EF297B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		0FC679A41D0D34FD873B7D9F9E6BE8BB /* Prelude.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Prelude.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		136DE7C141F43130E21625BC4AB4D68F /* LithoOperators-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LithoOperators-umbrella.h"; sourceTree = "<group>"; };
 		16966DFF7F592693B55804A8F91B715B /* Pods-LithoUtils_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LithoUtils_Tests-dummy.m"; sourceTree = "<group>"; };
-		18469D52D0A20CD3B866B1F3567E38AB /* LithoUtils.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LithoUtils.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		18469D52D0A20CD3B866B1F3567E38AB /* LithoUtils.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = LithoUtils.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		18F8562619A47B35F3E19C37B113CD76 /* FunNet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FunNet.release.xcconfig; sourceTree = "<group>"; };
 		1AD936C8F81A366F57E1CC855FBA160C /* Alert.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		1B3F7E6DA5773B7E50603A51F682D538 /* Compose.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Compose.swift; path = Prelude/Compose.swift; sourceTree = "<group>"; };
-		20574C340C819F6F8A2A6D65C9FC616C /* FunNet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FunNet.framework; path = FunNet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		20574C340C819F6F8A2A6D65C9FC616C /* FunNet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FunNet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		21CE3CAED36B2B8754B6444F9ECAD709 /* LithoOperators-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LithoOperators-Info.plist"; sourceTree = "<group>"; };
 		2330C296E35D1123E394067499316F14 /* Tuple.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Tuple.swift; path = Prelude/Tuple.swift; sourceTree = "<group>"; };
 		25F77EA46ADFCC785D8ADF162BF109EB /* Pods-LithoUtils_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LithoUtils_Tests-Info.plist"; sourceTree = "<group>"; };
@@ -146,7 +149,10 @@
 		484DDC72BE3BF0E1C33D3F6A1D96C0C8 /* LithoUtils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LithoUtils-prefix.pch"; sourceTree = "<group>"; };
 		544F6584AEA817B22DF13F403CF6F26F /* NetworkCall.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkCall.swift; path = FunNet/Classes/Core/NetworkCall.swift; sourceTree = "<group>"; };
 		5DFE97E4233E30A7BDEB46B53C696D0B /* Pods-LithoUtils_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LithoUtils_Example-dummy.m"; sourceTree = "<group>"; };
-		6681B297B38E8D1F8785A63A64F9A2BF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		643173F7265C313F00BB682B /* UIViewController+DismissKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+DismissKeyboard.swift"; sourceTree = "<group>"; };
+		643173F9265C317100BB682B /* UIImage+Resize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Resize.swift"; sourceTree = "<group>"; };
+		643173FB265C319600BB682B /* UIWindow+Present.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIWindow+Present.swift"; sourceTree = "<group>"; };
+		6681B297B38E8D1F8785A63A64F9A2BF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		6804B6F763C7E63E456CA7F37AD59799 /* Prelude-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Prelude-umbrella.h"; sourceTree = "<group>"; };
 		68B43BCD1E16544056D3833801DFCB04 /* Fix.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Fix.swift; path = Prelude/Fix.swift; sourceTree = "<group>"; };
 		6CAAD8DC171B610AFFCD5185059B0921 /* NetworkErrorHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkErrorHandler.swift; path = FunNet/Classes/Core/NetworkErrorHandler.swift; sourceTree = "<group>"; };
@@ -162,7 +168,7 @@
 		8FB7101A932915FE2D38F09C5D7C91FF /* Pods-LithoUtils_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LithoUtils_Example-umbrella.h"; sourceTree = "<group>"; };
 		911FF32C6FF774A7460573489D1970B4 /* Combine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Combine.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Combine.framework; sourceTree = DEVELOPER_DIR; };
 		98C5F4B1596B62A36936874BF61544AA /* Curry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Curry.swift; path = Prelude/Curry.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E372876C5F7FFA65D3049C7F335AC89 /* CanIndicateActivity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CanIndicateActivity.swift; sourceTree = "<group>"; };
 		9F970540685CEE829DF01B42ECC335D4 /* FunNet-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FunNet-umbrella.h"; sourceTree = "<group>"; };
 		A0C3D80B20DEC3C2138C455431BBE2AB /* LithoUtils-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LithoUtils-Info.plist"; sourceTree = "<group>"; };
@@ -178,12 +184,12 @@
 		B645B083AAD84089DFFB5AADEF7E7E12 /* Pods-LithoUtils_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LithoUtils_Example-frameworks.sh"; sourceTree = "<group>"; };
 		B99FF2A778AF963937E5A62CC31E4B56 /* FunNetCall.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FunNetCall.swift; path = FunNet/Classes/Core/FunNetCall.swift; sourceTree = "<group>"; };
 		BC3391AC982AB943F62E7F1077F9DA95 /* Prelude.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Prelude.release.xcconfig; sourceTree = "<group>"; };
-		C6265AF52033EB1BB7DFBBC68E78340C /* Pods_LithoUtils_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LithoUtils_Example.framework; path = "Pods-LithoUtils_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C75BB1DA02A379BBB51BB17A4761F500 /* Pods_LithoUtils_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LithoUtils_Tests.framework; path = "Pods-LithoUtils_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6265AF52033EB1BB7DFBBC68E78340C /* Pods_LithoUtils_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LithoUtils_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C75BB1DA02A379BBB51BB17A4761F500 /* Pods_LithoUtils_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LithoUtils_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8FD5640C9BD4B3CE2AC4B74D347A3A1 /* LithoOperators.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LithoOperators.debug.xcconfig; sourceTree = "<group>"; };
 		CA0F1021ECE6BABBE292EF45888CE164 /* Application.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Application.swift; path = Prelude/Application.swift; sourceTree = "<group>"; };
 		CD4C04ED4EEB98CD8736C366305506F1 /* Styles.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
-		D115576C85F820B62F6C146A2903CA50 /* LithoUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LithoUtils.framework; path = LithoUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D115576C85F820B62F6C146A2903CA50 /* LithoUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LithoUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2380DD34FA4C2080D63A3B64845DE87 /* Pods-LithoUtils_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LithoUtils_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D2C038ACB76D3B43F68AD3D488CD2A09 /* Flip.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Flip.swift; path = Prelude/Flip.swift; sourceTree = "<group>"; };
 		D6742FF7A56D149A8420291F1AC6873D /* URLLoadingErrorHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLLoadingErrorHandler.swift; path = FunNet/Classes/Core/URLLoadingErrorHandler.swift; sourceTree = "<group>"; };
@@ -197,7 +203,7 @@
 		EA56865F0348CCC59B701E4A18C11DD8 /* Pods-LithoUtils_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LithoUtils_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		EB479303AC05521AA8BDC6B87F4DDC44 /* Pods-LithoUtils_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LithoUtils_Example-Info.plist"; sourceTree = "<group>"; };
 		EF1BC4C20D9CF196843201BFB262C49B /* NetworkResponder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkResponder.swift; path = FunNet/Classes/Core/NetworkResponder.swift; sourceTree = "<group>"; };
-		F02BB82B3FFD1B4A5BE1C7443584444C /* LithoOperators.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LithoOperators.framework; path = LithoOperators.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F02BB82B3FFD1B4A5BE1C7443584444C /* LithoOperators.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LithoOperators.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F105A913473B8519AE635A5BCAD6F129 /* Prelude.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Prelude.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3D41A2860E51075C9B9E4AC54CC8A21 /* Prelude-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Prelude-prefix.pch"; sourceTree = "<group>"; };
 		F4F67BC42CA334DFC284F31AD691C9AA /* ServerConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerConfiguration.swift; path = FunNet/Classes/Core/ServerConfiguration.swift; sourceTree = "<group>"; };
@@ -270,8 +276,10 @@
 				2DB98BE39BA414E23D6AB98748F8E8E0 /* Configurable.swift */,
 				D6E620ABEF90448F01865946347ED560 /* UIColor+hex.swift */,
 				0BFDC8F376A062853EA254AB435E5416 /* UIViewController+BarButtonItem.swift */,
+				643173F7265C313F00BB682B /* UIViewController+DismissKeyboard.swift */,
+				643173F9265C317100BB682B /* UIImage+Resize.swift */,
+				643173FB265C319600BB682B /* UIWindow+Present.swift */,
 			);
-			name = Extensions;
 			path = Extensions;
 			sourceTree = "<group>";
 		};
@@ -312,7 +320,6 @@
 				8BC0686F9712513E7C78A13DD34E8C1C /* iOSFunctions.swift */,
 				CD4C04ED4EEB98CD8736C366305506F1 /* Styles.swift */,
 			);
-			name = Functions;
 			path = Functions;
 			sourceTree = "<group>";
 		};
@@ -413,7 +420,6 @@
 				2330C296E35D1123E394067499316F14 /* Tuple.swift */,
 				467B2EA8B486CEC7DC0A99E6F124A3D0 /* Support Files */,
 			);
-			name = Prelude;
 			path = Prelude;
 			sourceTree = "<group>";
 		};
@@ -422,7 +428,6 @@
 			children = (
 				1AD936C8F81A366F57E1CC855FBA160C /* Alert.swift */,
 			);
-			name = Alert;
 			path = Alert;
 			sourceTree = "<group>";
 		};
@@ -441,7 +446,6 @@
 				4212CD075F49AE6B3856358D8DD33C54 /* LithoOperators.swift */,
 				508FD7F3E25E1DB9A58C246C6654FED6 /* Support Files */,
 			);
-			name = LithoOperators;
 			path = LithoOperators;
 			sourceTree = "<group>";
 		};
@@ -460,7 +464,6 @@
 			children = (
 				9E372876C5F7FFA65D3049C7F335AC89 /* CanIndicateActivity.swift */,
 			);
-			name = Models;
 			path = Models;
 			sourceTree = "<group>";
 		};
@@ -483,7 +486,6 @@
 				2FD9BF17EF09ACE2BA6C293AA5AB7C88 /* Core */,
 				E57D7845890F445F081754E6DAF74001 /* Support Files */,
 			);
-			name = FunNet;
 			path = FunNet;
 			sourceTree = "<group>";
 		};
@@ -885,15 +887,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				643173F8265C313F00BB682B /* UIViewController+DismissKeyboard.swift in Sources */,
 				4F728C3FDC7CADE79B430D5548807F92 /* Alert.swift in Sources */,
 				AEF19B08F90D72536E60F157C7A51035 /* BindViewModel.swift in Sources */,
 				2E516ABA16B152282EBEF36691F26368 /* CanIndicateActivity.swift in Sources */,
+				643173FA265C317100BB682B /* UIImage+Resize.swift in Sources */,
 				55CC288AB8DE2DF1BFA8E05F4FEC0038 /* Configurable.swift in Sources */,
 				6491A3E35378A9F2036FE51D7A7F5167 /* iOSFunctions.swift in Sources */,
 				7AF39BE1389556B6293B078EEF92F7E6 /* LithoUtils-dummy.m in Sources */,
 				4D73D7396452C08C414D6D833F229E30 /* Styles.swift in Sources */,
 				899A2298628D43BBCE0203C4AEB20B26 /* UIColor+hex.swift in Sources */,
 				0D1C5A135EAE8F92C4D8FB12A3D070F9 /* UIViewController+BarButtonItem.swift in Sources */,
+				643173FC265C319600BB682B /* UIWindow+Present.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1246,8 +1251,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
