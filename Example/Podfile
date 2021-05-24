@@ -6,6 +6,7 @@ target 'LithoUtils_Example' do
   pod 'LithoOperators', git: 'https://github.com/ThryvInc/LithoOperators'
   pod 'LithoUtils', :path => '../'
   pod 'FunNet/Combine', git: 'https://github.com/schrockblock/funnet'
+  pod 'fuikit', git: 'https://github.com/ThryvInc/fuikit'
   target 'LithoUtils_Tests' do
     inherit! :search_paths
   end

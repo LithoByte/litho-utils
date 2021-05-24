@@ -33,6 +33,7 @@ LithoUtils gives developers a library of shortcuts, streamlining the common oper
 
   s.source_files = 'LithoUtils/Classes/**/*'
   s.dependency 'LithoOperators'
+  s.dependency 'fuikit'
   
   s.subspec 'Core' do |sp|
       sp.ios.deployment_target = '11.0'

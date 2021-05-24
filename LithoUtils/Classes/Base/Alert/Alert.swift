@@ -8,11 +8,13 @@
 import Foundation
 import LithoOperators
 import Prelude
+import fuikit
 
 public func alertController(title: String?, message: String?) -> UIAlertController {
     let alert = UIAlertController()
     alert.title = title
     alert.message = message
+    alert.addAction(UIAlertAction(title: "Okay", style: .default, handler: ignoreArg({ alert.dismiss(animated: true, completion: nil) })))
     return alert
 }
 
