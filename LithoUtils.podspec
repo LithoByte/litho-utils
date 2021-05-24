@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'LithoUtils'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of LithoUtils.'
+  s.summary          = 'A library of helper methods, focused on common operations that occur in iOS development.'
   s.swift_versions = ['4.0', '4.1', '4.2', '5.0', '5.1', '5.2', '5.3']
 
 # This description is used to generate tags and improve search results.
@@ -35,7 +35,7 @@ LithoUtils gives developers a library of shortcuts, streamlining the common oper
   s.dependency 'LithoOperators'
   
   s.subspec 'Core' do |sp|
-      sp.ios.deployment_target = '9.0'
+      sp.ios.deployment_target = '11.0'
       sp.source_files = 'LithoUtils/Classes/Base/**/*.swift'
   end
 end

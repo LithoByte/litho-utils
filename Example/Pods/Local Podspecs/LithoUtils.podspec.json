@@ -1,7 +1,7 @@
 {
   "name": "LithoUtils",
   "version": "0.1.0",
-  "summary": "A short description of LithoUtils.",
+  "summary": "A library of helper methods, focused on common operations that occur in iOS development.",
   "swift_versions": [
     "4.0",
     "4.1",
@@ -35,15 +35,11 @@
   },
   "subspecs": [
     {
-      "name": "Base",
+      "name": "Core",
       "platforms": {
-        "ios": "9.0"
+        "ios": "11.0"
       },
       "source_files": "LithoUtils/Classes/Base/**/*.swift"
-    },
-    {
-      "name": "Combine",
-      "source_files": "LithoUtils/Classes/Combine/**/*.swift"
     }
   ],
   "swift_version": "5.3"
