@@ -39,6 +39,11 @@
       "platforms": {
         "ios": "11.0"
       },
+      "dependencies": {
+        "fuikit": [
+
+        ]
+      },
       "source_files": "LithoUtils/Classes/Base/**/*.swift"
     }
   ],

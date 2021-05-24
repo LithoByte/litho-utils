@@ -1,4 +1,11 @@
 PODS:
+  - fuikit (0.1.5):
+    - fuikit/Core (= 0.1.5)
+    - fuikit/CoreBluetooth (= 0.1.5)
+    - fuikit/CoreLocation (= 0.1.5)
+  - fuikit/Core (0.1.5)
+  - fuikit/CoreBluetooth (0.1.5)
+  - fuikit/CoreLocation (0.1.5)
   - FunNet/Combine (0.1.1):
     - FunNet/Core
     - LithoOperators
@@ -10,10 +17,12 @@ PODS:
     - LithoOperators
     - LithoUtils/Core (= 0.1.0)
   - LithoUtils/Core (0.1.0):
+    - fuikit
     - LithoOperators
   - Prelude (3.0.0)
 
 DEPENDENCIES:
+  - fuikit (from `https://github.com/ThryvInc/fuikit`)
   - FunNet/Combine (from `https://github.com/schrockblock/funnet`)
   - LithoOperators (from `https://github.com/ThryvInc/LithoOperators`)
   - LithoUtils (from `../`)
@@ -23,6 +32,8 @@ SPEC REPOS:
     - Prelude
 
 EXTERNAL SOURCES:
+  fuikit:
+    :git: https://github.com/ThryvInc/fuikit
   FunNet:
     :git: https://github.com/schrockblock/funnet
   LithoOperators:
@@ -31,6 +42,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 CHECKOUT OPTIONS:
+  fuikit:
+    :commit: fdc92715a7401a323be9ac3f4960c6a890e47f24
+    :git: https://github.com/ThryvInc/fuikit
   FunNet:
     :commit: 9ca5a81f8b96a71b2cd671fca642a152823c3704
     :git: https://github.com/schrockblock/funnet
@@ -39,11 +53,12 @@ CHECKOUT OPTIONS:
     :git: https://github.com/ThryvInc/LithoOperators
 
 SPEC CHECKSUMS:
+  fuikit: 976080e1c04037e01d14541135a104cb208d8c0d
   FunNet: e66d2df77a5663556970a1914c5911ecde2842ef
   LithoOperators: 8fc0c6a49e34a8d1ca01b777844f58e36c062d9f
-  LithoUtils: 429df1db473447a8fef3f4266e2c7304e47a304a
+  LithoUtils: ba2b2c3e7ebfa4f1747cd0e636a94782c6da9586
   Prelude: fe4cc0fd961d34edf48fe6b04d05c863449efb0a
 
-PODFILE CHECKSUM: cf88b2f5c26bba94fb559441f8de2cc1dc64a61d
+PODFILE CHECKSUM: fc1a8b2f6fac5eb2ae901e24e683b6c20509e8c0
 
 COCOAPODS: 1.10.0
