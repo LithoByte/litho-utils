@@ -32,7 +32,7 @@
     "LithoOperators": [
 
     ],
-    "fuikit": [
+    "fuikit/Core": [
 
     ]
   },

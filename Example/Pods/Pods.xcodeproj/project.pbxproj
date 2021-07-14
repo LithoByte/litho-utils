@@ -7,146 +7,155 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04D9E0F14F2A47889E6183C9AE40FC7C /* fuikit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 27878D855ABA53B2AD32E78572DD840F /* fuikit-dummy.m */; };
-		0772711951DC998B8B2BA9E958242DAC /* UIViewController+PushPop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9104D4F6D45BC8275F25D5FD3AF64DCA /* UIViewController+PushPop.swift */; };
-		088D8F65F70570BAEE20A4243B65C17A /* LithoUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B6E2F819E1BD8009FFA7213ADA84B5 /* LithoUtils-dummy.m */; };
-		09F1A4BF26BAEF63300484E2B52A8D10 /* LithoOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD1D50C7A5310507971344A3F6D982D /* LithoOperators.swift */; };
-		0B18920055DC7783F1C47BC01BD878FF /* FCBPeripheralManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DB604DC5283986D6449CC02BED0320 /* FCBPeripheralManager.swift */; };
-		0C34FDB424B4B93ACCA063C07ADDEB33 /* FUIImagePickerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C65A1046DEA0A3B340E6DC870DE663A /* FUIImagePickerDelegate.swift */; };
-		0D29F49BDB040B4FA3133AB3AA93C353 /* NetworkCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6DFDBF458CB4B99C09D75FEF3A3DF5 /* NetworkCall.swift */; };
-		0D6505E9B43D354FF13614467C31FBD3 /* UIColor+hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = C837F7094D8ABC2B7B49A7BEB16C5F27 /* UIColor+hex.swift */; };
-		11C885D7FE1CC534EBFE9E61E32ABD1F /* Fix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF089773EC7BC2038B170A80BA21AE3 /* Fix.swift */; };
-		140DB1F589E8F60F24808C2077CF3323 /* Stubbable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951AFA652CB0764802E3354923D16BF7 /* Stubbable.swift */; };
-		1C76E74EB67768FD2DD92142427DC1A1 /* FUITextViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6349022A55954B78F1FEEBC539FBC96C /* FUITextViewDelegate.swift */; };
-		1F92193DF04628B442B81772C738256C /* FunNet-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FFDA174D038FDD40224C5E89A675F65E /* FunNet-dummy.m */; };
-		23DFD1B119762299DA006A6193DCB761 /* FUITableViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF4A5992442B01A7CE3679B890337526 /* FUITableViewViewController.xib */; };
-		2A7715C96D3B0937523305CF14F25C5D /* Tuple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 470635AEA5549106F2A43E7066894A2F /* Tuple.swift */; };
-		3B57FD68845CE86F033FE00BE8BE8424 /* Prelude-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C5CADFFA1474CD5AAB9721649CA2B20 /* Prelude-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3CB60F38AFF72197636D979720A90690 /* FCBPeripheralManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860D37802503CEE71513DE351B290AF6 /* FCBPeripheralManagerDelegate.swift */; };
-		406F76CD38AAA49BF85215FCF719C0BD /* FUISearchBarDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546710B3EBAE7F422B33EB70388BCF3A /* FUISearchBarDelegate.swift */; };
-		41248821370C742AD05FB35356CE9198 /* FUITableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A181DC6572A701F0007F98A10041CACF /* FUITableViewDelegate.swift */; };
-		4246C97E67B48C7A3A4BE7555D81559D /* FUITextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72FFD26018AA79A29442D34DB1EDCBC /* FUITextFieldDelegate.swift */; };
+		0319FE214FA78DC591EC7715E496EA29 /* FUICollectionViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E2B378CCC6681567A3ECEAAD164E2D /* FUICollectionViewViewController.swift */; };
+		072088F59B8065E85CF35E9BE8741860 /* UIViewController+PushPop.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03B50A14735795BEDF11E7547C4C5FD /* UIViewController+PushPop.swift */; };
+		08134DA9A325C6497E38DD99ABEA9294 /* Arrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925FA6251446AB9EF65BB49D3C19458A /* Arrays.swift */; };
+		0A860E1FDC23B55C0FA5BF99728F8938 /* FUICollectionViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72464F09E46161427FBFD5514A483BC0 /* FUICollectionViewViewController.xib */; };
+		0CDA29263489118A549C6C5B40B90E19 /* FUITextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296A619BD7E8CD251F5E4191555DB61A /* FUITextFieldDelegate.swift */; };
+		0D29F49BDB040B4FA3133AB3AA93C353 /* NetworkCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16110BAF34C2AE33427EAE8A76B74DF5 /* NetworkCall.swift */; };
+		1103944D45B1CA42DC8F10B500D327AA /* ArgumentManipulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926A697A396493FE17909B2EDFD8C28E /* ArgumentManipulation.swift */; };
+		140DB1F589E8F60F24808C2077CF3323 /* Stubbable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6355C42C748DDE360E994240F1728AC7 /* Stubbable.swift */; };
+		180FD285D7885124BD5816FBD7F0AD99 /* LithoOperators.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF33FB01C4213CEE32E09EED17997D27 /* LithoOperators.framework */; };
+		1D434F8521C7E91AD8F80A23B4362E35 /* Configurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CE030D228DB4AAEE2102DC9C853F63 /* Configurable.swift */; };
+		1F92193DF04628B442B81772C738256C /* FunNet-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5D86E2A2D236D7C6467065A1F0DB744 /* FunNet-dummy.m */; };
+		25D51EEF4C17139A25B00F9E7A5440AC /* Comparables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972233FB326EAC8E2FF3A13DB7505C3C /* Comparables.swift */; };
+		2703240C247596D2D6B324CA4DFA5836 /* FUITableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB85CBDEA9F47C9FFDA2F96F97DA79C7 /* FUITableViewDataSource.swift */; };
+		27E9DF92FB51F5AEDA8903199E57A855 /* FCBPeripheralManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF42818B6791699CFE2CC7BEC1C0E2B /* FCBPeripheralManagerDelegate.swift */; };
+		2947DD7185D864096633860D9041DD60 /* FCBPeripheralManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5183A6DF2D4CB1D1CD1BFD3E2F9288E4 /* FCBPeripheralManager.swift */; };
+		2C675D69356495EC4BD7C45AB5F15D6C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2003BB4FF9A1C347FD2F402DCA1B35F4 /* Foundation.framework */; };
+		35B6C7EAA888AAC2D30B68CA2D5033B3 /* UIImage+Resize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43896390A804314E86FF39AF79B8E3BC /* UIImage+Resize.swift */; };
+		37245A8EA98B2D897D91D7FCF8B90B18 /* Tuple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C52D40D54DC58F37973AB2F7255121B /* Tuple.swift */; };
+		37EF3A60FBE83C8B9549502956CCF5B0 /* iOSFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DFD7CBFBD2D1AE8E852DC3B21DA0384 /* iOSFunctions.swift */; };
+		43766B712270588570D9E107D3281465 /* FCLLocationManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85AA869D812E6058E469144D980C417 /* FCLLocationManagerDelegate.swift */; };
 		44AC72A2D7C81150985721BB9F09C088 /* Pods-LithoUtils_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FB7101A932915FE2D38F09C5D7C91FF /* Pods-LithoUtils_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		456C52346C6D9129135E7B1D6D1B009A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2003BB4FF9A1C347FD2F402DCA1B35F4 /* Foundation.framework */; };
-		4606D6E15068852C6E6B8D678E1EC58F /* Flip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C9E31DFA211A1A96E8E5C80CD7B1B2 /* Flip.swift */; };
-		46B626E133DB18BE2607A479D211005E /* Prelude.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0854A1C787F746D8B37C5F3824E8F5 /* Prelude.swift */; };
-		4F836D0B33F3E0E2443DAF070D618E53 /* LithoOperators-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CCBE419E6AAA9DA6DCA766C6126BAEA /* LithoOperators-dummy.m */; };
-		583B6DE8C2C4054575E1D075B11693F3 /* CanIndicateActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45856DCBAFE7DF7A1962F4C83F35B3E0 /* CanIndicateActivity.swift */; };
-		59BB451A428E2FDC7779F64AEC4694C0 /* Prelude-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 098A93F28CF9258EE0647EC29A8F5E06 /* Prelude-dummy.m */; };
+		487E30B58DA632B1FA7873CD18ECB73F /* Optionals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACAF261E4E50CEE02D98E38D9044C01 /* Optionals.swift */; };
+		4AE0672DEB7D93909EA89796BBAFA2C2 /* UIWindow+Present.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805E72E330D81C06FF1B42A38FD79AAF /* UIWindow+Present.swift */; };
+		4DDB2CDBD179FB5FA502E595ED440233 /* KeyPaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0089D0FCF2B2D5F15D7EC9A03C2E7AC9 /* KeyPaths.swift */; };
+		532B03CA0A79581E22EAD33F9DC6FEAF /* FUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31ED39B9852DD4E4101C3942035608D6 /* FUIViewController.swift */; };
+		5660B97CC6C5BC6C97F32A35DC618285 /* Prelude-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 527DD4E03B7287F946DE9C9A9DB12842 /* Prelude-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		572C4D70B168372280193FC90E428E97 /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DD290EAC0617CA3029F61023AA38A8 /* Styles.swift */; };
 		5AB800729F0055A295CEB234FD4DC94A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2003BB4FF9A1C347FD2F402DCA1B35F4 /* Foundation.framework */; };
-		5C25FE478568972676DE4F1416E153AC /* FunNetCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D665FA47A9FE3699EAF1425212CAE59 /* FunNetCall.swift */; };
-		6071C0EABA93E435BD7192B87F16F919 /* FUITableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E744ACD01A39FD927B5B207112954E9D /* FUITableViewDataSource.swift */; };
-		613A7DEE9142B8E9FB763AF46D5A6E5D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2003BB4FF9A1C347FD2F402DCA1B35F4 /* Foundation.framework */; };
-		64317423265C3F4000BB682B /* UIImage+Resize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64317422265C3F4000BB682B /* UIImage+Resize.swift */; };
-		64317425265C3F7A00BB682B /* UIViewController+DismissKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64317424265C3F7A00BB682B /* UIViewController+DismissKeyboard.swift */; };
-		64317427265C3F9B00BB682B /* UIWindow+Present.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64317426265C3F9B00BB682B /* UIWindow+Present.swift */; };
+		5B39CD654302903A8D438A4E820A663F /* fuikit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A69E6E7045F46931B0DB82393A3F1D04 /* fuikit-dummy.m */; };
+		5BA59B0D619EBFB6C5AFDC3300C3F57D /* LithoOperators-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 251A5211DF9AAD8BC353EB6A50D13F38 /* LithoOperators-dummy.m */; };
+		5C25FE478568972676DE4F1416E153AC /* FunNetCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8447B8D3A22CC037349F7D7304EC3B68 /* FunNetCall.swift */; };
+		5EE0035F979712C5017F69F988B22C9E /* FUITableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFEDFBD10A6992FD5625CBB4BA833AE /* FUITableViewDelegate.swift */; };
+		5F4A47D2443CB8F962AC277452CE68B5 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F809047B82C91E63074AC48F900A909 /* Alert.swift */; };
+		60B1579DE7E487693F36C72844F372AC /* LithoOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE613043F4E1B6C1F8B496E3D0C40C02 /* LithoOperators.swift */; };
 		689B55273EB2D80FBE2116566FDE6FE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2003BB4FF9A1C347FD2F402DCA1B35F4 /* Foundation.framework */; };
-		6C3662A8CDBE42B6C7EDE7E81D0E4027 /* StubHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1596BB365C06E9F8A3814F08D8117019 /* StubHolder.swift */; };
-		6C70FF0EDC379FDAF0A19EBA0211F702 /* fuikit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BEC8E0B8B0EDFAE0C8F0CFB1A321E03 /* fuikit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7408DBC6B797746AB94F1CFEA4EA7D3D /* iOSFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244F04C04D6DFB5452E228B3DB4937DA /* iOSFunctions.swift */; };
-		7FA7A4DF2456D5DFF2684CD02172D205 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A83E130E0A59E7983C6798A51127A8C /* Endpoint.swift */; };
-		8A65072220F4A5071FB0AF67D2A0E305 /* FCLLocationManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D755E0A2120C1968CFBA077EF982B339 /* FCLLocationManagerDelegate.swift */; };
-		8B3016FF542530A6957E0E3AB79DF474 /* Curry.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE2E2AFC837FB642617A131002A7D0A /* Curry.swift */; };
-		8CF7AE5004B1C7019DA3F34FDEA3E305 /* Configurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8334322C6223A1DEF23C362FBACFFE /* Configurable.swift */; };
-		9745F887988A2D80C74F00AC8343C747 /* ServerConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B75BBEBAF54FC3791CF882F794F2F5 /* ServerConfiguration.swift */; };
-		9CAC772FB98B7F645D9E9121EC95D4AF /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAB075931DCEA3666B6CD90118EE6AD /* Alert.swift */; };
+		6C3662A8CDBE42B6C7EDE7E81D0E4027 /* StubHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859ED631B8B83C5C9FD52003645A9FCA /* StubHolder.swift */; };
+		6DE8A103DF9FFD7197B5E1868B805189 /* FCBCentralManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6483B2621874CA9EC3A2754A6F3F1DB /* FCBCentralManagerDelegate.swift */; };
+		6E25A505CB5650FFAF29E888E75B90D8 /* Compose.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667DEC35387BFA19A7CBC991AB13FEEC /* Compose.swift */; };
+		6E58258054412DFD3EF1C91CE7FD3CE1 /* fuikit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CBE7D9E9A33AEE96678BFE23473F0A05 /* fuikit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7211BAC7DEC13B80CF34AB45358CC30E /* FUITextViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DEFAB7D2D6756D2A9099C6291A1F5F /* FUITextViewDelegate.swift */; };
+		732A1BEC50ABA3E52B65A53786748E72 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2003BB4FF9A1C347FD2F402DCA1B35F4 /* Foundation.framework */; };
+		771E990CF179AA6790F1C9A2CDE724FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2003BB4FF9A1C347FD2F402DCA1B35F4 /* Foundation.framework */; };
+		7FA7A4DF2456D5DFF2684CD02172D205 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376994B681DCCEFF9124DC47D774DB29 /* Endpoint.swift */; };
+		8052FC4290CB251EBE1CA487A2D51024 /* LithoOperators-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B4E4D1733707305F036B0F1EB03E9149 /* LithoOperators-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82A0EA5ADF050A6FA4B360F73BBD961C /* Prelude.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80C576AA22D9EA63A52026400A20CBFD /* Prelude.framework */; };
+		86231E946EAA66DB8929B0BE85EEA780 /* FUIImagePickerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054EACC86E073803D6A9B5B6ACB50F35 /* FUIImagePickerDelegate.swift */; };
+		8A8B429C9A4DB4CDF5EFF19DCACAB2F4 /* BindViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EDAA72D69042911F37BB65DEF7D5E4 /* BindViewModel.swift */; };
+		8D03606597568FF5B18CDEA4CE96A07F /* Flip.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7618A1CEF7B33523D058A4AC76735AB /* Flip.swift */; };
+		9158D4BC86C2E8FEA3DFE4304D02FF00 /* Curry.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DE00DC9244F537404302D1A96F56E5 /* Curry.swift */; };
+		9252A0860F6E944111EF1F40819480BA /* UIColor+hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F3088AA71A7FBE33618ACD15CCD404 /* UIColor+hex.swift */; };
+		9450ADB2B568A98178C24DB5408E23F8 /* Prelude.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7889B0725F93F684A1074C66C9ECB13 /* Prelude.swift */; };
+		95EB49C6E8767BE026E405BB6E81FE2C /* FUICollectionViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5F8D07E6CCC97FE9B56D8A4D3E70A3 /* FUICollectionViewDelegate.swift */; };
+		9745F887988A2D80C74F00AC8343C747 /* ServerConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07AF0A83F99B0C26A25E278DB2232A4 /* ServerConfiguration.swift */; };
+		9C090449803C64BFEA0820440CE99369 /* Prelude-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FF385660AD5FD97BFAE6E21A15F1E9C0 /* Prelude-dummy.m */; };
 		9ECB4BF8565D8075F028411850C3E73E /* LithoOperators.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF33FB01C4213CEE32E09EED17997D27 /* LithoOperators.framework */; };
-		9F5BDC138C4D9035FB6E307D866B97F3 /* Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DE8E6A1C36002E1233108FA4012414 /* Optional.swift */; };
-		A5234BE898ACD193A3B3FE9FBFBF12D7 /* Compose.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA981902F806955C3D5A968D24BB526 /* Compose.swift */; };
-		A5C3FB31DFF0AF0F28C8A15523F31E23 /* Requests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7970489AC062342445C9F90DD15EAA /* Requests.swift */; };
+		A1EF69DE33084D0C35BB1E436E6EDF68 /* Fix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F08729404898BDB82BBE30896A8BE33 /* Fix.swift */; };
+		A5C3FB31DFF0AF0F28C8A15523F31E23 /* Requests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DABECCB09113529E3C947A537D4B2A9 /* Requests.swift */; };
+		A7BCB50C4F281A53CE1C7347F1035A90 /* Tuples.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85FF1EFAD889C5F3AC9267D8EBBA7FF /* Tuples.swift */; };
 		AB8945189DDF67206DEB47405CC9189C /* Combine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 361872671279D895CAE5FC1BE0F1F099 /* Combine.framework */; };
-		AD10F8891716DC47D520869D2E445E42 /* UIViewController+BarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B38832CB79C69A9AF2E1427AC58EEB /* UIViewController+BarButtonItem.swift */; };
-		ADE8DBD7390F9CF9B07074EEDACF2932 /* fuikit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BE04D02D5C6771857B64F8273B12DAF /* fuikit.framework */; };
-		B67901511FC29F7E42F1C15CB1076D86 /* BindViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EDAA72D69042911F37BB65DEF7D5E4 /* BindViewModel.swift */; };
+		B177E682B2DD193BD9B21DD7BCF4E845 /* fuikit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BE04D02D5C6771857B64F8273B12DAF /* fuikit.framework */; };
+		B3529762FC91490358A198C2A61660CD /* UIViewController+DismissKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FFF1C57B24CDB119C2979B65975DC09 /* UIViewController+DismissKeyboard.swift */; };
 		B6D56C5D962373773F7766AEC704CC41 /* Pods-LithoUtils_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16966DFF7F592693B55804A8F91B715B /* Pods-LithoUtils_Tests-dummy.m */; };
-		B7F9FF7B0FC20C72B42315868DA6E808 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2003BB4FF9A1C347FD2F402DCA1B35F4 /* Foundation.framework */; };
-		B90787AEFF4025CD4325F8B33FA47FD7 /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9AE96A99012BBAA4FDEE0690C7033E /* Application.swift */; };
-		BA13FC0F2C0F58189DA7BDEC0F8B67C7 /* CombineNetCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = A663664CB80C3594AB66DAF38BC4C4D1 /* CombineNetCall.swift */; };
+		B9F27C1B2FCA94CD3CA6B431632F459B /* FUITableViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB9C79444CBB354A68B43A85F0EBDACB /* FUITableViewViewController.xib */; };
+		BA13FC0F2C0F58189DA7BDEC0F8B67C7 /* CombineNetCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB09DC43F0246FB5C0B044370D231433 /* CombineNetCall.swift */; };
 		BE90F36D97E7F4F4D29BC4D5FC457B78 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2003BB4FF9A1C347FD2F402DCA1B35F4 /* Foundation.framework */; };
-		C001C439C6244A83A0C53EEA939F0F9E /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DAFF77ABAB25339A6C78B5A286BFA6 /* Styles.swift */; };
-		C392FCE16313F905DB33877745091FFC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2003BB4FF9A1C347FD2F402DCA1B35F4 /* Foundation.framework */; };
-		C3EE5727E80065A6AAD8F5930028F511 /* NetworkResponder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAC2A327EB5F4355E6CAE837AEBF996 /* NetworkResponder.swift */; };
-		C44AF70EF0496D8392CA5B00B5EEE52C /* LithoOperators-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 47D0493717D90152B4270121B7CB1C0D /* LithoOperators-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3EE5727E80065A6AAD8F5930028F511 /* NetworkResponder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE05A184FAA344ADDA6765A47F9BAB4 /* NetworkResponder.swift */; };
+		C762E4DB549DB4ABD6588515126DD386 /* Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57E316A75B7A20ED7707BF9F1FBA13E /* Optional.swift */; };
+		C78DA585B6AF0ACE7D5047460ACF73F5 /* LithoUtils-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1017A456D4681218DA8D647558BBFCC2 /* LithoUtils-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C7C09B5DF8DB045B982CAC516DF83CDC /* Pods-LithoUtils_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E66FCB335684D9E7FCD8E3681647F40 /* Pods-LithoUtils_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CC4469D5CEB3788FBAD851E3242FFF5C /* FCBCentralManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C8410C4ECC75A063AEB29DAF0F1DAE /* FCBCentralManagerDelegate.swift */; };
-		D78781C52C184C6F8AC8F8E1253B7456 /* Prelude.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80C576AA22D9EA63A52026400A20CBFD /* Prelude.framework */; };
-		E59C6F0D5C66D05C4BB1EAD238CC2DA3 /* URLLoadingErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6AEC30BA01FF22514B3B2328D8B1F9A /* URLLoadingErrorHandler.swift */; };
-		E8A6F6B6ACEAC2757C236D72808E0F72 /* LithoUtils-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1017A456D4681218DA8D647558BBFCC2 /* LithoUtils-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E8E71CEC677875F17D32524C3CEC4B32 /* FUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0950312FFD3621DC82DFDB5CF33002 /* FUIViewController.swift */; };
+		D0BE9D4A5FA4130BEC61AF2E1535E83A /* Try.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E7248130AA48A65B08CE1BB8A20CA6 /* Try.swift */; };
+		D3BC02CE3DD8914AFE4E56197BB2A9BA /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA461ABCD6BD631B8D97F8B70BF93EC /* Application.swift */; };
+		D50A29F836515439C72952535B222027 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2003BB4FF9A1C347FD2F402DCA1B35F4 /* Foundation.framework */; };
+		D688E7F6F5DC85441F51A2E57917123D /* FUISearchBarDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFCD217264CADAA84A31E2597B1856C /* FUISearchBarDelegate.swift */; };
+		D9C817158E83D667E13D24078FDBC479 /* LithoUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B6E2F819E1BD8009FFA7213ADA84B5 /* LithoUtils-dummy.m */; };
+		DD2EB9C57A0742F83949E20E727EBF35 /* UIViewController+BarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1BDF11F825BA8B9F18C40D57067006 /* UIViewController+BarButtonItem.swift */; };
+		E59C6F0D5C66D05C4BB1EAD238CC2DA3 /* URLLoadingErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3052F714A7E571BF2ECF4B75B4698A8 /* URLLoadingErrorHandler.swift */; };
+		E80BC9872EB37E8560B93AE3885F6E44 /* Dictionaries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FEF380BDDD61F76EFAB2C43744D27C /* Dictionaries.swift */; };
+		E822828FD644A72F8CEC7921649AD0D9 /* FUITableViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B896AB2EDAE499C460B237ED80155B /* FUITableViewViewController.swift */; };
+		E98917DD9504D1783566E0252D44493C /* CanIndicateActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DBA32B4C0746FCBB68E3BFDD93D360 /* CanIndicateActivity.swift */; };
 		E9AAF60067448E600F812C9728C1F4BF /* Pods-LithoUtils_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DFE97E4233E30A7BDEB46B53C696D0B /* Pods-LithoUtils_Example-dummy.m */; };
-		ED068654FC8B1A3406B6D5402C5A1DE7 /* NetworkErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AECFD124F5ECC514DFCBB1300333F7 /* NetworkErrorHandler.swift */; };
-		F72EFEF2F44FB8740D08743D5AC8B744 /* FUICollectionViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73BA9438E934ECC9C1F025C06AE0B567 /* FUICollectionViewViewController.swift */; };
-		FB9B57312AA09563808215FC54107DF2 /* FUICollectionViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D21311BAF9CB47E874B582CBC1EA5FD /* FUICollectionViewViewController.xib */; };
-		FF5831D16BCEC849D0AED2DF5135F4F6 /* LithoOperators.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF33FB01C4213CEE32E09EED17997D27 /* LithoOperators.framework */; };
-		FFB2CB640F2661724CBFFAD72CBFD75E /* FUITableViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB2A8BE871F74965BE674DB249A35C9 /* FUITableViewViewController.swift */; };
-		FFC062FF7CA148C3F6190D8CC8D3D5C7 /* FunNet-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F669CD68823B2934DE996D58AFF0181 /* FunNet-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED068654FC8B1A3406B6D5402C5A1DE7 /* NetworkErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C12BCCB777972B83205B597652290CA /* NetworkErrorHandler.swift */; };
+		FFC062FF7CA148C3F6190D8CC8D3D5C7 /* FunNet-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BFF55C57C6112BD40D2932BA60588A3F /* FunNet-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		27CD5DE7CB1178086C2DA7A1BD4BBF67 /* PBXContainerItemProxy */ = {
+		1F450C0634BAD128B6E5A28915AED915 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = F23B1651D4D0DDA611CCBAFB8BFEED54;
 			remoteInfo = LithoOperators;
 		};
-		3D6EEBCD75D9C0006FF91F0462150076 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BDE9651E3D91FEDF74EB17C3CBDD3742;
-			remoteInfo = Prelude;
-		};
-		5C4C5352EDD308A0EE855B6CEB1C0BFA /* PBXContainerItemProxy */ = {
+		224E2E5150D8816E662A761D8A9A6429 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = F23B1651D4D0DDA611CCBAFB8BFEED54;
 			remoteInfo = LithoOperators;
 		};
-		7568B4DF1F151DBB60DA63C3595D54D3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C04700E22229A736E5C110BBF44E6112;
-			remoteInfo = fuikit;
-		};
-		C2AF9501C83EF213989B72E4B37EEACD /* PBXContainerItemProxy */ = {
+		253BC73934AE24023701EF3DE33411F9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = BCA6961C31080EEBCAA5AADE07FCA544;
 			remoteInfo = "Pods-LithoUtils_Example";
 		};
-		C801E814694335F9481A606F7F258E5C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F23B1651D4D0DDA611CCBAFB8BFEED54;
-			remoteInfo = LithoOperators;
-		};
-		CE0791D4480B4CDDAADC9C721016A4A8 /* PBXContainerItemProxy */ = {
+		76A1890D63986C004E6C96BEB8266378 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = BDE9651E3D91FEDF74EB17C3CBDD3742;
 			remoteInfo = Prelude;
 		};
-		D216253BE539892C3E7756C83729AA4D /* PBXContainerItemProxy */ = {
+		B77EA099CABE42B31D99F5F8E51AA326 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = C04700E22229A736E5C110BBF44E6112;
 			remoteInfo = fuikit;
 		};
-		DCC15593EE762385F3D98F4C09A19BBF /* PBXContainerItemProxy */ = {
+		E56818CEEF1A7CCEFAE40A942DF31CF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDE9651E3D91FEDF74EB17C3CBDD3742;
+			remoteInfo = Prelude;
+		};
+		E6B7D3333E36FE8FA13DF40DD313E624 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 6C1AB688A5C9DE02C75AC815D03E671F;
 			remoteInfo = LithoUtils;
 		};
-		F208FBB1164F79433F2FD7D2692106FA /* PBXContainerItemProxy */ = {
+		F4452AEDCE94DBD57E7796E86483E937 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C04700E22229A736E5C110BBF44E6112;
+			remoteInfo = fuikit;
+		};
+		FB7288A87FD664BA5738CC533708BB13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F23B1651D4D0DDA611CCBAFB8BFEED54;
+			remoteInfo = LithoOperators;
+		};
+		FDCEAED32DE155FAE00054799B354FBA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -156,148 +165,156 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		023607C57B59070F45C1EBC9BD36730D /* fuikit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "fuikit-Info.plist"; sourceTree = "<group>"; };
-		098A93F28CF9258EE0647EC29A8F5E06 /* Prelude-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Prelude-dummy.m"; sourceTree = "<group>"; };
+		0089D0FCF2B2D5F15D7EC9A03C2E7AC9 /* KeyPaths.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyPaths.swift; path = Sources/LithoOperators/Classes/KeyPaths.swift; sourceTree = "<group>"; };
+		03674946B14541FE9F97BCF7F059AB99 /* FunNet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FunNet.debug.xcconfig; sourceTree = "<group>"; };
+		054EACC86E073803D6A9B5B6ACB50F35 /* FUIImagePickerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FUIImagePickerDelegate.swift; path = fuikit/Classes/Core/FUIImagePickerDelegate.swift; sourceTree = "<group>"; };
+		08CE030D228DB4AAEE2102DC9C853F63 /* Configurable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Configurable.swift; sourceTree = "<group>"; };
+		0AC6B17AE1FC2207F281201E9104466C /* Prelude-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Prelude-prefix.pch"; sourceTree = "<group>"; };
 		0C376C30B56D7B0221C150F216519645 /* Pods-LithoUtils_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LithoUtils_Example.release.xcconfig"; sourceTree = "<group>"; };
-		0E7970489AC062342445C9F90DD15EAA /* Requests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Requests.swift; path = FunNet/Classes/Core/Requests.swift; sourceTree = "<group>"; };
-		0FC679A41D0D34FD873B7D9F9E6BE8BB /* Prelude.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Prelude.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FC679A41D0D34FD873B7D9F9E6BE8BB /* Prelude.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Prelude.framework; path = Prelude.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1017A456D4681218DA8D647558BBFCC2 /* LithoUtils-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LithoUtils-umbrella.h"; sourceTree = "<group>"; };
+		106DE700D5CF88696CB675F650581FAE /* Prelude.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Prelude.release.xcconfig; sourceTree = "<group>"; };
 		129A79A763CCFFBB0A3606157B579B8C /* LithoUtils.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LithoUtils.debug.xcconfig; sourceTree = "<group>"; };
-		1596BB365C06E9F8A3814F08D8117019 /* StubHolder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StubHolder.swift; path = FunNet/Classes/Core/StubHolder.swift; sourceTree = "<group>"; };
-		1625646DB035E380339899EF4E6A6FA6 /* fuikit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = fuikit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		16110BAF34C2AE33427EAE8A76B74DF5 /* NetworkCall.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkCall.swift; path = FunNet/Classes/Core/NetworkCall.swift; sourceTree = "<group>"; };
+		1625646DB035E380339899EF4E6A6FA6 /* fuikit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = fuikit.framework; path = fuikit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		16966DFF7F592693B55804A8F91B715B /* Pods-LithoUtils_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LithoUtils_Tests-dummy.m"; sourceTree = "<group>"; };
 		18B6E2F819E1BD8009FFA7213ADA84B5 /* LithoUtils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LithoUtils-dummy.m"; sourceTree = "<group>"; };
-		1B437BAA755506AC831170683553150F /* FunNet-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FunNet-prefix.pch"; sourceTree = "<group>"; };
+		1F7148F2241BDFD57A03C01AF5E287C4 /* FunNet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FunNet.release.xcconfig; sourceTree = "<group>"; };
 		2003BB4FF9A1C347FD2F402DCA1B35F4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		200A534D34156DAD3CA4437F6133B5B6 /* LithoOperators.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LithoOperators.modulemap; sourceTree = "<group>"; };
-		20574C340C819F6F8A2A6D65C9FC616C /* FunNet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FunNet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		22B75BBEBAF54FC3791CF882F794F2F5 /* ServerConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerConfiguration.swift; path = FunNet/Classes/Core/ServerConfiguration.swift; sourceTree = "<group>"; };
-		244F04C04D6DFB5452E228B3DB4937DA /* iOSFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = iOSFunctions.swift; sourceTree = "<group>"; };
+		20574C340C819F6F8A2A6D65C9FC616C /* FunNet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FunNet.framework; path = FunNet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		21CA6E2DB0B479F011E59C27DA402759 /* FunNet.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FunNet.modulemap; sourceTree = "<group>"; };
+		241E1965D10AF0AE661A0CDFA59A3C60 /* Prelude-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Prelude-Info.plist"; sourceTree = "<group>"; };
+		251A5211DF9AAD8BC353EB6A50D13F38 /* LithoOperators-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LithoOperators-dummy.m"; sourceTree = "<group>"; };
 		25F77EA46ADFCC785D8ADF162BF109EB /* Pods-LithoUtils_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LithoUtils_Tests-Info.plist"; sourceTree = "<group>"; };
-		27878D855ABA53B2AD32E78572DD840F /* fuikit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "fuikit-dummy.m"; sourceTree = "<group>"; };
-		29DE8E6A1C36002E1233108FA4012414 /* Optional.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Optional.swift; path = Prelude/Optional.swift; sourceTree = "<group>"; };
-		2A83E130E0A59E7983C6798A51127A8C /* Endpoint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Endpoint.swift; path = FunNet/Classes/Core/Endpoint.swift; sourceTree = "<group>"; };
-		2C65A1046DEA0A3B340E6DC870DE663A /* FUIImagePickerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FUIImagePickerDelegate.swift; path = fuikit/Classes/Core/FUIImagePickerDelegate.swift; sourceTree = "<group>"; };
-		2CCBE419E6AAA9DA6DCA766C6126BAEA /* LithoOperators-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LithoOperators-dummy.m"; sourceTree = "<group>"; };
-		2DFC55214906B51F79F6D4D34CADD350 /* FunNet-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FunNet-Info.plist"; sourceTree = "<group>"; };
-		31C9E31DFA211A1A96E8E5C80CD7B1B2 /* Flip.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Flip.swift; path = Prelude/Flip.swift; sourceTree = "<group>"; };
+		26E2B378CCC6681567A3ECEAAD164E2D /* FUICollectionViewViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FUICollectionViewViewController.swift; path = fuikit/Classes/Core/FUICollectionViewViewController.swift; sourceTree = "<group>"; };
+		28FEF380BDDD61F76EFAB2C43744D27C /* Dictionaries.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Dictionaries.swift; path = Sources/LithoOperators/Classes/Dictionaries.swift; sourceTree = "<group>"; };
+		296A619BD7E8CD251F5E4191555DB61A /* FUITextFieldDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FUITextFieldDelegate.swift; path = fuikit/Classes/Core/FUITextFieldDelegate.swift; sourceTree = "<group>"; };
+		2F08729404898BDB82BBE30896A8BE33 /* Fix.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Fix.swift; path = Prelude/Fix.swift; sourceTree = "<group>"; };
+		31ED39B9852DD4E4101C3942035608D6 /* FUIViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FUIViewController.swift; path = fuikit/Classes/Core/FUIViewController.swift; sourceTree = "<group>"; };
 		361872671279D895CAE5FC1BE0F1F099 /* Combine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Combine.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Combine.framework; sourceTree = DEVELOPER_DIR; };
+		376994B681DCCEFF9124DC47D774DB29 /* Endpoint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Endpoint.swift; path = FunNet/Classes/Core/Endpoint.swift; sourceTree = "<group>"; };
 		3B72AF33FBB0E491681A774284136071 /* Pods-LithoUtils_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LithoUtils_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		3BE04D02D5C6771857B64F8273B12DAF /* fuikit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = fuikit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3CA981902F806955C3D5A968D24BB526 /* Compose.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Compose.swift; path = Prelude/Compose.swift; sourceTree = "<group>"; };
-		42CCFD3F6EEEBC7985C562445A90E039 /* LithoOperators.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LithoOperators.debug.xcconfig; sourceTree = "<group>"; };
-		45856DCBAFE7DF7A1962F4C83F35B3E0 /* CanIndicateActivity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CanIndicateActivity.swift; sourceTree = "<group>"; };
-		470635AEA5549106F2A43E7066894A2F /* Tuple.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Tuple.swift; path = Prelude/Tuple.swift; sourceTree = "<group>"; };
-		47D0493717D90152B4270121B7CB1C0D /* LithoOperators-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LithoOperators-umbrella.h"; sourceTree = "<group>"; };
-		4D665FA47A9FE3699EAF1425212CAE59 /* FunNetCall.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FunNetCall.swift; path = FunNet/Classes/Core/FunNetCall.swift; sourceTree = "<group>"; };
-		4F669CD68823B2934DE996D58AFF0181 /* FunNet-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FunNet-umbrella.h"; sourceTree = "<group>"; };
-		546710B3EBAE7F422B33EB70388BCF3A /* FUISearchBarDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FUISearchBarDelegate.swift; path = fuikit/Classes/Core/FUISearchBarDelegate.swift; sourceTree = "<group>"; };
+		43896390A804314E86FF39AF79B8E3BC /* UIImage+Resize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIImage+Resize.swift"; sourceTree = "<group>"; };
+		44BCDF93F9BE1961197A74D3E4C0C8BA /* fuikit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "fuikit-prefix.pch"; sourceTree = "<group>"; };
+		44DEFAB7D2D6756D2A9099C6291A1F5F /* FUITextViewDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FUITextViewDelegate.swift; path = fuikit/Classes/Core/FUITextViewDelegate.swift; sourceTree = "<group>"; };
+		4807D5F14BAFF284666ADE9BFEE65B1D /* LithoOperators-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LithoOperators-prefix.pch"; sourceTree = "<group>"; };
+		4C52D40D54DC58F37973AB2F7255121B /* Tuple.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Tuple.swift; path = Prelude/Tuple.swift; sourceTree = "<group>"; };
+		4DABECCB09113529E3C947A537D4B2A9 /* Requests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Requests.swift; path = FunNet/Classes/Core/Requests.swift; sourceTree = "<group>"; };
+		5183A6DF2D4CB1D1CD1BFD3E2F9288E4 /* FCBPeripheralManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FCBPeripheralManager.swift; path = fuikit/Classes/FCB/FCBPeripheralManager.swift; sourceTree = "<group>"; };
+		527DD4E03B7287F946DE9C9A9DB12842 /* Prelude-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Prelude-umbrella.h"; sourceTree = "<group>"; };
+		5393909AE0826CF8D66E4EC6FFF4DAB9 /* fuikit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = fuikit.release.xcconfig; sourceTree = "<group>"; };
 		55EDAA72D69042911F37BB65DEF7D5E4 /* BindViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BindViewModel.swift; sourceTree = "<group>"; };
-		5718026045D7EB2CC981EACEDB859448 /* FunNet.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FunNet.modulemap; sourceTree = "<group>"; };
-		5837E9252A0C3B17D5A6D0C44F67C612 /* LithoOperators.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LithoOperators.release.xcconfig; sourceTree = "<group>"; };
-		5AF089773EC7BC2038B170A80BA21AE3 /* Fix.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Fix.swift; path = Prelude/Fix.swift; sourceTree = "<group>"; };
+		5636DB7EF107AE948714D0CF1B7E731F /* LithoOperators-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LithoOperators-Info.plist"; sourceTree = "<group>"; };
+		5A5F8D07E6CCC97FE9B56D8A4D3E70A3 /* FUICollectionViewDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FUICollectionViewDelegate.swift; path = fuikit/Classes/Core/FUICollectionViewDelegate.swift; sourceTree = "<group>"; };
+		5CF42818B6791699CFE2CC7BEC1C0E2B /* FCBPeripheralManagerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FCBPeripheralManagerDelegate.swift; path = fuikit/Classes/FCB/FCBPeripheralManagerDelegate.swift; sourceTree = "<group>"; };
 		5DFE97E4233E30A7BDEB46B53C696D0B /* Pods-LithoUtils_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LithoUtils_Example-dummy.m"; sourceTree = "<group>"; };
-		6349022A55954B78F1FEEBC539FBC96C /* FUITextViewDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FUITextViewDelegate.swift; path = fuikit/Classes/Core/FUITextViewDelegate.swift; sourceTree = "<group>"; };
-		64317422265C3F4000BB682B /* UIImage+Resize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Resize.swift"; sourceTree = "<group>"; };
-		64317424265C3F7A00BB682B /* UIViewController+DismissKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+DismissKeyboard.swift"; sourceTree = "<group>"; };
-		64317426265C3F9B00BB682B /* UIWindow+Present.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIWindow+Present.swift"; sourceTree = "<group>"; };
-		73BA9438E934ECC9C1F025C06AE0B567 /* FUICollectionViewViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FUICollectionViewViewController.swift; path = fuikit/Classes/Core/FUICollectionViewViewController.swift; sourceTree = "<group>"; };
+		5FFF1C57B24CDB119C2979B65975DC09 /* UIViewController+DismissKeyboard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIViewController+DismissKeyboard.swift"; sourceTree = "<group>"; };
+		6355C42C748DDE360E994240F1728AC7 /* Stubbable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stubbable.swift; path = FunNet/Classes/Core/Stubbable.swift; sourceTree = "<group>"; };
+		667DEC35387BFA19A7CBC991AB13FEEC /* Compose.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Compose.swift; path = Prelude/Compose.swift; sourceTree = "<group>"; };
+		6F809047B82C91E63074AC48F900A909 /* Alert.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		72464F09E46161427FBFD5514A483BC0 /* FUICollectionViewViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = FUICollectionViewViewController.xib; path = fuikit/Classes/Core/FUICollectionViewViewController.xib; sourceTree = "<group>"; };
 		756B07A858BED1B55E5E2F6560B9FC08 /* Pods-LithoUtils_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LithoUtils_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		7C3DA048350806BB83B257962A4A45FE /* Prelude-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Prelude-Info.plist"; sourceTree = "<group>"; };
-		7C5CADFFA1474CD5AAB9721649CA2B20 /* Prelude-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Prelude-umbrella.h"; sourceTree = "<group>"; };
-		7CB2A8BE871F74965BE674DB249A35C9 /* FUITableViewViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FUITableViewViewController.swift; path = fuikit/Classes/Core/FUITableViewViewController.swift; sourceTree = "<group>"; };
-		7D21311BAF9CB47E874B582CBC1EA5FD /* FUICollectionViewViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = FUICollectionViewViewController.xib; path = fuikit/Classes/Core/FUICollectionViewViewController.xib; sourceTree = "<group>"; };
-		7E5A2B1501FA04BC881BB52E309C8DAF /* fuikit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = fuikit.modulemap; sourceTree = "<group>"; };
+		76755B4F7750BE91DAF878D076087058 /* Prelude.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Prelude.debug.xcconfig; sourceTree = "<group>"; };
+		7ACAF261E4E50CEE02D98E38D9044C01 /* Optionals.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Optionals.swift; path = Sources/LithoOperators/Classes/Optionals.swift; sourceTree = "<group>"; };
 		7E66FCB335684D9E7FCD8E3681647F40 /* Pods-LithoUtils_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LithoUtils_Tests-umbrella.h"; sourceTree = "<group>"; };
+		805E72E330D81C06FF1B42A38FD79AAF /* UIWindow+Present.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIWindow+Present.swift"; sourceTree = "<group>"; };
 		80C576AA22D9EA63A52026400A20CBFD /* Prelude.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Prelude.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		860D37802503CEE71513DE351B290AF6 /* FCBPeripheralManagerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FCBPeripheralManagerDelegate.swift; path = fuikit/Classes/FCB/FCBPeripheralManagerDelegate.swift; sourceTree = "<group>"; };
-		87DDB28DDD2B3C30D9818187BC0EB1E6 /* fuikit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = fuikit.debug.xcconfig; sourceTree = "<group>"; };
+		811CF8B7948E698D5B11A126DCE95068 /* LithoOperators.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LithoOperators.modulemap; sourceTree = "<group>"; };
+		82232BEC80B7D0B864850E4AF4096573 /* fuikit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = fuikit.modulemap; sourceTree = "<group>"; };
+		8447B8D3A22CC037349F7D7304EC3B68 /* FunNetCall.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FunNetCall.swift; path = FunNet/Classes/Core/FunNetCall.swift; sourceTree = "<group>"; };
+		859ED631B8B83C5C9FD52003645A9FCA /* StubHolder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StubHolder.swift; path = FunNet/Classes/Core/StubHolder.swift; sourceTree = "<group>"; };
 		8978B4AD7B9B65DF335143BC28E7BB2D /* LithoUtils.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LithoUtils.release.xcconfig; sourceTree = "<group>"; };
-		8A0854A1C787F746D8B37C5F3824E8F5 /* Prelude.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Prelude.swift; path = Prelude/Prelude.swift; sourceTree = "<group>"; };
-		8CD1D50C7A5310507971344A3F6D982D /* LithoOperators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LithoOperators.swift; path = Sources/LithoOperators/Classes/LithoOperators.swift; sourceTree = "<group>"; };
+		8AFCD217264CADAA84A31E2597B1856C /* FUISearchBarDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FUISearchBarDelegate.swift; path = fuikit/Classes/Core/FUISearchBarDelegate.swift; sourceTree = "<group>"; };
+		8DFD7CBFBD2D1AE8E852DC3B21DA0384 /* iOSFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = iOSFunctions.swift; sourceTree = "<group>"; };
+		8ED0ED3D9A1FF87A478648A7630BF3A7 /* FunNet-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FunNet-Info.plist"; sourceTree = "<group>"; };
 		8FB7101A932915FE2D38F09C5D7C91FF /* Pods-LithoUtils_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LithoUtils_Example-umbrella.h"; sourceTree = "<group>"; };
-		9104D4F6D45BC8275F25D5FD3AF64DCA /* UIViewController+PushPop.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+PushPop.swift"; path = "fuikit/Classes/Core/UIViewController+PushPop.swift"; sourceTree = "<group>"; };
-		91B38832CB79C69A9AF2E1427AC58EEB /* UIViewController+BarButtonItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIViewController+BarButtonItem.swift"; sourceTree = "<group>"; };
-		91FF7808447E5FF7EF63978305E8F294 /* Prelude.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Prelude.release.xcconfig; sourceTree = "<group>"; };
-		94DAFF77ABAB25339A6C78B5A286BFA6 /* Styles.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
-		951AFA652CB0764802E3354923D16BF7 /* Stubbable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stubbable.swift; path = FunNet/Classes/Core/Stubbable.swift; sourceTree = "<group>"; };
+		90F3088AA71A7FBE33618ACD15CCD404 /* UIColor+hex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIColor+hex.swift"; sourceTree = "<group>"; };
+		925FA6251446AB9EF65BB49D3C19458A /* Arrays.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Arrays.swift; path = Sources/LithoOperators/Classes/Arrays.swift; sourceTree = "<group>"; };
+		926A697A396493FE17909B2EDFD8C28E /* ArgumentManipulation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ArgumentManipulation.swift; path = Sources/LithoOperators/Classes/ArgumentManipulation.swift; sourceTree = "<group>"; };
+		96E7248130AA48A65B08CE1BB8A20CA6 /* Try.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Try.swift; path = Sources/LithoOperators/Classes/Try.swift; sourceTree = "<group>"; };
+		972233FB326EAC8E2FF3A13DB7505C3C /* Comparables.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Comparables.swift; path = Sources/LithoOperators/Classes/Comparables.swift; sourceTree = "<group>"; };
 		99A6F5632DBDD1EABC4B2CA2A3A37B32 /* LithoUtils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LithoUtils-prefix.pch"; sourceTree = "<group>"; };
-		9B0950312FFD3621DC82DFDB5CF33002 /* FUIViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FUIViewController.swift; path = fuikit/Classes/Core/FUIViewController.swift; sourceTree = "<group>"; };
-		9BEC8E0B8B0EDFAE0C8F0CFB1A321E03 /* fuikit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "fuikit-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F89DDC3E9A0ED635DCC2E184B9E6030 /* Prelude.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Prelude.modulemap; sourceTree = "<group>"; };
-		A181DC6572A701F0007F98A10041CACF /* FUITableViewDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FUITableViewDelegate.swift; path = fuikit/Classes/Core/FUITableViewDelegate.swift; sourceTree = "<group>"; };
-		A663664CB80C3594AB66DAF38BC4C4D1 /* CombineNetCall.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CombineNetCall.swift; path = FunNet/Classes/Combine/CombineNetCall.swift; sourceTree = "<group>"; };
+		9C12BCCB777972B83205B597652290CA /* NetworkErrorHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkErrorHandler.swift; path = FunNet/Classes/Core/NetworkErrorHandler.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A07AF0A83F99B0C26A25E278DB2232A4 /* ServerConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerConfiguration.swift; path = FunNet/Classes/Core/ServerConfiguration.swift; sourceTree = "<group>"; };
+		A2DBA32B4C0746FCBB68E3BFDD93D360 /* CanIndicateActivity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CanIndicateActivity.swift; sourceTree = "<group>"; };
+		A69E6E7045F46931B0DB82393A3F1D04 /* fuikit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "fuikit-dummy.m"; sourceTree = "<group>"; };
+		A85AA869D812E6058E469144D980C417 /* FCLLocationManagerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FCLLocationManagerDelegate.swift; path = fuikit/Classes/FCL/FCLLocationManagerDelegate.swift; sourceTree = "<group>"; };
 		A91A6D11432075E81830710869742FD3 /* Pods-LithoUtils_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LithoUtils_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		ABB472F5B9F627528371F75002A62931 /* LithoUtils-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LithoUtils-Info.plist"; sourceTree = "<group>"; };
-		ACE2E2AFC837FB642617A131002A7D0A /* Curry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Curry.swift; path = Prelude/Curry.swift; sourceTree = "<group>"; };
+		ACDCA980BEEFFC430A2D2E8FAF657442 /* fuikit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "fuikit-Info.plist"; sourceTree = "<group>"; };
 		AD5D7DF3606FC25C8814DD627B8FD16B /* Pods-LithoUtils_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LithoUtils_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		AE0981D893FE9CB4892C5A72CF68F392 /* fuikit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "fuikit-prefix.pch"; sourceTree = "<group>"; };
-		AF4A5992442B01A7CE3679B890337526 /* FUITableViewViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = FUITableViewViewController.xib; path = fuikit/Classes/Core/FUITableViewViewController.xib; sourceTree = "<group>"; };
+		B2706F646CF36E98141B40AC4F55BF39 /* FunNet-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FunNet-prefix.pch"; sourceTree = "<group>"; };
+		B4E4D1733707305F036B0F1EB03E9149 /* LithoOperators-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LithoOperators-umbrella.h"; sourceTree = "<group>"; };
+		B5D86E2A2D236D7C6467065A1F0DB744 /* FunNet-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FunNet-dummy.m"; sourceTree = "<group>"; };
 		B645B083AAD84089DFFB5AADEF7E7E12 /* Pods-LithoUtils_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LithoUtils_Example-frameworks.sh"; sourceTree = "<group>"; };
-		BD9AE96A99012BBAA4FDEE0690C7033E /* Application.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Application.swift; path = Prelude/Application.swift; sourceTree = "<group>"; };
+		BB09DC43F0246FB5C0B044370D231433 /* CombineNetCall.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CombineNetCall.swift; path = FunNet/Classes/Combine/CombineNetCall.swift; sourceTree = "<group>"; };
+		BB1BDF11F825BA8B9F18C40D57067006 /* UIViewController+BarButtonItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIViewController+BarButtonItem.swift"; sourceTree = "<group>"; };
+		BB85CBDEA9F47C9FFDA2F96F97DA79C7 /* FUITableViewDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FUITableViewDataSource.swift; path = fuikit/Classes/Core/FUITableViewDataSource.swift; sourceTree = "<group>"; };
+		BE613043F4E1B6C1F8B496E3D0C40C02 /* LithoOperators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LithoOperators.swift; path = Sources/LithoOperators/Classes/LithoOperators.swift; sourceTree = "<group>"; };
 		BEABAD995B3DDD26DAA142F90556E9B8 /* LithoUtils.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LithoUtils.modulemap; sourceTree = "<group>"; };
 		BF33FB01C4213CEE32E09EED17997D27 /* LithoOperators.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LithoOperators.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BF5C8C63972AC9811503FE7055BE405B /* LithoOperators-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LithoOperators-prefix.pch"; sourceTree = "<group>"; };
-		C0A757C6FFD6B530111F7B50A338A303 /* FunNet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FunNet.debug.xcconfig; sourceTree = "<group>"; };
-		C28485139252E45E35EF3521B38276F7 /* Prelude.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Prelude.debug.xcconfig; sourceTree = "<group>"; };
-		C50FCBCBC2F429C0A8AB0CA1EFB3F290 /* LithoUtils.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = LithoUtils.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C6265AF52033EB1BB7DFBBC68E78340C /* Pods_LithoUtils_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LithoUtils_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C75BB1DA02A379BBB51BB17A4761F500 /* Pods_LithoUtils_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LithoUtils_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C837F7094D8ABC2B7B49A7BEB16C5F27 /* UIColor+hex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIColor+hex.swift"; sourceTree = "<group>"; };
-		CC3585DB425DEA1DBACA0A85A3061A38 /* Prelude-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Prelude-prefix.pch"; sourceTree = "<group>"; };
-		D115576C85F820B62F6C146A2903CA50 /* LithoUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LithoUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFF55C57C6112BD40D2932BA60588A3F /* FunNet-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FunNet-umbrella.h"; sourceTree = "<group>"; };
+		C1FF4469603D33EDC11C08183C2B747D /* Prelude.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Prelude.modulemap; sourceTree = "<group>"; };
+		C2DE00DC9244F537404302D1A96F56E5 /* Curry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Curry.swift; path = Prelude/Curry.swift; sourceTree = "<group>"; };
+		C50FCBCBC2F429C0A8AB0CA1EFB3F290 /* LithoUtils.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LithoUtils.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C57E316A75B7A20ED7707BF9F1FBA13E /* Optional.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Optional.swift; path = Prelude/Optional.swift; sourceTree = "<group>"; };
+		C6265AF52033EB1BB7DFBBC68E78340C /* Pods_LithoUtils_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LithoUtils_Example.framework; path = "Pods-LithoUtils_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C75BB1DA02A379BBB51BB17A4761F500 /* Pods_LithoUtils_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LithoUtils_Tests.framework; path = "Pods-LithoUtils_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C85FF1EFAD889C5F3AC9267D8EBBA7FF /* Tuples.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Tuples.swift; path = Sources/LithoOperators/Classes/Tuples.swift; sourceTree = "<group>"; };
+		C8B896AB2EDAE499C460B237ED80155B /* FUITableViewViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FUITableViewViewController.swift; path = fuikit/Classes/Core/FUITableViewViewController.swift; sourceTree = "<group>"; };
+		CBE7D9E9A33AEE96678BFE23473F0A05 /* fuikit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "fuikit-umbrella.h"; sourceTree = "<group>"; };
+		CC9CC2B005C326D2D8A642A627AA81ED /* LithoOperators.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LithoOperators.release.xcconfig; sourceTree = "<group>"; };
+		CF516384720AED607BEA0D8E82705FE3 /* fuikit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = fuikit.debug.xcconfig; sourceTree = "<group>"; };
+		D115576C85F820B62F6C146A2903CA50 /* LithoUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LithoUtils.framework; path = LithoUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2380DD34FA4C2080D63A3B64845DE87 /* Pods-LithoUtils_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LithoUtils_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D530A1FC80212F7BE852B7D37E299FF8 /* FunNet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FunNet.release.xcconfig; sourceTree = "<group>"; };
-		D6AEC30BA01FF22514B3B2328D8B1F9A /* URLLoadingErrorHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLLoadingErrorHandler.swift; path = FunNet/Classes/Core/URLLoadingErrorHandler.swift; sourceTree = "<group>"; };
-		D755E0A2120C1968CFBA077EF982B339 /* FCLLocationManagerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FCLLocationManagerDelegate.swift; path = fuikit/Classes/FCL/FCLLocationManagerDelegate.swift; sourceTree = "<group>"; };
+		D2DD290EAC0617CA3029F61023AA38A8 /* Styles.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
 		D9F6C6CAD3C75772E429133567ED34F9 /* Pods-LithoUtils_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LithoUtils_Tests.modulemap"; sourceTree = "<group>"; };
-		DAAC2A327EB5F4355E6CAE837AEBF996 /* NetworkResponder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkResponder.swift; path = FunNet/Classes/Core/NetworkResponder.swift; sourceTree = "<group>"; };
-		DC8334322C6223A1DEF23C362FBACFFE /* Configurable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Configurable.swift; sourceTree = "<group>"; };
-		E355821C769B8C4AE9D30DAB382CDC04 /* fuikit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = fuikit.release.xcconfig; sourceTree = "<group>"; };
-		E744ACD01A39FD927B5B207112954E9D /* FUITableViewDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FUITableViewDataSource.swift; path = fuikit/Classes/Core/FUITableViewDataSource.swift; sourceTree = "<group>"; };
+		DAA461ABCD6BD631B8D97F8B70BF93EC /* Application.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Application.swift; path = Prelude/Application.swift; sourceTree = "<group>"; };
+		DB9C79444CBB354A68B43A85F0EBDACB /* FUITableViewViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = FUITableViewViewController.xib; path = fuikit/Classes/Core/FUITableViewViewController.xib; sourceTree = "<group>"; };
+		DBE05A184FAA344ADDA6765A47F9BAB4 /* NetworkResponder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkResponder.swift; path = FunNet/Classes/Core/NetworkResponder.swift; sourceTree = "<group>"; };
+		DFFEDFBD10A6992FD5625CBB4BA833AE /* FUITableViewDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FUITableViewDelegate.swift; path = fuikit/Classes/Core/FUITableViewDelegate.swift; sourceTree = "<group>"; };
+		E03B50A14735795BEDF11E7547C4C5FD /* UIViewController+PushPop.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+PushPop.swift"; path = "fuikit/Classes/Core/UIViewController+PushPop.swift"; sourceTree = "<group>"; };
+		E3052F714A7E571BF2ECF4B75B4698A8 /* URLLoadingErrorHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLLoadingErrorHandler.swift; path = FunNet/Classes/Core/URLLoadingErrorHandler.swift; sourceTree = "<group>"; };
+		E7618A1CEF7B33523D058A4AC76735AB /* Flip.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Flip.swift; path = Prelude/Flip.swift; sourceTree = "<group>"; };
+		E7889B0725F93F684A1074C66C9ECB13 /* Prelude.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Prelude.swift; path = Prelude/Prelude.swift; sourceTree = "<group>"; };
+		E89F8C405029D6B0BC458FA154DE3441 /* LithoOperators.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LithoOperators.debug.xcconfig; sourceTree = "<group>"; };
 		EA56865F0348CCC59B701E4A18C11DD8 /* Pods-LithoUtils_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LithoUtils_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		EB479303AC05521AA8BDC6B87F4DDC44 /* Pods-LithoUtils_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LithoUtils_Example-Info.plist"; sourceTree = "<group>"; };
-		EC2B25D89EE3B8FAD2050F7C94D07DB5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		EDAB075931DCEA3666B6CD90118EE6AD /* Alert.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
-		F02BB82B3FFD1B4A5BE1C7443584444C /* LithoOperators.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LithoOperators.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F0AD8AA2123A50121E0A940481FD1536 /* LithoOperators-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LithoOperators-Info.plist"; sourceTree = "<group>"; };
-		F4AECFD124F5ECC514DFCBB1300333F7 /* NetworkErrorHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkErrorHandler.swift; path = FunNet/Classes/Core/NetworkErrorHandler.swift; sourceTree = "<group>"; };
+		EC2B25D89EE3B8FAD2050F7C94D07DB5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F02BB82B3FFD1B4A5BE1C7443584444C /* LithoOperators.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LithoOperators.framework; path = LithoOperators.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5D44F676DC043FFB86CBF575E08F5C0 /* Pods-LithoUtils_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LithoUtils_Example.modulemap"; sourceTree = "<group>"; };
-		F5DB604DC5283986D6449CC02BED0320 /* FCBPeripheralManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FCBPeripheralManager.swift; path = fuikit/Classes/FCB/FCBPeripheralManager.swift; sourceTree = "<group>"; };
-		F72FFD26018AA79A29442D34DB1EDCBC /* FUITextFieldDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FUITextFieldDelegate.swift; path = fuikit/Classes/Core/FUITextFieldDelegate.swift; sourceTree = "<group>"; };
-		F7C8410C4ECC75A063AEB29DAF0F1DAE /* FCBCentralManagerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FCBCentralManagerDelegate.swift; path = fuikit/Classes/FCB/FCBCentralManagerDelegate.swift; sourceTree = "<group>"; };
-		FBA5C48D3B9F592E1F88A5727F7E58DE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F6483B2621874CA9EC3A2754A6F3F1DB /* FCBCentralManagerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FCBCentralManagerDelegate.swift; path = fuikit/Classes/FCB/FCBCentralManagerDelegate.swift; sourceTree = "<group>"; };
+		FBA5C48D3B9F592E1F88A5727F7E58DE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		FD16F373F02119525BCEE26C2013D58A /* Pods-LithoUtils_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LithoUtils_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		FE6DFDBF458CB4B99C09D75FEF3A3DF5 /* NetworkCall.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkCall.swift; path = FunNet/Classes/Core/NetworkCall.swift; sourceTree = "<group>"; };
-		FFDA174D038FDD40224C5E89A675F65E /* FunNet-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FunNet-dummy.m"; sourceTree = "<group>"; };
+		FF385660AD5FD97BFAE6E21A15F1E9C0 /* Prelude-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Prelude-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4E646F8B04B43159C9975F71E5406C8A /* Frameworks */ = {
+		3CC4707E50279C1A6F4DB706522E1C24 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7F9FF7B0FC20C72B42315868DA6E808 /* Foundation.framework in Frameworks */,
-				D78781C52C184C6F8AC8F8E1253B7456 /* Prelude.framework in Frameworks */,
+				D50A29F836515439C72952535B222027 /* Foundation.framework in Frameworks */,
+				B177E682B2DD193BD9B21DD7BCF4E845 /* fuikit.framework in Frameworks */,
+				180FD285D7885124BD5816FBD7F0AD99 /* LithoOperators.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5004C8FDEA7EE082E8EECBBE26ABAA82 /* Frameworks */ = {
+		42C9FF1CC673B4B4995A568EF7125917 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				613A7DEE9142B8E9FB763AF46D5A6E5D /* Foundation.framework in Frameworks */,
-				ADE8DBD7390F9CF9B07074EEDACF2932 /* fuikit.framework in Frameworks */,
-				FF5831D16BCEC849D0AED2DF5135F4F6 /* LithoOperators.framework in Frameworks */,
+				2C675D69356495EC4BD7C45AB5F15D6C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5D37E439114D304112F6407DE503D74C /* Frameworks */ = {
+		5A81FBEBB44FC66609E24645B116112B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C392FCE16313F905DB33877745091FFC /* Foundation.framework in Frameworks */,
+				771E990CF179AA6790F1C9A2CDE724FA /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,52 +344,61 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C9A8C6D2974566AB7603538DA5973608 /* Frameworks */ = {
+		BBCACFE32B88F392BF95A400B14B4EA7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				456C52346C6D9129135E7B1D6D1B009A /* Foundation.framework in Frameworks */,
+				732A1BEC50ABA3E52B65A53786748E72 /* Foundation.framework in Frameworks */,
+				82A0EA5ADF050A6FA4B360F73BBD961C /* Prelude.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0698FEB21D546CB0268CF914568B37B4 /* Extensions */ = {
+		03B47C1C2148D149D4B9C8508FF73473 /* Prelude */ = {
 			isa = PBXGroup;
 			children = (
-				DC8334322C6223A1DEF23C362FBACFFE /* Configurable.swift */,
-				C837F7094D8ABC2B7B49A7BEB16C5F27 /* UIColor+hex.swift */,
-				91B38832CB79C69A9AF2E1427AC58EEB /* UIViewController+BarButtonItem.swift */,
-				64317422265C3F4000BB682B /* UIImage+Resize.swift */,
-				64317424265C3F7A00BB682B /* UIViewController+DismissKeyboard.swift */,
-				64317426265C3F9B00BB682B /* UIWindow+Present.swift */,
+				DAA461ABCD6BD631B8D97F8B70BF93EC /* Application.swift */,
+				667DEC35387BFA19A7CBC991AB13FEEC /* Compose.swift */,
+				C2DE00DC9244F537404302D1A96F56E5 /* Curry.swift */,
+				2F08729404898BDB82BBE30896A8BE33 /* Fix.swift */,
+				E7618A1CEF7B33523D058A4AC76735AB /* Flip.swift */,
+				C57E316A75B7A20ED7707BF9F1FBA13E /* Optional.swift */,
+				E7889B0725F93F684A1074C66C9ECB13 /* Prelude.swift */,
+				4C52D40D54DC58F37973AB2F7255121B /* Tuple.swift */,
+				3B654A85FFDB933E330817BDCD461F79 /* Support Files */,
 			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
-		0F737723D519C63D73DFD801DD38C80C /* Prelude */ = {
-			isa = PBXGroup;
-			children = (
-				BD9AE96A99012BBAA4FDEE0690C7033E /* Application.swift */,
-				3CA981902F806955C3D5A968D24BB526 /* Compose.swift */,
-				ACE2E2AFC837FB642617A131002A7D0A /* Curry.swift */,
-				5AF089773EC7BC2038B170A80BA21AE3 /* Fix.swift */,
-				31C9E31DFA211A1A96E8E5C80CD7B1B2 /* Flip.swift */,
-				29DE8E6A1C36002E1233108FA4012414 /* Optional.swift */,
-				8A0854A1C787F746D8B37C5F3824E8F5 /* Prelude.swift */,
-				470635AEA5549106F2A43E7066894A2F /* Tuple.swift */,
-				ECD7CE43720F42D6CA6680DE45367BFC /* Support Files */,
-			);
+			name = Prelude;
 			path = Prelude;
 			sourceTree = "<group>";
 		};
-		1017B0331F9FABE94CA84EF091677E53 /* Core */ = {
+		277414C78343283B76FB63220D1BEB04 /* fuikit */ = {
 			isa = PBXGroup;
 			children = (
-				B6760642D5A58B9D955467C6B3C91EB5 /* Resources */,
+				F6483B2621874CA9EC3A2754A6F3F1DB /* FCBCentralManagerDelegate.swift */,
+				5183A6DF2D4CB1D1CD1BFD3E2F9288E4 /* FCBPeripheralManager.swift */,
+				5CF42818B6791699CFE2CC7BEC1C0E2B /* FCBPeripheralManagerDelegate.swift */,
+				A85AA869D812E6058E469144D980C417 /* FCLLocationManagerDelegate.swift */,
+				5A5F8D07E6CCC97FE9B56D8A4D3E70A3 /* FUICollectionViewDelegate.swift */,
+				26E2B378CCC6681567A3ECEAAD164E2D /* FUICollectionViewViewController.swift */,
+				054EACC86E073803D6A9B5B6ACB50F35 /* FUIImagePickerDelegate.swift */,
+				8AFCD217264CADAA84A31E2597B1856C /* FUISearchBarDelegate.swift */,
+				BB85CBDEA9F47C9FFDA2F96F97DA79C7 /* FUITableViewDataSource.swift */,
+				DFFEDFBD10A6992FD5625CBB4BA833AE /* FUITableViewDelegate.swift */,
+				C8B896AB2EDAE499C460B237ED80155B /* FUITableViewViewController.swift */,
+				296A619BD7E8CD251F5E4191555DB61A /* FUITextFieldDelegate.swift */,
+				44DEFAB7D2D6756D2A9099C6291A1F5F /* FUITextViewDelegate.swift */,
+				31ED39B9852DD4E4101C3942035608D6 /* FUIViewController.swift */,
+				E03B50A14735795BEDF11E7547C4C5FD /* UIViewController+PushPop.swift */,
+				A404EC049FC5DA4663596611324637A4 /* Core */,
+				FBE154CD24C29F2542CFBC686AF59364 /* CoreBluetooth */,
+				DD09CF711074978BD294A700F37E8435 /* CoreLocation */,
+				58ABFFA60A3118E02358EFAB7E6E7AFD /* Resources */,
+				CBCDA22D45CEA9392391E6A1DB9A094C /* Support Files */,
 			);
-			name = Core;
+			name = fuikit;
+			path = fuikit;
 			sourceTree = "<group>";
 		};
 		2E2027E016B3755C146EB30AFEEAA1A3 /* Post13 */ = {
@@ -384,46 +410,54 @@
 			path = LithoUtils/Classes/Post13;
 			sourceTree = "<group>";
 		};
-		4BEDEAA4B1A1802123A2F65F622499C8 /* Models */ = {
+		3B654A85FFDB933E330817BDCD461F79 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				45856DCBAFE7DF7A1962F4C83F35B3E0 /* CanIndicateActivity.swift */,
+				C1FF4469603D33EDC11C08183C2B747D /* Prelude.modulemap */,
+				FF385660AD5FD97BFAE6E21A15F1E9C0 /* Prelude-dummy.m */,
+				241E1965D10AF0AE661A0CDFA59A3C60 /* Prelude-Info.plist */,
+				0AC6B17AE1FC2207F281201E9104466C /* Prelude-prefix.pch */,
+				527DD4E03B7287F946DE9C9A9DB12842 /* Prelude-umbrella.h */,
+				76755B4F7750BE91DAF878D076087058 /* Prelude.debug.xcconfig */,
+				106DE700D5CF88696CB675F650581FAE /* Prelude.release.xcconfig */,
 			);
-			path = Models;
+			name = "Support Files";
+			path = "../Target Support Files/Prelude";
 			sourceTree = "<group>";
 		};
-		4CD860F8A35B0A2FF77DBD5D920672D2 /* fuikit */ = {
+		45AA4090ED3D185A62C50367F965F975 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F7C8410C4ECC75A063AEB29DAF0F1DAE /* FCBCentralManagerDelegate.swift */,
-				F5DB604DC5283986D6449CC02BED0320 /* FCBPeripheralManager.swift */,
-				860D37802503CEE71513DE351B290AF6 /* FCBPeripheralManagerDelegate.swift */,
-				D755E0A2120C1968CFBA077EF982B339 /* FCLLocationManagerDelegate.swift */,
-				73BA9438E934ECC9C1F025C06AE0B567 /* FUICollectionViewViewController.swift */,
-				2C65A1046DEA0A3B340E6DC870DE663A /* FUIImagePickerDelegate.swift */,
-				546710B3EBAE7F422B33EB70388BCF3A /* FUISearchBarDelegate.swift */,
-				E744ACD01A39FD927B5B207112954E9D /* FUITableViewDataSource.swift */,
-				A181DC6572A701F0007F98A10041CACF /* FUITableViewDelegate.swift */,
-				7CB2A8BE871F74965BE674DB249A35C9 /* FUITableViewViewController.swift */,
-				F72FFD26018AA79A29442D34DB1EDCBC /* FUITextFieldDelegate.swift */,
-				6349022A55954B78F1FEEBC539FBC96C /* FUITextViewDelegate.swift */,
-				9B0950312FFD3621DC82DFDB5CF33002 /* FUIViewController.swift */,
-				9104D4F6D45BC8275F25D5FD3AF64DCA /* UIViewController+PushPop.swift */,
-				1017B0331F9FABE94CA84EF091677E53 /* Core */,
-				E531A4296F15DC3EFDD6C882B587ABD6 /* CoreBluetooth */,
-				B863F8B95B5F6E119FFD885E7CEEC22E /* CoreLocation */,
-				A21A6CF47589BF28D6C4F9C00F218EBF /* Resources */,
-				BFFED390393F611126B9CE81F647167E /* Support Files */,
+				277414C78343283B76FB63220D1BEB04 /* fuikit */,
+				CA1D4F7248FEF53A120F01F937388596 /* FunNet */,
+				A4392058C76E9C505968A3D9E693E434 /* LithoOperators */,
+				03B47C1C2148D149D4B9C8508FF73473 /* Prelude */,
 			);
-			path = fuikit;
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		56589C3A2CA8354C762F754E4A280AB1 /* Alert */ = {
+		541F63B101C0BB87561F9291594F493C /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				EDAB075931DCEA3666B6CD90118EE6AD /* Alert.swift */,
+				21CA6E2DB0B479F011E59C27DA402759 /* FunNet.modulemap */,
+				B5D86E2A2D236D7C6467065A1F0DB744 /* FunNet-dummy.m */,
+				8ED0ED3D9A1FF87A478648A7630BF3A7 /* FunNet-Info.plist */,
+				B2706F646CF36E98141B40AC4F55BF39 /* FunNet-prefix.pch */,
+				BFF55C57C6112BD40D2932BA60588A3F /* FunNet-umbrella.h */,
+				03674946B14541FE9F97BCF7F059AB99 /* FunNet.debug.xcconfig */,
+				1F7148F2241BDFD57A03C01AF5E287C4 /* FunNet.release.xcconfig */,
 			);
-			path = Alert;
+			name = "Support Files";
+			path = "../Target Support Files/FunNet";
+			sourceTree = "<group>";
+		};
+		58ABFFA60A3118E02358EFAB7E6E7AFD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				72464F09E46161427FBFD5514A483BC0 /* FUICollectionViewViewController.xib */,
+				DB9C79444CBB354A68B43A85F0EBDACB /* FUITableViewViewController.xib */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		5C77530F8BA1664F94096A2F958BFD5F /* iOS */ = {
@@ -435,31 +469,13 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		6B0E8B330C35E7089B2AE33C8C05B8BE /* FunNet */ = {
+		8A6E4B07F79A6D85157B309750A9B715 /* Alert */ = {
 			isa = PBXGroup;
 			children = (
-				901876B45F8A9D42C84E2143D1D07B5A /* Combine */,
-				77E65A60D51AE534DB2981F2D26F6D98 /* Core */,
-				94DD13A7DA410DC3DEF84EA8C6B93CDA /* Support Files */,
+				6F809047B82C91E63074AC48F900A909 /* Alert.swift */,
 			);
-			path = FunNet;
-			sourceTree = "<group>";
-		};
-		77E65A60D51AE534DB2981F2D26F6D98 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				2A83E130E0A59E7983C6798A51127A8C /* Endpoint.swift */,
-				4D665FA47A9FE3699EAF1425212CAE59 /* FunNetCall.swift */,
-				FE6DFDBF458CB4B99C09D75FEF3A3DF5 /* NetworkCall.swift */,
-				F4AECFD124F5ECC514DFCBB1300333F7 /* NetworkErrorHandler.swift */,
-				DAAC2A327EB5F4355E6CAE837AEBF996 /* NetworkResponder.swift */,
-				0E7970489AC062342445C9F90DD15EAA /* Requests.swift */,
-				22B75BBEBAF54FC3791CF882F794F2F5 /* ServerConfiguration.swift */,
-				951AFA652CB0764802E3354923D16BF7 /* Stubbable.swift */,
-				1596BB365C06E9F8A3814F08D8117019 /* StubHolder.swift */,
-				D6AEC30BA01FF22514B3B2328D8B1F9A /* URLLoadingErrorHandler.swift */,
-			);
-			name = Core;
+			name = Alert;
+			path = Alert;
 			sourceTree = "<group>";
 		};
 		8A87C81EF6DBB015B4D016C653C2E049 /* Pod */ = {
@@ -472,91 +488,106 @@
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		8FC9DB45E8F528A9366F2E463B5DE8A0 /* Pods */ = {
+		8FED4AABB6AF424C1A390F09D12F0F15 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				4CD860F8A35B0A2FF77DBD5D920672D2 /* fuikit */,
-				6B0E8B330C35E7089B2AE33C8C05B8BE /* FunNet */,
-				FB1E175216729D63DA9478CEB1A9EC6F /* LithoOperators */,
-				0F737723D519C63D73DFD801DD38C80C /* Prelude */,
+				08CE030D228DB4AAEE2102DC9C853F63 /* Configurable.swift */,
+				90F3088AA71A7FBE33618ACD15CCD404 /* UIColor+hex.swift */,
+				43896390A804314E86FF39AF79B8E3BC /* UIImage+Resize.swift */,
+				BB1BDF11F825BA8B9F18C40D57067006 /* UIViewController+BarButtonItem.swift */,
+				5FFF1C57B24CDB119C2979B65975DC09 /* UIViewController+DismissKeyboard.swift */,
+				805E72E330D81C06FF1B42A38FD79AAF /* UIWindow+Present.swift */,
 			);
-			name = Pods;
+			name = Extensions;
+			path = Extensions;
 			sourceTree = "<group>";
 		};
-		901876B45F8A9D42C84E2143D1D07B5A /* Combine */ = {
+		9F99870D740D8564A39C526BD97F1FBF /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				A663664CB80C3594AB66DAF38BC4C4D1 /* CombineNetCall.swift */,
+				A2DBA32B4C0746FCBB68E3BFDD93D360 /* CanIndicateActivity.swift */,
+			);
+			name = Models;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A23C59CAFA294404E94E9EF3116FEB30 /* Combine */ = {
+			isa = PBXGroup;
+			children = (
+				BB09DC43F0246FB5C0B044370D231433 /* CombineNetCall.swift */,
 			);
 			name = Combine;
 			sourceTree = "<group>";
 		};
-		94DD13A7DA410DC3DEF84EA8C6B93CDA /* Support Files */ = {
+		A37239E99A6F0D7369A6AA3EF7F5A06B /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				5718026045D7EB2CC981EACEDB859448 /* FunNet.modulemap */,
-				FFDA174D038FDD40224C5E89A675F65E /* FunNet-dummy.m */,
-				2DFC55214906B51F79F6D4D34CADD350 /* FunNet-Info.plist */,
-				1B437BAA755506AC831170683553150F /* FunNet-prefix.pch */,
-				4F669CD68823B2934DE996D58AFF0181 /* FunNet-umbrella.h */,
-				C0A757C6FFD6B530111F7B50A338A303 /* FunNet.debug.xcconfig */,
-				D530A1FC80212F7BE852B7D37E299FF8 /* FunNet.release.xcconfig */,
+				811CF8B7948E698D5B11A126DCE95068 /* LithoOperators.modulemap */,
+				251A5211DF9AAD8BC353EB6A50D13F38 /* LithoOperators-dummy.m */,
+				5636DB7EF107AE948714D0CF1B7E731F /* LithoOperators-Info.plist */,
+				4807D5F14BAFF284666ADE9BFEE65B1D /* LithoOperators-prefix.pch */,
+				B4E4D1733707305F036B0F1EB03E9149 /* LithoOperators-umbrella.h */,
+				E89F8C405029D6B0BC458FA154DE3441 /* LithoOperators.debug.xcconfig */,
+				CC9CC2B005C326D2D8A642A627AA81ED /* LithoOperators.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/FunNet";
+			path = "../Target Support Files/LithoOperators";
 			sourceTree = "<group>";
 		};
-		9909CE6DA91E5A85827992A24553CBCF /* Functions */ = {
+		A404EC049FC5DA4663596611324637A4 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				244F04C04D6DFB5452E228B3DB4937DA /* iOSFunctions.swift */,
-				94DAFF77ABAB25339A6C78B5A286BFA6 /* Styles.swift */,
+				B3BC27CBD1AEA27329F51A5B5DA0B5DA /* Resources */,
 			);
-			path = Functions;
+			name = Core;
 			sourceTree = "<group>";
 		};
-		A21A6CF47589BF28D6C4F9C00F218EBF /* Resources */ = {
+		A4392058C76E9C505968A3D9E693E434 /* LithoOperators */ = {
 			isa = PBXGroup;
 			children = (
-				7D21311BAF9CB47E874B582CBC1EA5FD /* FUICollectionViewViewController.xib */,
-				AF4A5992442B01A7CE3679B890337526 /* FUITableViewViewController.xib */,
+				926A697A396493FE17909B2EDFD8C28E /* ArgumentManipulation.swift */,
+				925FA6251446AB9EF65BB49D3C19458A /* Arrays.swift */,
+				972233FB326EAC8E2FF3A13DB7505C3C /* Comparables.swift */,
+				28FEF380BDDD61F76EFAB2C43744D27C /* Dictionaries.swift */,
+				0089D0FCF2B2D5F15D7EC9A03C2E7AC9 /* KeyPaths.swift */,
+				BE613043F4E1B6C1F8B496E3D0C40C02 /* LithoOperators.swift */,
+				7ACAF261E4E50CEE02D98E38D9044C01 /* Optionals.swift */,
+				96E7248130AA48A65B08CE1BB8A20CA6 /* Try.swift */,
+				C85FF1EFAD889C5F3AC9267D8EBBA7FF /* Tuples.swift */,
+				A37239E99A6F0D7369A6AA3EF7F5A06B /* Support Files */,
+			);
+			name = LithoOperators;
+			path = LithoOperators;
+			sourceTree = "<group>";
+		};
+		B18501F052199051E6A4067E2D257B57 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				376994B681DCCEFF9124DC47D774DB29 /* Endpoint.swift */,
+				8447B8D3A22CC037349F7D7304EC3B68 /* FunNetCall.swift */,
+				16110BAF34C2AE33427EAE8A76B74DF5 /* NetworkCall.swift */,
+				9C12BCCB777972B83205B597652290CA /* NetworkErrorHandler.swift */,
+				DBE05A184FAA344ADDA6765A47F9BAB4 /* NetworkResponder.swift */,
+				4DABECCB09113529E3C947A537D4B2A9 /* Requests.swift */,
+				A07AF0A83F99B0C26A25E278DB2232A4 /* ServerConfiguration.swift */,
+				6355C42C748DDE360E994240F1728AC7 /* Stubbable.swift */,
+				859ED631B8B83C5C9FD52003645A9FCA /* StubHolder.swift */,
+				E3052F714A7E571BF2ECF4B75B4698A8 /* URLLoadingErrorHandler.swift */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		B3BC27CBD1AEA27329F51A5B5DA0B5DA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 			);
 			name = Resources;
-			sourceTree = "<group>";
-		};
-		B6760642D5A58B9D955467C6B3C91EB5 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		B863F8B95B5F6E119FFD885E7CEEC22E /* CoreLocation */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = CoreLocation;
-			sourceTree = "<group>";
-		};
-		BFFED390393F611126B9CE81F647167E /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				7E5A2B1501FA04BC881BB52E309C8DAF /* fuikit.modulemap */,
-				27878D855ABA53B2AD32E78572DD840F /* fuikit-dummy.m */,
-				023607C57B59070F45C1EBC9BD36730D /* fuikit-Info.plist */,
-				AE0981D893FE9CB4892C5A72CF68F392 /* fuikit-prefix.pch */,
-				9BEC8E0B8B0EDFAE0C8F0CFB1A321E03 /* fuikit-umbrella.h */,
-				87DDB28DDD2B3C30D9818187BC0EB1E6 /* fuikit.debug.xcconfig */,
-				E355821C769B8C4AE9D30DAB382CDC04 /* fuikit.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/fuikit";
 			sourceTree = "<group>";
 		};
 		C4B83111F61A21AFD4C5D03DCB4E3E25 /* LithoUtils */ = {
 			isa = PBXGroup;
 			children = (
-				DE94EFF0BE8153936E4A3F7C77FFD354 /* Base */,
+				E0EE0E46570AFB36E9797D7F736F34F2 /* Base */,
 				D6F07E353F6E9D8ECEE4D824DB48271F /* Core */,
 				8A87C81EF6DBB015B4D016C653C2E049 /* Pod */,
 				2E2027E016B3755C146EB30AFEEAA1A3 /* Post13 */,
@@ -566,13 +597,39 @@
 			path = ../..;
 			sourceTree = "<group>";
 		};
+		CA1D4F7248FEF53A120F01F937388596 /* FunNet */ = {
+			isa = PBXGroup;
+			children = (
+				A23C59CAFA294404E94E9EF3116FEB30 /* Combine */,
+				B18501F052199051E6A4067E2D257B57 /* Core */,
+				541F63B101C0BB87561F9291594F493C /* Support Files */,
+			);
+			name = FunNet;
+			path = FunNet;
+			sourceTree = "<group>";
+		};
+		CBCDA22D45CEA9392391E6A1DB9A094C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				82232BEC80B7D0B864850E4AF4096573 /* fuikit.modulemap */,
+				A69E6E7045F46931B0DB82393A3F1D04 /* fuikit-dummy.m */,
+				ACDCA980BEEFFC430A2D2E8FAF657442 /* fuikit-Info.plist */,
+				44BCDF93F9BE1961197A74D3E4C0C8BA /* fuikit-prefix.pch */,
+				CBE7D9E9A33AEE96678BFE23473F0A05 /* fuikit-umbrella.h */,
+				CF516384720AED607BEA0D8E82705FE3 /* fuikit.debug.xcconfig */,
+				5393909AE0826CF8D66E4EC6FFF4DAB9 /* fuikit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/fuikit";
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				DE37C9D47FCA6F642976FB7860AECF2A /* Development Pods */,
 				E23D3A06BC6C1A56047BD7BC75B14A67 /* Frameworks */,
-				8FC9DB45E8F528A9366F2E463B5DE8A0 /* Pods */,
+				45AA4090ED3D185A62C50367F965F975 /* Pods */,
 				EB71801FF14D43F3857A1B8036E83F7A /* Products */,
 				E7C389ABA4A65DAF74F1059CB35B5641 /* Targets Support Files */,
 			);
@@ -585,19 +642,11 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
-		DDBED00E42810C3D6B4B7C771E82AAA1 /* Support Files */ = {
+		DD09CF711074978BD294A700F37E8435 /* CoreLocation */ = {
 			isa = PBXGroup;
 			children = (
-				200A534D34156DAD3CA4437F6133B5B6 /* LithoOperators.modulemap */,
-				2CCBE419E6AAA9DA6DCA766C6126BAEA /* LithoOperators-dummy.m */,
-				F0AD8AA2123A50121E0A940481FD1536 /* LithoOperators-Info.plist */,
-				BF5C8C63972AC9811503FE7055BE405B /* LithoOperators-prefix.pch */,
-				47D0493717D90152B4270121B7CB1C0D /* LithoOperators-umbrella.h */,
-				42CCFD3F6EEEBC7985C562445A90E039 /* LithoOperators.debug.xcconfig */,
-				5837E9252A0C3B17D5A6D0C44F67C612 /* LithoOperators.release.xcconfig */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/LithoOperators";
+			name = CoreLocation;
 			sourceTree = "<group>";
 		};
 		DE37C9D47FCA6F642976FB7860AECF2A /* Development Pods */ = {
@@ -608,13 +657,13 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		DE94EFF0BE8153936E4A3F7C77FFD354 /* Base */ = {
+		E0EE0E46570AFB36E9797D7F736F34F2 /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				56589C3A2CA8354C762F754E4A280AB1 /* Alert */,
-				0698FEB21D546CB0268CF914568B37B4 /* Extensions */,
-				9909CE6DA91E5A85827992A24553CBCF /* Functions */,
-				4BEDEAA4B1A1802123A2F65F622499C8 /* Models */,
+				8A6E4B07F79A6D85157B309750A9B715 /* Alert */,
+				8FED4AABB6AF424C1A390F09D12F0F15 /* Extensions */,
+				ED220D9505E84F3332CDFDCB8067091E /* Functions */,
+				9F99870D740D8564A39C526BD97F1FBF /* Models */,
 			);
 			name = Base;
 			path = LithoUtils/Classes/Base;
@@ -629,13 +678,6 @@
 				5C77530F8BA1664F94096A2F958BFD5F /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		E531A4296F15DC3EFDD6C882B587ABD6 /* CoreBluetooth */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = CoreBluetooth;
 			sourceTree = "<group>";
 		};
 		E7C389ABA4A65DAF74F1059CB35B5641 /* Targets Support Files */ = {
@@ -661,19 +703,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		ECD7CE43720F42D6CA6680DE45367BFC /* Support Files */ = {
+		ED220D9505E84F3332CDFDCB8067091E /* Functions */ = {
 			isa = PBXGroup;
 			children = (
-				9F89DDC3E9A0ED635DCC2E184B9E6030 /* Prelude.modulemap */,
-				098A93F28CF9258EE0647EC29A8F5E06 /* Prelude-dummy.m */,
-				7C3DA048350806BB83B257962A4A45FE /* Prelude-Info.plist */,
-				CC3585DB425DEA1DBACA0A85A3061A38 /* Prelude-prefix.pch */,
-				7C5CADFFA1474CD5AAB9721649CA2B20 /* Prelude-umbrella.h */,
-				C28485139252E45E35EF3521B38276F7 /* Prelude.debug.xcconfig */,
-				91FF7808447E5FF7EF63978305E8F294 /* Prelude.release.xcconfig */,
+				8DFD7CBFBD2D1AE8E852DC3B21DA0384 /* iOSFunctions.swift */,
+				D2DD290EAC0617CA3029F61023AA38A8 /* Styles.swift */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/Prelude";
+			name = Functions;
+			path = Functions;
 			sourceTree = "<group>";
 		};
 		F08EF5B6050F080CF1CFF1B0AA0A3EA0 /* Pods-LithoUtils_Example */ = {
@@ -708,13 +745,11 @@
 			path = "Example/Pods/Target Support Files/LithoUtils";
 			sourceTree = "<group>";
 		};
-		FB1E175216729D63DA9478CEB1A9EC6F /* LithoOperators */ = {
+		FBE154CD24C29F2542CFBC686AF59364 /* CoreBluetooth */ = {
 			isa = PBXGroup;
 			children = (
-				8CD1D50C7A5310507971344A3F6D982D /* LithoOperators.swift */,
-				DDBED00E42810C3D6B4B7C771E82AAA1 /* Support Files */,
 			);
-			path = LithoOperators;
+			name = CoreBluetooth;
 			sourceTree = "<group>";
 		};
 		FD20AC98404025CBF495C5F71A22B33C /* Pods-LithoUtils_Tests */ = {
@@ -736,11 +771,19 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		32302782FD396ACAE82A5776259D97CC /* Headers */ = {
+		253E708FD55A5582E443476F0BB61F92 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8A6F6B6ACEAC2757C236D72808E0F72 /* LithoUtils-umbrella.h in Headers */,
+				5660B97CC6C5BC6C97F32A35DC618285 /* Prelude-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DF41775CCE7444991BF75C04489EF62 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8052FC4290CB251EBE1CA487A2D51024 /* LithoOperators-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -760,14 +803,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7C6C13AF388AE7B1C2F3D397D766DC1B /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6C70FF0EDC379FDAF0A19EBA0211F702 /* fuikit-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		89050D7475BF2BF26202E5ED1D2CAA49 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -776,19 +811,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9612D2C41238884DF03B5657FEE21D76 /* Headers */ = {
+		A91D0262D2E6E57A5A131938689BA6AD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B57FD68845CE86F033FE00BE8BE8424 /* Prelude-umbrella.h in Headers */,
+				C78DA585B6AF0ACE7D5047460ACF73F5 /* LithoUtils-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E2FDD4C1170B32D35D619650A872103C /* Headers */ = {
+		C7D768886D4C83950E4FAEBC1B9CCFEB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C44AF70EF0496D8392CA5B00B5EEE52C /* LithoOperators-umbrella.h in Headers */,
+				6E58258054412DFD3EF1C91CE7FD3CE1 /* fuikit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -807,7 +842,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				6A183AF76FFC10173AEDE0ADFF6F0F5F /* PBXTargetDependency */,
+				31852920C1CB67181861EA03761861EB /* PBXTargetDependency */,
 			);
 			name = FunNet;
 			productName = FunNet;
@@ -816,18 +851,18 @@
 		};
 		6C1AB688A5C9DE02C75AC815D03E671F /* LithoUtils */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CBE46D2E6CCE803BA749BE24A39429BF /* Build configuration list for PBXNativeTarget "LithoUtils" */;
+			buildConfigurationList = C944A62F9F5A4D817D4D4DFA0ED55A94 /* Build configuration list for PBXNativeTarget "LithoUtils" */;
 			buildPhases = (
-				32302782FD396ACAE82A5776259D97CC /* Headers */,
-				1FBB60D44E1DAB4C6A1F6BE1898F44A2 /* Sources */,
-				5004C8FDEA7EE082E8EECBBE26ABAA82 /* Frameworks */,
-				3824F182C88E7E617F41690F9B6DD99F /* Resources */,
+				A91D0262D2E6E57A5A131938689BA6AD /* Headers */,
+				F9E3CAEF29118B9B92E59A0AF5749719 /* Sources */,
+				3CC4707E50279C1A6F4DB706522E1C24 /* Frameworks */,
+				C67CEB2FC337A3F0BC0496990A75D513 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				194CE49EDC26DC4AE95BECAE3429C947 /* PBXTargetDependency */,
-				F8A575CBF7BC86105FB9D0229EC9AF52 /* PBXTargetDependency */,
+				472B02D376AEB08E1E6141CD5C33DF66 /* PBXTargetDependency */,
+				9209258A346551C0F0B606648CD229F4 /* PBXTargetDependency */,
 			);
 			name = LithoUtils;
 			productName = LithoUtils;
@@ -846,11 +881,11 @@
 			buildRules = (
 			);
 			dependencies = (
-				C74E14AC2A1DF38A86A4D4BCA646E3EB /* PBXTargetDependency */,
-				0FA2515EF75C7B43BEF48483AF217246 /* PBXTargetDependency */,
-				0BBBE856F9D616365F8E8E6F3535AAE1 /* PBXTargetDependency */,
-				BB2E3756CA52B9909E92CADF75372EC4 /* PBXTargetDependency */,
-				3A591F7D18A1AFBAE4305944EF4AA7D9 /* PBXTargetDependency */,
+				20763EC4EB6AF548641678937188A427 /* PBXTargetDependency */,
+				D6FBB159C2709FBEA27E0A7541C562CE /* PBXTargetDependency */,
+				B34A9E02B1E3209AA938CB6323C50872 /* PBXTargetDependency */,
+				A70B9262580F2E77C66C69432CFFDD29 /* PBXTargetDependency */,
+				7CFA9398ACE5B2C9DD4903BC4742C9EA /* PBXTargetDependency */,
 			);
 			name = "Pods-LithoUtils_Example";
 			productName = "Pods-LithoUtils_Example";
@@ -859,12 +894,12 @@
 		};
 		BDE9651E3D91FEDF74EB17C3CBDD3742 /* Prelude */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F5D9534DE626123426925B3BD1FECA52 /* Build configuration list for PBXNativeTarget "Prelude" */;
+			buildConfigurationList = 250BEDB20F42B895F04499378FF9079C /* Build configuration list for PBXNativeTarget "Prelude" */;
 			buildPhases = (
-				9612D2C41238884DF03B5657FEE21D76 /* Headers */,
-				99FF3E10BD1E4A062690D0FBBD209133 /* Sources */,
-				C9A8C6D2974566AB7603538DA5973608 /* Frameworks */,
-				30EE116841121538F15EA2A29C5091E5 /* Resources */,
+				253E708FD55A5582E443476F0BB61F92 /* Headers */,
+				0D2EC4C2AF04B4809F7F5CF78A4A62EC /* Sources */,
+				5A81FBEBB44FC66609E24645B116112B /* Frameworks */,
+				534B5E0D283BC8C15DA3EAD982FBC655 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -877,12 +912,12 @@
 		};
 		C04700E22229A736E5C110BBF44E6112 /* fuikit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 640A6FF046CF34ACBA135BC38560B32D /* Build configuration list for PBXNativeTarget "fuikit" */;
+			buildConfigurationList = 962FB790E813A9EBE89765DD773F4BF2 /* Build configuration list for PBXNativeTarget "fuikit" */;
 			buildPhases = (
-				7C6C13AF388AE7B1C2F3D397D766DC1B /* Headers */,
-				8967BED2C39241122BBE5A2E5BA3B8CA /* Sources */,
-				5D37E439114D304112F6407DE503D74C /* Frameworks */,
-				82E612F5239E9E86D58BFD0D0E58FE69 /* Resources */,
+				C7D768886D4C83950E4FAEBC1B9CCFEB /* Headers */,
+				6EB4C32865E915772C6D885F2A54CB80 /* Sources */,
+				42C9FF1CC673B4B4995A568EF7125917 /* Frameworks */,
+				61CB5610AC4EF157D8ABC28C19FCCE58 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -905,7 +940,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				FE3016ECA69C1916AAB154F8D5858CFB /* PBXTargetDependency */,
+				7B17C31F4C7CA67F310186FBADA858A6 /* PBXTargetDependency */,
 			);
 			name = "Pods-LithoUtils_Tests";
 			productName = "Pods-LithoUtils_Tests";
@@ -914,17 +949,17 @@
 		};
 		F23B1651D4D0DDA611CCBAFB8BFEED54 /* LithoOperators */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3188B4241098CD1EF2FA00AB62192C15 /* Build configuration list for PBXNativeTarget "LithoOperators" */;
+			buildConfigurationList = 3F6D610DBF8BEC920C2090243B693ACF /* Build configuration list for PBXNativeTarget "LithoOperators" */;
 			buildPhases = (
-				E2FDD4C1170B32D35D619650A872103C /* Headers */,
-				377DAF7D80D4FA7A35B538211188CB24 /* Sources */,
-				4E646F8B04B43159C9975F71E5406C8A /* Frameworks */,
-				E66036364F98C0CDD4D6B2CF73A144E6 /* Resources */,
+				4DF41775CCE7444991BF75C04489EF62 /* Headers */,
+				2C070F23041DDEC2D6BE7FC3545879A7 /* Sources */,
+				BBCACFE32B88F392BF95A400B14B4EA7 /* Frameworks */,
+				682DE127E089E71442EF732F97BF5A6F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0B0F4FAAD7A0418382F15F70CC680712 /* PBXTargetDependency */,
+				95536C86AF22F4C0E5FA0DCDB811DF57 /* PBXTargetDependency */,
 			);
 			name = LithoOperators;
 			productName = LithoOperators;
@@ -979,26 +1014,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		30EE116841121538F15EA2A29C5091E5 /* Resources */ = {
+		534B5E0D283BC8C15DA3EAD982FBC655 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3824F182C88E7E617F41690F9B6DD99F /* Resources */ = {
+		61CB5610AC4EF157D8ABC28C19FCCE58 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A860E1FDC23B55C0FA5BF99728F8938 /* FUICollectionViewViewController.xib in Resources */,
+				B9F27C1B2FCA94CD3CA6B431632F459B /* FUITableViewViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		82E612F5239E9E86D58BFD0D0E58FE69 /* Resources */ = {
+		682DE127E089E71442EF732F97BF5A6F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB9B57312AA09563808215FC54107DF2 /* FUICollectionViewViewController.xib in Resources */,
-				23DFD1B119762299DA006A6193DCB761 /* FUITableViewViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1009,7 +1044,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E66036364F98C0CDD4D6B2CF73A144E6 /* Resources */ = {
+		C67CEB2FC337A3F0BC0496990A75D513 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1019,31 +1054,36 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1FBB60D44E1DAB4C6A1F6BE1898F44A2 /* Sources */ = {
+		0D2EC4C2AF04B4809F7F5CF78A4A62EC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CAC772FB98B7F645D9E9121EC95D4AF /* Alert.swift in Sources */,
-				B67901511FC29F7E42F1C15CB1076D86 /* BindViewModel.swift in Sources */,
-				583B6DE8C2C4054575E1D075B11693F3 /* CanIndicateActivity.swift in Sources */,
-				64317423265C3F4000BB682B /* UIImage+Resize.swift in Sources */,
-				64317425265C3F7A00BB682B /* UIViewController+DismissKeyboard.swift in Sources */,
-				8CF7AE5004B1C7019DA3F34FDEA3E305 /* Configurable.swift in Sources */,
-				7408DBC6B797746AB94F1CFEA4EA7D3D /* iOSFunctions.swift in Sources */,
-				088D8F65F70570BAEE20A4243B65C17A /* LithoUtils-dummy.m in Sources */,
-				C001C439C6244A83A0C53EEA939F0F9E /* Styles.swift in Sources */,
-				0D6505E9B43D354FF13614467C31FBD3 /* UIColor+hex.swift in Sources */,
-				AD10F8891716DC47D520869D2E445E42 /* UIViewController+BarButtonItem.swift in Sources */,
-				64317427265C3F9B00BB682B /* UIWindow+Present.swift in Sources */,
+				D3BC02CE3DD8914AFE4E56197BB2A9BA /* Application.swift in Sources */,
+				6E25A505CB5650FFAF29E888E75B90D8 /* Compose.swift in Sources */,
+				9158D4BC86C2E8FEA3DFE4304D02FF00 /* Curry.swift in Sources */,
+				A1EF69DE33084D0C35BB1E436E6EDF68 /* Fix.swift in Sources */,
+				8D03606597568FF5B18CDEA4CE96A07F /* Flip.swift in Sources */,
+				C762E4DB549DB4ABD6588515126DD386 /* Optional.swift in Sources */,
+				9C090449803C64BFEA0820440CE99369 /* Prelude-dummy.m in Sources */,
+				9450ADB2B568A98178C24DB5408E23F8 /* Prelude.swift in Sources */,
+				37245A8EA98B2D897D91D7FCF8B90B18 /* Tuple.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		377DAF7D80D4FA7A35B538211188CB24 /* Sources */ = {
+		2C070F23041DDEC2D6BE7FC3545879A7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F836D0B33F3E0E2443DAF070D618E53 /* LithoOperators-dummy.m in Sources */,
-				09F1A4BF26BAEF63300484E2B52A8D10 /* LithoOperators.swift in Sources */,
+				1103944D45B1CA42DC8F10B500D327AA /* ArgumentManipulation.swift in Sources */,
+				08134DA9A325C6497E38DD99ABEA9294 /* Arrays.swift in Sources */,
+				25D51EEF4C17139A25B00F9E7A5440AC /* Comparables.swift in Sources */,
+				E80BC9872EB37E8560B93AE3885F6E44 /* Dictionaries.swift in Sources */,
+				4DDB2CDBD179FB5FA502E595ED440233 /* KeyPaths.swift in Sources */,
+				5BA59B0D619EBFB6C5AFDC3300C3F57D /* LithoOperators-dummy.m in Sources */,
+				60B1579DE7E487693F36C72844F372AC /* LithoOperators.swift in Sources */,
+				487E30B58DA632B1FA7873CD18ECB73F /* Optionals.swift in Sources */,
+				D0BE9D4A5FA4130BEC61AF2E1535E83A /* Try.swift in Sources */,
+				A7BCB50C4F281A53CE1C7347F1035A90 /* Tuples.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1055,49 +1095,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6EB4C32865E915772C6D885F2A54CB80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DE8A103DF9FFD7197B5E1868B805189 /* FCBCentralManagerDelegate.swift in Sources */,
+				2947DD7185D864096633860D9041DD60 /* FCBPeripheralManager.swift in Sources */,
+				27E9DF92FB51F5AEDA8903199E57A855 /* FCBPeripheralManagerDelegate.swift in Sources */,
+				43766B712270588570D9E107D3281465 /* FCLLocationManagerDelegate.swift in Sources */,
+				95EB49C6E8767BE026E405BB6E81FE2C /* FUICollectionViewDelegate.swift in Sources */,
+				0319FE214FA78DC591EC7715E496EA29 /* FUICollectionViewViewController.swift in Sources */,
+				86231E946EAA66DB8929B0BE85EEA780 /* FUIImagePickerDelegate.swift in Sources */,
+				5B39CD654302903A8D438A4E820A663F /* fuikit-dummy.m in Sources */,
+				D688E7F6F5DC85441F51A2E57917123D /* FUISearchBarDelegate.swift in Sources */,
+				2703240C247596D2D6B324CA4DFA5836 /* FUITableViewDataSource.swift in Sources */,
+				5EE0035F979712C5017F69F988B22C9E /* FUITableViewDelegate.swift in Sources */,
+				E822828FD644A72F8CEC7921649AD0D9 /* FUITableViewViewController.swift in Sources */,
+				0CDA29263489118A549C6C5B40B90E19 /* FUITextFieldDelegate.swift in Sources */,
+				7211BAC7DEC13B80CF34AB45358CC30E /* FUITextViewDelegate.swift in Sources */,
+				532B03CA0A79581E22EAD33F9DC6FEAF /* FUIViewController.swift in Sources */,
+				072088F59B8065E85CF35E9BE8741860 /* UIViewController+PushPop.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7B73D809DADA7194EA616652230020C2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B6D56C5D962373773F7766AEC704CC41 /* Pods-LithoUtils_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8967BED2C39241122BBE5A2E5BA3B8CA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CC4469D5CEB3788FBAD851E3242FFF5C /* FCBCentralManagerDelegate.swift in Sources */,
-				0B18920055DC7783F1C47BC01BD878FF /* FCBPeripheralManager.swift in Sources */,
-				3CB60F38AFF72197636D979720A90690 /* FCBPeripheralManagerDelegate.swift in Sources */,
-				8A65072220F4A5071FB0AF67D2A0E305 /* FCLLocationManagerDelegate.swift in Sources */,
-				F72EFEF2F44FB8740D08743D5AC8B744 /* FUICollectionViewViewController.swift in Sources */,
-				0C34FDB424B4B93ACCA063C07ADDEB33 /* FUIImagePickerDelegate.swift in Sources */,
-				04D9E0F14F2A47889E6183C9AE40FC7C /* fuikit-dummy.m in Sources */,
-				406F76CD38AAA49BF85215FCF719C0BD /* FUISearchBarDelegate.swift in Sources */,
-				6071C0EABA93E435BD7192B87F16F919 /* FUITableViewDataSource.swift in Sources */,
-				41248821370C742AD05FB35356CE9198 /* FUITableViewDelegate.swift in Sources */,
-				FFB2CB640F2661724CBFFAD72CBFD75E /* FUITableViewViewController.swift in Sources */,
-				4246C97E67B48C7A3A4BE7555D81559D /* FUITextFieldDelegate.swift in Sources */,
-				1C76E74EB67768FD2DD92142427DC1A1 /* FUITextViewDelegate.swift in Sources */,
-				E8E71CEC677875F17D32524C3CEC4B32 /* FUIViewController.swift in Sources */,
-				0772711951DC998B8B2BA9E958242DAC /* UIViewController+PushPop.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		99FF3E10BD1E4A062690D0FBBD209133 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B90787AEFF4025CD4325F8B33FA47FD7 /* Application.swift in Sources */,
-				A5234BE898ACD193A3B3FE9FBFBF12D7 /* Compose.swift in Sources */,
-				8B3016FF542530A6957E0E3AB79DF474 /* Curry.swift in Sources */,
-				11C885D7FE1CC534EBFE9E61E32ABD1F /* Fix.swift in Sources */,
-				4606D6E15068852C6E6B8D678E1EC58F /* Flip.swift in Sources */,
-				9F5BDC138C4D9035FB6E307D866B97F3 /* Optional.swift in Sources */,
-				59BB451A428E2FDC7779F64AEC4694C0 /* Prelude-dummy.m in Sources */,
-				46B626E133DB18BE2607A479D211005E /* Prelude.swift in Sources */,
-				2A7715C96D3B0937523305CF14F25C5D /* Tuple.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1120,77 +1145,97 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F9E3CAEF29118B9B92E59A0AF5749719 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F4A47D2443CB8F962AC277452CE68B5 /* Alert.swift in Sources */,
+				8A8B429C9A4DB4CDF5EFF19DCACAB2F4 /* BindViewModel.swift in Sources */,
+				E98917DD9504D1783566E0252D44493C /* CanIndicateActivity.swift in Sources */,
+				1D434F8521C7E91AD8F80A23B4362E35 /* Configurable.swift in Sources */,
+				37EF3A60FBE83C8B9549502956CCF5B0 /* iOSFunctions.swift in Sources */,
+				D9C817158E83D667E13D24078FDBC479 /* LithoUtils-dummy.m in Sources */,
+				572C4D70B168372280193FC90E428E97 /* Styles.swift in Sources */,
+				9252A0860F6E944111EF1F40819480BA /* UIColor+hex.swift in Sources */,
+				35B6C7EAA888AAC2D30B68CA2D5033B3 /* UIImage+Resize.swift in Sources */,
+				DD2EB9C57A0742F83949E20E727EBF35 /* UIViewController+BarButtonItem.swift in Sources */,
+				B3529762FC91490358A198C2A61660CD /* UIViewController+DismissKeyboard.swift in Sources */,
+				4AE0672DEB7D93909EA89796BBAFA2C2 /* UIWindow+Present.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0B0F4FAAD7A0418382F15F70CC680712 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Prelude;
-			target = BDE9651E3D91FEDF74EB17C3CBDD3742 /* Prelude */;
-			targetProxy = 3D6EEBCD75D9C0006FF91F0462150076 /* PBXContainerItemProxy */;
-		};
-		0BBBE856F9D616365F8E8E6F3535AAE1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = LithoUtils;
-			target = 6C1AB688A5C9DE02C75AC815D03E671F /* LithoUtils */;
-			targetProxy = DCC15593EE762385F3D98F4C09A19BBF /* PBXContainerItemProxy */;
-		};
-		0FA2515EF75C7B43BEF48483AF217246 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = LithoOperators;
-			target = F23B1651D4D0DDA611CCBAFB8BFEED54 /* LithoOperators */;
-			targetProxy = C801E814694335F9481A606F7F258E5C /* PBXContainerItemProxy */;
-		};
-		194CE49EDC26DC4AE95BECAE3429C947 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = LithoOperators;
-			target = F23B1651D4D0DDA611CCBAFB8BFEED54 /* LithoOperators */;
-			targetProxy = 27CD5DE7CB1178086C2DA7A1BD4BBF67 /* PBXContainerItemProxy */;
-		};
-		3A591F7D18A1AFBAE4305944EF4AA7D9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = fuikit;
-			target = C04700E22229A736E5C110BBF44E6112 /* fuikit */;
-			targetProxy = 7568B4DF1F151DBB60DA63C3595D54D3 /* PBXContainerItemProxy */;
-		};
-		6A183AF76FFC10173AEDE0ADFF6F0F5F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = LithoOperators;
-			target = F23B1651D4D0DDA611CCBAFB8BFEED54 /* LithoOperators */;
-			targetProxy = 5C4C5352EDD308A0EE855B6CEB1C0BFA /* PBXContainerItemProxy */;
-		};
-		BB2E3756CA52B9909E92CADF75372EC4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Prelude;
-			target = BDE9651E3D91FEDF74EB17C3CBDD3742 /* Prelude */;
-			targetProxy = CE0791D4480B4CDDAADC9C721016A4A8 /* PBXContainerItemProxy */;
-		};
-		C74E14AC2A1DF38A86A4D4BCA646E3EB /* PBXTargetDependency */ = {
+		20763EC4EB6AF548641678937188A427 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FunNet;
 			target = 53CD685FC2E9A4950DF443B5D9D621CA /* FunNet */;
-			targetProxy = F208FBB1164F79433F2FD7D2692106FA /* PBXContainerItemProxy */;
+			targetProxy = FDCEAED32DE155FAE00054799B354FBA /* PBXContainerItemProxy */;
 		};
-		F8A575CBF7BC86105FB9D0229EC9AF52 /* PBXTargetDependency */ = {
+		31852920C1CB67181861EA03761861EB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = fuikit;
-			target = C04700E22229A736E5C110BBF44E6112 /* fuikit */;
-			targetProxy = D216253BE539892C3E7756C83729AA4D /* PBXContainerItemProxy */;
+			name = LithoOperators;
+			target = F23B1651D4D0DDA611CCBAFB8BFEED54 /* LithoOperators */;
+			targetProxy = 1F450C0634BAD128B6E5A28915AED915 /* PBXContainerItemProxy */;
 		};
-		FE3016ECA69C1916AAB154F8D5858CFB /* PBXTargetDependency */ = {
+		472B02D376AEB08E1E6141CD5C33DF66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LithoOperators;
+			target = F23B1651D4D0DDA611CCBAFB8BFEED54 /* LithoOperators */;
+			targetProxy = 224E2E5150D8816E662A761D8A9A6429 /* PBXContainerItemProxy */;
+		};
+		7B17C31F4C7CA67F310186FBADA858A6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-LithoUtils_Example";
 			target = BCA6961C31080EEBCAA5AADE07FCA544 /* Pods-LithoUtils_Example */;
-			targetProxy = C2AF9501C83EF213989B72E4B37EEACD /* PBXContainerItemProxy */;
+			targetProxy = 253BC73934AE24023701EF3DE33411F9 /* PBXContainerItemProxy */;
+		};
+		7CFA9398ACE5B2C9DD4903BC4742C9EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = fuikit;
+			target = C04700E22229A736E5C110BBF44E6112 /* fuikit */;
+			targetProxy = B77EA099CABE42B31D99F5F8E51AA326 /* PBXContainerItemProxy */;
+		};
+		9209258A346551C0F0B606648CD229F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = fuikit;
+			target = C04700E22229A736E5C110BBF44E6112 /* fuikit */;
+			targetProxy = F4452AEDCE94DBD57E7796E86483E937 /* PBXContainerItemProxy */;
+		};
+		95536C86AF22F4C0E5FA0DCDB811DF57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Prelude;
+			target = BDE9651E3D91FEDF74EB17C3CBDD3742 /* Prelude */;
+			targetProxy = E56818CEEF1A7CCEFAE40A942DF31CF4 /* PBXContainerItemProxy */;
+		};
+		A70B9262580F2E77C66C69432CFFDD29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Prelude;
+			target = BDE9651E3D91FEDF74EB17C3CBDD3742 /* Prelude */;
+			targetProxy = 76A1890D63986C004E6C96BEB8266378 /* PBXContainerItemProxy */;
+		};
+		B34A9E02B1E3209AA938CB6323C50872 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LithoUtils;
+			target = 6C1AB688A5C9DE02C75AC815D03E671F /* LithoUtils */;
+			targetProxy = E6B7D3333E36FE8FA13DF40DD313E624 /* PBXContainerItemProxy */;
+		};
+		D6FBB159C2709FBEA27E0A7541C562CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LithoOperators;
+			target = F23B1651D4D0DDA611CCBAFB8BFEED54 /* LithoOperators */;
+			targetProxy = FB7288A87FD664BA5738CC533708BB13 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0024A07E16F82C0B0B2C8A31F0832FCD /* Release */ = {
+		102E4CD734CC8A5E85BD22E3C96BBF0E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 91FF7808447E5FF7EF63978305E8F294 /* Prelude.release.xcconfig */;
+			baseConfigurationReference = 5393909AE0826CF8D66E4EC6FFF4DAB9 /* fuikit.release.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -1199,18 +1244,18 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Prelude/Prelude-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Prelude/Prelude-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/fuikit/fuikit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/fuikit/fuikit-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Prelude/Prelude.modulemap";
-				PRODUCT_MODULE_NAME = Prelude;
-				PRODUCT_NAME = Prelude;
+				MODULEMAP_FILE = "Target Support Files/fuikit/fuikit.modulemap";
+				PRODUCT_MODULE_NAME = fuikit;
+				PRODUCT_NAME = fuikit;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1255,7 +1300,7 @@
 		};
 		35D630353AE208A81259A1DD63A58DCF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C0A757C6FFD6B530111F7B50A338A303 /* FunNet.debug.xcconfig */;
+			baseConfigurationReference = 03674946B14541FE9F97BCF7F059AB99 /* FunNet.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1285,12 +1330,11 @@
 			};
 			name = Debug;
 		};
-		424899D20EC01D775D1ACE43749C32F3 /* Debug */ = {
+		4B758BC7BF7FFF25648ACA10FA35F585 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 87DDB28DDD2B3C30D9818187BC0EB1E6 /* fuikit.debug.xcconfig */;
+			baseConfigurationReference = 106DE700D5CF88696CB675F650581FAE /* Prelude.release.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -1299,50 +1343,18 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/fuikit/fuikit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/fuikit/fuikit-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Prelude/Prelude-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Prelude/Prelude-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/fuikit/fuikit.modulemap";
-				PRODUCT_MODULE_NAME = fuikit;
-				PRODUCT_NAME = fuikit;
+				MODULEMAP_FILE = "Target Support Files/Prelude/Prelude.modulemap";
+				PRODUCT_MODULE_NAME = Prelude;
+				PRODUCT_NAME = Prelude;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		4E15CBD30B9726E257F018E733BAD4F5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8978B4AD7B9B65DF335143BC28E7BB2D /* LithoUtils.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LithoUtils/LithoUtils-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LithoUtils/LithoUtils-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LithoUtils/LithoUtils.modulemap";
-				PRODUCT_MODULE_NAME = LithoUtils;
-				PRODUCT_NAME = LithoUtils;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.3;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1384,6 +1396,101 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		7F41471C57438CE0F15D7CBA4F0030FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF516384720AED607BEA0D8E82705FE3 /* fuikit.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/fuikit/fuikit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/fuikit/fuikit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/fuikit/fuikit.modulemap";
+				PRODUCT_MODULE_NAME = fuikit;
+				PRODUCT_NAME = fuikit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		89AA40108619AF24C69657328D963476 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76755B4F7750BE91DAF878D076087058 /* Prelude.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Prelude/Prelude-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Prelude/Prelude-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Prelude/Prelude.modulemap";
+				PRODUCT_MODULE_NAME = Prelude;
+				PRODUCT_NAME = Prelude;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8BCB8BD78DA86C046854899D4CB0898C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 129A79A763CCFFBB0A3606157B579B8C /* LithoUtils.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LithoUtils/LithoUtils-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LithoUtils/LithoUtils-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LithoUtils/LithoUtils.modulemap";
+				PRODUCT_MODULE_NAME = LithoUtils;
+				PRODUCT_NAME = LithoUtils;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1451,6 +1558,69 @@
 			};
 			name = Debug;
 		};
+		992C415829FC02D8A9653466E41B8616 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E89F8C405029D6B0BC458FA154DE3441 /* LithoOperators.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LithoOperators/LithoOperators-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LithoOperators/LithoOperators-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LithoOperators/LithoOperators.modulemap";
+				PRODUCT_MODULE_NAME = LithoOperators;
+				PRODUCT_NAME = LithoOperators;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		99359C404CDA49AE11876B8FA5BA3E0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC9CC2B005C326D2D8A642A627AA81ED /* LithoOperators.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LithoOperators/LithoOperators-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LithoOperators/LithoOperators-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LithoOperators/LithoOperators.modulemap";
+				PRODUCT_MODULE_NAME = LithoOperators;
+				PRODUCT_NAME = LithoOperators;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1506,106 +1676,10 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		A4C6612D2FCE2BE4B54CCAF301717268 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 129A79A763CCFFBB0A3606157B579B8C /* LithoUtils.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LithoUtils/LithoUtils-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LithoUtils/LithoUtils-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LithoUtils/LithoUtils.modulemap";
-				PRODUCT_MODULE_NAME = LithoUtils;
-				PRODUCT_NAME = LithoUtils;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.3;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		BDB277733943A2E040431A3BC756408B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E355821C769B8C4AE9D30DAB382CDC04 /* fuikit.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/fuikit/fuikit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/fuikit/fuikit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/fuikit/fuikit.modulemap";
-				PRODUCT_MODULE_NAME = fuikit;
-				PRODUCT_NAME = fuikit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		D1BDB51FFC604D32AA3D6D41EAF1A2E2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5837E9252A0C3B17D5A6D0C44F67C612 /* LithoOperators.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LithoOperators/LithoOperators-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LithoOperators/LithoOperators-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LithoOperators/LithoOperators.modulemap";
-				PRODUCT_MODULE_NAME = LithoOperators;
-				PRODUCT_NAME = LithoOperators;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.3;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -1643,11 +1717,12 @@
 			};
 			name = Debug;
 		};
-		E8F52D8542DCE8A90F2B228A9B38A923 /* Debug */ = {
+		DF6220FA20843767D566C19CD4AB3D68 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C28485139252E45E35EF3521B38276F7 /* Prelude.debug.xcconfig */;
+			baseConfigurationReference = 8978B4AD7B9B65DF335143BC28E7BB2D /* LithoUtils.release.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -1656,23 +1731,24 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Prelude/Prelude-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Prelude/Prelude-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/LithoUtils/LithoUtils-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LithoUtils/LithoUtils-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Prelude/Prelude.modulemap";
-				PRODUCT_MODULE_NAME = Prelude;
-				PRODUCT_NAME = Prelude;
+				MODULEMAP_FILE = "Target Support Files/LithoUtils/LithoUtils.modulemap";
+				PRODUCT_MODULE_NAME = LithoUtils;
+				PRODUCT_NAME = LithoUtils;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		EEDEA70965FEE71386438060F605D057 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1710,7 +1786,7 @@
 		};
 		F256CF5161992884059A499722082A14 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D530A1FC80212F7BE852B7D37E299FF8 /* FunNet.release.xcconfig */;
+			baseConfigurationReference = 1F7148F2241BDFD57A03C01AF5E287C4 /* FunNet.release.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1741,40 +1817,18 @@
 			};
 			name = Release;
 		};
-		F466AC93E5C647175EA6F127A0C4BF93 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 42CCFD3F6EEEBC7985C562445A90E039 /* LithoOperators.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LithoOperators/LithoOperators-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LithoOperators/LithoOperators-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LithoOperators/LithoOperators.modulemap";
-				PRODUCT_MODULE_NAME = LithoOperators;
-				PRODUCT_NAME = LithoOperators;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.3;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		250BEDB20F42B895F04499378FF9079C /* Build configuration list for PBXNativeTarget "Prelude" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89AA40108619AF24C69657328D963476 /* Debug */,
+				4B758BC7BF7FFF25648ACA10FA35F585 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		25B47FD01C170D94183CC4473374504C /* Build configuration list for PBXNativeTarget "Pods-LithoUtils_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1784,11 +1838,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3188B4241098CD1EF2FA00AB62192C15 /* Build configuration list for PBXNativeTarget "LithoOperators" */ = {
+		3F6D610DBF8BEC920C2090243B693ACF /* Build configuration list for PBXNativeTarget "LithoOperators" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F466AC93E5C647175EA6F127A0C4BF93 /* Debug */,
-				D1BDB51FFC604D32AA3D6D41EAF1A2E2 /* Release */,
+				992C415829FC02D8A9653466E41B8616 /* Debug */,
+				99359C404CDA49AE11876B8FA5BA3E0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1811,15 +1865,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		640A6FF046CF34ACBA135BC38560B32D /* Build configuration list for PBXNativeTarget "fuikit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				424899D20EC01D775D1ACE43749C32F3 /* Debug */,
-				BDB277733943A2E040431A3BC756408B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		755A3231F0ABC22A533EC1177F896CF4 /* Build configuration list for PBXNativeTarget "Pods-LithoUtils_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1829,20 +1874,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CBE46D2E6CCE803BA749BE24A39429BF /* Build configuration list for PBXNativeTarget "LithoUtils" */ = {
+		962FB790E813A9EBE89765DD773F4BF2 /* Build configuration list for PBXNativeTarget "fuikit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A4C6612D2FCE2BE4B54CCAF301717268 /* Debug */,
-				4E15CBD30B9726E257F018E733BAD4F5 /* Release */,
+				7F41471C57438CE0F15D7CBA4F0030FB /* Debug */,
+				102E4CD734CC8A5E85BD22E3C96BBF0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F5D9534DE626123426925B3BD1FECA52 /* Build configuration list for PBXNativeTarget "Prelude" */ = {
+		C944A62F9F5A4D817D4D4DFA0ED55A94 /* Build configuration list for PBXNativeTarget "LithoUtils" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E8F52D8542DCE8A90F2B228A9B38A923 /* Debug */,
-				0024A07E16F82C0B0B2C8A31F0832FCD /* Release */,
+				8BCB8BD78DA86C046854899D4CB0898C /* Debug */,
+				DF6220FA20843767D566C19CD4AB3D68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
