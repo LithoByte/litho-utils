@@ -8,6 +8,14 @@
 import Prelude
 
 /**
+ This operator is from the excellent PointFree videos, allowing you to compose a function `(A) -> B` with another function `(B) -> C` to create a new function `(A) -> C`. This is simply an overload of the operator to allow functions that do not take parameters to be the composed function.
+ */
+
+public func >>> <U, V> (f: @escaping () -> U, g: @escaping (U) -> V) -> () -> V {
+    return { g(f()) }
+}
+
+/**
  This operator allows you to chain functions where optionality is an issue. For instance,
  suppose you had a function `f` which output a `String?` and another function `g` which only
  accepts a `String`; trying to use `f >>> g` would fail to compile, since you can't pass `nil`
