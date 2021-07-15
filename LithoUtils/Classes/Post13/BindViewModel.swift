@@ -23,6 +23,6 @@ public func bindActivityIndicatorVisibleToPublisher(_ activity: UIActivityIndica
 @available(iOS 13.0, *)
 extension Publisher where Output == Bool, Failure == Never {
     public func bind<T>(to keyPath: WritableKeyPath<T, Bool>, on value: T, storingIn cancelBag: inout Set<AnyCancellable>) {
-        self.sink(receiveValue: value >|> setter(keyPath)).store(in: &cancelBag)
+        self.sink(receiveValue: value *-> setter(keyPath)).store(in: &cancelBag)
     }
 }

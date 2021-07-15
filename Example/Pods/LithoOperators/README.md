@@ -1,6 +1,6 @@
 # LithoOperators
 
-[![CI Status](https://circleci.com/gh/ThryvInc/LithoOperators.svg?style=svg)](https://circleci.com/gh/ThryvInc/LithoOperators)
+[![CI Status](https://circleci.com/gh/LithoByte/LithoOperators.svg?style=svg)](https://circleci.com/gh/LithoByte/LithoOperators)
 [![Version](https://img.shields.io/cocoapods/v/LithoOperators.svg?style=flat)](https://cocoapods.org/pods/LithoOperators)
 [![License](https://img.shields.io/cocoapods/l/LithoOperators.svg?style=flat)](https://cocoapods.org/pods/LithoOperators)
 [![Platform](https://img.shields.io/cocoapods/p/LithoOperators.svg?style=flat)](https://cocoapods.org/pods/LithoOperators)
@@ -11,7 +11,7 @@ LithoOperators is available through [CocoaPods](https://cocoapods.org). To insta
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'LithoOperators', git: 'https://github.com/ThryvInc/LithoOperators'
+pod 'LithoOperators', git: 'https://github.com/LithoByte/LithoOperators'
 ```
 
 ## What's in this pod
@@ -33,26 +33,26 @@ in; then you could do `optionalCast >?> f` and the compiler would return a funct
 This is a really nice function that will cast objects for you. When paired with `>?>` the compiler will
 be able to tell what type to cast to without you saying explicitly.
 
-### `infix operator >|>`
+### `infix operator *>`
 This is basically an operator for currying. It puts the value `a` into the first postion of a function `f`
 from `(A, B) -> C` and returns a function that just accepts a value for `B`. In Prelude this would
 be `a |> curry(f)`.
 
-### `infix operator >||>`
-Similar to `>|>`, but with the second value. So consider `f: (A, B) -> C`. Then `b >||> f`
+### `infix operator ||>`
+Similar to `>|>`, but with the second value. So consider `f: (A, B) -> C`. Then `b ||> f`
 will put `b` into the second argument of `f` and return a function from `A -> C`. I find this more
 ergonmic than using `curry` in this case, since I don't need to swap the arguments around or anything.
 The use case for this is mostly with the free `map` function defined below, so for instance, if you had
 a function `f` from `Int -> String` and wanted to use it to change an array of `Int`s to `String`s,
-you could do so by saying: `f >||> map` which would return a function from `[Int] -> [String]`
+you could do so by saying: `f ||> map` which would return a function from `[Int] -> [String]`
 
-### `infix operator >|||>`
+### `infix operator |||>`
 See above, convenient currying, but with more arguments.
-### `infix operator >||||>`
+### `infix operator ||||>`
 See above, convenient currying, but with more arguments.
-### `infix operator >|||||>`
+### `infix operator |||||>`
 See above, convenient currying, but with more arguments.
-### `infix operator >||||||>`
+### `infix operator ||||||>`
 See above, convenient currying, but with more arguments.
 
 ### `func voidCurry<T, U>(_ t: T, _ f: @escaping (T) -> U) -> () -> U`
