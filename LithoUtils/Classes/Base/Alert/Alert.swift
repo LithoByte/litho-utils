@@ -46,4 +46,16 @@ public func cancellableAlert(title: String, message: String, actionTitle: String
     return alert
 }
 
+public func popOverCompatibility(for vc: UIViewController, barButtonItem: UIBarButtonItem?) {
+    if let popover = vc.popoverPresentationController {
+        popover.barButtonItem = barButtonItem
+    }
+}
+
+public func popOverCompatibility(for vc: UIViewController, from sourceView: UIView) {
+    if let popover = vc.popoverPresentationController {
+        popover.sourceView = sourceView
+    }
+}
+
 
