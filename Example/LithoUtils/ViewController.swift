@@ -7,18 +7,23 @@
 //
 
 import UIKit
+import LithoUtils
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(presentSafeActionSheet))
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        self.presentAnimated(alertController(title: "hello", message: "hello"))
     }
-
+    
+    @objc func presentSafeActionSheet() {
+        self.presentAnimated(actionSheetSafe(title: "hello", message: "Message", barButton: navigationItem.rightBarButtonItem!))
+    }
 }
 

@@ -10,40 +10,98 @@ import LithoOperators
 import Prelude
 import fuikit
 
+public func defaultAlertAction(title: String, handler: @escaping (UIAlertAction) -> Void) -> UIAlertAction {
+    return UIAlertAction(title: title, style: .default, handler: handler)
+}
+
+public func cancelAlertAction(title: String, handler: @escaping (UIAlertAction) -> Void) -> UIAlertAction {
+    return UIAlertAction(title: title, style: .cancel, handler: handler)
+}
+
 public func alertController(title: String?, message: String?) -> UIAlertController {
-    let alert = UIAlertController()
-    alert.title = title
-    alert.message = message
-    alert.addAction(UIAlertAction(title: "Okay", style: .default, handler: ignoreArg({ alert.dismiss(animated: true, completion: nil) })))
-    return alert
+    return UIAlertController(title: title, message: message, preferredStyle: .alert)
 }
 
-public func dismissableAlert(title: String?, message: String?, actionTitle: String, onDismiss: @escaping () -> Void) -> UIAlertController {
+// Private because it's a helper method
+private func actionSheet(title: String?, message: String?) -> UIAlertController {
+    return UIAlertController(title: title, message: message, preferredStyle: .actionSheet)
+}
+
+public func actionSheetPopoverSafe(title: String?, message: String?, barButton: UIBarButtonItem) -> UIAlertController {
+    return actionSheet(title: title, message: message).configure(barButton -*> popOverCompatibility)
+}
+
+public func actionSheetPopoverSafe(title: String?, message: String?, sourceView: UIView) -> UIAlertController {
+    return actionSheet(title: title, message: message).configure(sourceView -*> popOverCompatibility)
+}
+
+public func actionSheetPopoverSafe(title: String?, message: String?, sourceRect: CGRect) -> UIAlertController {
+    return actionSheet(title: title, message: message).configure(sourceRect -*> popOverCompatibility)
+}
+
+public func dismissableAlert(title: String?, message: String?, actionTitle: String = "Okay", onDismiss: @escaping () -> Void = { }) -> UIAlertController {
     let alert = alertController(title: title, message: message)
-    let action = UIAlertAction(title: actionTitle, style: .default, handler: ignoreArg(onDismiss *> alert.dismissClosure()))
-    alert.addAction(action)
+    alert.addAction(defaultAlertAction(title: actionTitle, handler: ignoreArg(onDismiss *> alert.dismissClosure())))
     return alert
 }
 
-public func dismissableAlert(title: String?, message: String?, actionTitle: String) -> UIAlertController {
+private func dismissableActionSheet(title: String?, message: String?, actionTitle: String, onDismiss: @escaping () -> Void = { }) -> UIAlertController {
+    let alert = actionSheet(title: title, message: message)
+    alert.addAction(defaultAlertAction(title: actionTitle, handler: ignoreArg(onDismiss *> alert.dismissClosure())))
+    return alert
+}
+
+public func dismissableActionSheetPopoverSafe(title: String?, message: String?, actionTitle: String = "Okay", onDismiss: @escaping () -> Void = { }, barButtonItem: UIBarButtonItem) -> UIAlertController {
+    return dismissableActionSheet(title: title, message: message, actionTitle: actionTitle, onDismiss: onDismiss).configure(barButtonItem -*> popOverCompatibility)
+}
+
+public func dismissableActionSheetPopoverSafe(title: String?, message: String?, actionTitle: String = "Okay", onDismiss: @escaping () -> Void = { }, sourceView: UIView) -> UIAlertController {
+    return dismissableActionSheet(title: title, message: message, actionTitle: actionTitle, onDismiss: onDismiss).configure(sourceView -*> popOverCompatibility)
+}
+
+public func dismissableActionSheetPopoverSafe(title: String?, message: String?, actionTitle: String = "Okay", onDismiss: @escaping () -> Void = { }, sourceRect: CGRect) -> UIAlertController {
+    return dismissableActionSheet(title: title, message: message, actionTitle: actionTitle, onDismiss: onDismiss).configure(sourceRect -*> popOverCompatibility)
+}
+
+public func cancellableAlert(title: String?, message: String?, actionTitle: String = "Cancel", onDismiss: @escaping () -> Void = { }) -> UIAlertController {
     let alert = alertController(title: title, message: message)
-    let action = UIAlertAction(title: actionTitle, style: .default, handler: ignoreArg(nil *> alert.dismissClosure()))
-    alert.addAction(action)
+    alert.addAction(cancelAlertAction(title: actionTitle, handler: ignoreArg(onDismiss *> alert.dismissClosure())))
     return alert
 }
 
-public func cancellableAlert(title: String, message: String, actionTitle: String, onDismiss: @escaping (() -> Void)) -> UIAlertController {
-    let alert = alertController(title: title, message: message)
-    let action = UIAlertAction(title: actionTitle, style: .cancel, handler: ignoreArg(onDismiss *> alert.dismissClosure()))
-    alert.addAction(action)
+private func cancellableActionSheet(title: String?, message: String?, actionTitle: String = "Cancel", onDismiss: @escaping () -> Void = { }) -> UIAlertController {
+    let alert = actionSheet(title: title, message: message)
+    alert.addAction(cancelAlertAction(title: actionTitle, handler: ignoreArg(onDismiss *> alert.dismissClosure())))
     return alert
 }
 
-public func cancellableAlert(title: String, message: String, actionTitle: String) -> UIAlertController {
-    let alert = alertController(title: title, message: message)
-    let action = UIAlertAction(title: actionTitle, style: .cancel, handler: ignoreArg(nil *> alert.dismissClosure()))
-    alert.addAction(action)
-    return alert
+public func cancellableActionSheetPopoverSafe(title: String?, message: String?, actionTitle: String = "Cancel", onDismiss: @escaping () -> Void = { }, barButtonItem: UIBarButtonItem) -> UIAlertController {
+    return cancellableActionSheet(title: title, message: message, actionTitle: actionTitle, onDismiss: onDismiss).configure(barButtonItem -*> popOverCompatibility)
 }
 
+public func cancellableActionSheetPopoverSafe(title: String?, message: String?, actionTitle: String = "Cancel", onDismiss: @escaping () -> Void = { }, sourceView: UIView) -> UIAlertController {
+    return cancellableActionSheet(title: title, message: message, actionTitle: actionTitle, onDismiss: onDismiss).configure(sourceView -*> popOverCompatibility)
+}
 
+public func cancellableActionSheetPopoverSafe(title: String?, message: String?, actionTitle: String = "Cancel", onDismiss: @escaping () -> Void = { }, sourceRect: CGRect) -> UIAlertController {
+    return cancellableActionSheet(title: title, message: message, actionTitle: actionTitle, onDismiss: onDismiss).configure(sourceRect -*> popOverCompatibility)
+}
+
+public func popOverCompatibility(for vc: UIViewController, barButtonItem: UIBarButtonItem) {
+    if let popover = vc.popoverPresentationController {
+        popover.barButtonItem = barButtonItem
+    }
+}
+
+public func popOverCompatibility(for vc: UIViewController, from sourceView: UIView) {
+    if let popover = vc.popoverPresentationController {
+        popover.sourceView = sourceView
+        popover.sourceRect = CGRect(x: sourceView.frame.midX, y: sourceView.frame.midY, width: 0, height: 0)
+    }
+}
+
+public func popOverCompatibility(for vc: UIViewController, from sourceRect: CGRect) {
+    if let popover = vc.popoverPresentationController {
+        popover.sourceRect = sourceRect
+    }
+}
