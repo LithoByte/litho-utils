@@ -29,7 +29,7 @@ LithoUtils gives developers a library of shortcuts, streamlining the common oper
   s.source           = { :git => 'https://github.com/ThryvInc/litho-utils.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '13.0'
+  s.ios.deployment_target = '15.0'
 
   s.source_files = 'LithoUtils/Classes/**/*'
   s.dependency 'LithoOperators'
@@ -38,5 +38,15 @@ LithoUtils gives developers a library of shortcuts, streamlining the common oper
   s.subspec 'Core' do |sp|
       sp.ios.deployment_target = '11.0'
       sp.source_files = 'LithoUtils/Classes/Base/**/*.swift'
+  end
+  
+  s.subspec 'ViewModel' do |sp|
+      sp.ios.deployment_target = '13.0'
+      sp.source_files = 'LithoUtils/Classes/Post13/**/*.swift'
+  end
+  
+  s.subspec 'BottomSheet' do |sp|
+      sp.ios.deployment_target = '15.0'
+      sp.source_files = 'LithoUtils/Classes/Post15/**/*.swift
   end
 end
