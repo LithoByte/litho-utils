@@ -41,3 +41,5 @@ public let setCapAndClip: (UIView) -> Void = setCappedEnds <> setClipBounds
 
 public let roundTopCorners: (UIView) -> Void = set(\UIView.layer.maskedCorners, [.layerMinXMinYCorner, .layerMaxXMinYCorner])
 public let roundBottomCorners: (UIView) -> Void = set(\UIView.layer.maskedCorners, [.layerMinXMaxYCorner, .layerMaxXMaxYCorner])
+public let setRightView: (UITextField, UIView) -> Void = setter(\.rightView)
+public let setLeftView: (UITextField, UIView) -> Void = setter(\.leftView)
