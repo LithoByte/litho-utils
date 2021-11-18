@@ -17,9 +17,15 @@ class UIColor_HexTests: XCTestCase {
         XCTAssert(color1 == color2)
     }
 
-    func testUIColorStringHex() {
+    func testUIColorStringHexLengthSix() {
         let color1 = UIColor(hex: 0xFFF000)
         let color2 = UIColor(hexString: "#FFF000")
+        XCTAssertEqual(color1, color2)
+    }
+    
+    func testUIColorStringHexLengthThree() {
+        let color1 = UIColor(hex: 0xFF0011)
+        let color2 = UIColor(hexString: "#F01")
         XCTAssertEqual(color1, color2)
     }
 }
