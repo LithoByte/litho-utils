@@ -32,7 +32,7 @@ extension UIColor {
             start = hexString.startIndex
         }
         let hexColor = String(hexString[start...])
-        var rgba: (CGFloat, CGFloat, CGFloat, CGFloat) = (0, 0, 0, 0)
+        var rgba: (CGFloat, CGFloat, CGFloat, CGFloat) = (0, 0, 0, 1.0)
         if hexColor.count == 3 {
             rgba = hexThreeToRGB(hexColor)
         } else if hexColor.count == 4 {

@@ -48,4 +48,10 @@ class UIColor_HexTests: XCTestCase {
         XCTAssertEqual(color1, color2)
         XCTAssertEqual(color1, color3)
     }
+    
+    func testUIColorStringHexBadInput() {
+        let color1 = UIColor(hexString: "#000000FF")
+        let color2 = UIColor(hexString: "#F13f3")
+        XCTAssertEqual(color1, color2)
+    }
 }
