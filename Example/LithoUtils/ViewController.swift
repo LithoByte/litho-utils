@@ -23,7 +23,7 @@ class ViewController: UIViewController {
     }
     
     @objc func presentSafeActionSheet() {
-        self.presentAnimated(actionSheetSafe(title: "hello", message: "Message", barButton: navigationItem.rightBarButtonItem!))
+        self.presentAnimated(actionSheetPopoverSafe(title: "hello", message: "Message", barButton: navigationItem.rightBarButtonItem!))
     }
 }
 
