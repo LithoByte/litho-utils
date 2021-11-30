@@ -19,6 +19,7 @@
 		1D434F8521C7E91AD8F80A23B4362E35 /* Configurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CE030D228DB4AAEE2102DC9C853F63 /* Configurable.swift */; };
 		1F92193DF04628B442B81772C738256C /* FunNet-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5D86E2A2D236D7C6467065A1F0DB744 /* FunNet-dummy.m */; };
 		23A8D2A3272A06DA00DE80DD /* CombineFilters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A8D2A2272A06DA00DE80DD /* CombineFilters.swift */; };
+		23E3D1DD2744938100CA18C0 /* OpenUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E3D1DC2744938100CA18C0 /* OpenUrl.swift */; };
 		25D51EEF4C17139A25B00F9E7A5440AC /* Comparables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972233FB326EAC8E2FF3A13DB7505C3C /* Comparables.swift */; };
 		2703240C247596D2D6B324CA4DFA5836 /* FUITableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB85CBDEA9F47C9FFDA2F96F97DA79C7 /* FUITableViewDataSource.swift */; };
 		27E9DF92FB51F5AEDA8903199E57A855 /* FCBPeripheralManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF42818B6791699CFE2CC7BEC1C0E2B /* FCBPeripheralManagerDelegate.swift */; };
@@ -186,6 +187,7 @@
 		20574C340C819F6F8A2A6D65C9FC616C /* FunNet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FunNet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		21CA6E2DB0B479F011E59C27DA402759 /* FunNet.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FunNet.modulemap; sourceTree = "<group>"; };
 		23A8D2A2272A06DA00DE80DD /* CombineFilters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineFilters.swift; sourceTree = "<group>"; };
+		23E3D1DC2744938100CA18C0 /* OpenUrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenUrl.swift; sourceTree = "<group>"; };
 		241E1965D10AF0AE661A0CDFA59A3C60 /* Prelude-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Prelude-Info.plist"; sourceTree = "<group>"; };
 		251A5211DF9AAD8BC353EB6A50D13F38 /* LithoOperators-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LithoOperators-dummy.m"; sourceTree = "<group>"; };
 		25F77EA46ADFCC785D8ADF162BF109EB /* Pods-LithoUtils_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LithoUtils_Tests-Info.plist"; sourceTree = "<group>"; };
@@ -707,6 +709,7 @@
 			children = (
 				8DFD7CBFBD2D1AE8E852DC3B21DA0384 /* iOSFunctions.swift */,
 				D2DD290EAC0617CA3029F61023AA38A8 /* Styles.swift */,
+				23E3D1DC2744938100CA18C0 /* OpenUrl.swift */,
 			);
 			path = Functions;
 			sourceTree = "<group>";
@@ -1151,6 +1154,7 @@
 				4914C69D2756BC940095F993 /* UIImage+Insets.swift in Sources */,
 				8A8B429C9A4DB4CDF5EFF19DCACAB2F4 /* BindViewModel.swift in Sources */,
 				E98917DD9504D1783566E0252D44493C /* CanIndicateActivity.swift in Sources */,
+				23E3D1DD2744938100CA18C0 /* OpenUrl.swift in Sources */,
 				1D434F8521C7E91AD8F80A23B4362E35 /* Configurable.swift in Sources */,
 				37EF3A60FBE83C8B9549502956CCF5B0 /* iOSFunctions.swift in Sources */,
 				D9C817158E83D667E13D24078FDBC479 /* LithoUtils-dummy.m in Sources */,
