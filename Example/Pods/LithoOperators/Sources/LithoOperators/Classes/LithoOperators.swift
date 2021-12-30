@@ -148,7 +148,7 @@ public func <><A>(f: @escaping (A) -> Void, g: @escaping (A) -> Void) -> (A) -> 
 /**
  Operator version of `union`, although it tacks on the second function onto the first (similar to +=)
  */
-infix operator <>=: AdditionPrecedence
+infix operator <>=: AssignmentPrecedence
 public func <>=<A>(f: inout ((A) -> Void), g: @escaping (A) -> Void) {
     f = f <> g
 }
@@ -160,6 +160,26 @@ public func <>=<A>(f: inout ((A) -> Void)?, g: @escaping (A) -> Void) {
 }
 public func <>=<A, B>(f: inout ((A, B) -> Void)?, g: @escaping (A, B) -> Void) {
     f = f == nil ? g : union(f!, g)
+}
+public func <>=<A>(f: inout ((A) -> Void), g: ((A) -> Void)?) {
+    if let g = g {
+        f = f <> g
+    }
+}
+public func <>=<A, B>(f: inout ((A, B) -> Void), g: ((A, B) -> Void)?) {
+    if let g = g {
+        f = union(f, g)
+    }
+}
+public func <>=<A>(f: inout ((A) -> Void)?, g: ((A) -> Void)?) {
+    if let g = g {
+        f = f == nil ? g : f! <> g
+    }
+}
+public func <>=<A, B>(f: inout ((A, B) -> Void)?, g: ((A, B) -> Void)?) {
+    if let g = g {
+        f = f == nil ? g : union(f!, g)
+    }
 }
 
 //allows mutating A, as opposed to <>
