@@ -11,20 +11,21 @@ import LithoOperators
 import UIKit
 
 open class CodableUITextFieldStyle: CodableViewStyle {
-    open var textFieldAttributedText: String?
-    open var textFieldAttributedTextPlaceHolder: String?
-    open var textFieldFont: String?
+    open var textFieldText: String?
+    open var textFieldPlaceHolder: String?
+    open var textFieldFont: CodableFont?
     open var textFieldTextColor: String?
+    open var textFieldBorderStyle: UITextField.BorderStyle?
 }
 
 public func styleTextFieldFunction(given style: CodableUITextFieldStyle) -> (UITextField) -> Void {
     let doNothing: (UITextField) -> Void = { _ in }
     var result: (UITextField) -> Void = doNothing
     
-    result <>= style.textFieldAttributedText |> (~>NSAttributedString.init(string:) >>> (\UITextField.attributedText *-> set))
-    result <>= style.textFieldAttributedTextPlaceHolder |> (~>NSAttributedString.init(string:) >>> (\UITextField.attributedPlaceholder *-> set))
-//    result <>= style.textFieldFont |> (~>UIFont.init(name:, size:) >>> (\UITextField.font *-> set))
+    result <>= style.textFieldText |> (~>String.init(stringLiteral:) >>> (\UITextField.text *-> set))
+    result <>= style.textFieldPlaceHolder |> (~>String.init(stringLiteral:) >>> (\UITextField.placeholder *-> set))
+    result <>= style.textFieldFont?.setOnTextField
     result <>= style.textFieldTextColor |> (~>UIColor.init(hexString:) >>> (\UITextField.textColor *-> set))
-    
+    result <>= style.textFieldBorderStyle ?> (\UITextField.borderStyle *-> set)
     return result
 }

@@ -11,8 +11,8 @@ import Prelude
 import LithoOperators
 
 open class CodableUILabelStyle : CodableViewStyle {
-    open var labelAttributedText: String?
-    open var labelFont: NSCoder?
+    open var labelText: String?
+    open var labelFont: CodableFont?
     open var labelTextColor: String?
     open var labelShadowColor: String?
 }
@@ -21,9 +21,10 @@ public func styleLabelFunction(given style: CodableUILabelStyle) -> (UILabel) ->
     let doNothing: (UILabel) -> Void = { _ in }
     var result: (UILabel) -> Void = doNothing
     
-    result <>= style.labelAttributedText |> (~>NSAttributedString.init(string:) >>> (\UILabel.attributedText *-> set))
-//    result <>= style.labelFont |> (~> UIFont.init(coder:)) >>> (\UILabel.font *-> set)
+    result <>= style.labelText |> (~>String.init(stringLiteral:) >>> (\UILabel.text *-> set))
     result <>= style.labelTextColor |> (~>UIColor.init(hexString:) >>> (\UILabel.textColor *-> set))
     result <>= style.labelShadowColor |> (~>UIColor.init(hexString:) >>> (\UILabel.shadowColor *-> set))
+    result <>= style.labelFont?.setOnLabel
+    
     return result
 }

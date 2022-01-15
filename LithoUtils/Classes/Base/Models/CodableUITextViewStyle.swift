@@ -11,9 +11,8 @@ import LithoOperators
 import UIKit
 
 open class CodableUITextViewStyle: CodableViewStyle {
-    open var textViewAttributedText: String?
-    open var textViewFontName: String?
-    open var textViewFontSize: String?
+    open var textViewText: String?
+    open var textViewFont: CodableFont?
     open var textViewTextColor: String?
 }
 
@@ -21,8 +20,9 @@ public func styleTextViewFunction(given style: CodableUITextViewStyle) -> (UITex
     let doNothing: (UITextView) -> Void = { _ in }
     var result: (UITextView) -> Void = doNothing
     
-    result <>= style.textViewAtrributedText |> (~>NSAttributedString.init(string:) >>> (\UITextView.attributedText *-> set))
-//    result <>= union(style.textViewFont, style.textViewFontSize)  |> (~>UIFont.init(name:size:) >>> (\UITextView.font *-> set))
+    result <>= style.textViewText |> (~>String.init(stringLiteral:) >>> (\UITextView.text *-> set))
     result <>= style.textViewTextColor |> (~>UIColor.init(hexString:) >>> (\UITextView.textColor *-> set))
+    result <>= style.textViewFont?.setOnTextView
+    
     return result
 }

@@ -84,6 +84,7 @@
 		C762E4DB549DB4ABD6588515126DD386 /* Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57E316A75B7A20ED7707BF9F1FBA13E /* Optional.swift */; };
 		C78DA585B6AF0ACE7D5047460ACF73F5 /* LithoUtils-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1017A456D4681218DA8D647558BBFCC2 /* LithoUtils-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C7C09B5DF8DB045B982CAC516DF83CDC /* Pods-LithoUtils_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E66FCB335684D9E7FCD8E3681647F40 /* Pods-LithoUtils_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D00711D92793135600A5ABD7 /* CodableFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00711D82793135600A5ABD7 /* CodableFont.swift */; };
 		D0BE9D4A5FA4130BEC61AF2E1535E83A /* Try.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E7248130AA48A65B08CE1BB8A20CA6 /* Try.swift */; };
 		D3BC02CE3DD8914AFE4E56197BB2A9BA /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA461ABCD6BD631B8D97F8B70BF93EC /* Application.swift */; };
 		D50A29F836515439C72952535B222027 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2003BB4FF9A1C347FD2F402DCA1B35F4 /* Foundation.framework */; };
@@ -283,6 +284,7 @@
 		CBE7D9E9A33AEE96678BFE23473F0A05 /* fuikit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "fuikit-umbrella.h"; sourceTree = "<group>"; };
 		CC9CC2B005C326D2D8A642A627AA81ED /* LithoOperators.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LithoOperators.release.xcconfig; sourceTree = "<group>"; };
 		CF516384720AED607BEA0D8E82705FE3 /* fuikit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = fuikit.debug.xcconfig; sourceTree = "<group>"; };
+		D00711D82793135600A5ABD7 /* CodableFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableFont.swift; sourceTree = "<group>"; };
 		D115576C85F820B62F6C146A2903CA50 /* LithoUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LithoUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2380DD34FA4C2080D63A3B64845DE87 /* Pods-LithoUtils_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LithoUtils_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D2DD290EAC0617CA3029F61023AA38A8 /* Styles.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
@@ -522,6 +524,7 @@
 				49A75A67277D1331003A5213 /* CodableViewStyle.swift */,
 				AD3DA24D278B688100BE32F4 /* CodableUIButtonStyle.swift */,
 				ADD3FD5D278F18CE00C85F1C /* CodableUILabelStyle.swift */,
+				D00711D82793135600A5ABD7 /* CodableFont.swift */,
 				ADD31491278F59BD0019CB8C /* CodableUITextViewStyle.swift */,
 				ADD3148F278F58470019CB8C /* CodableUITextFieldStyle.swift */,
 				A2DBA32B4C0746FCBB68E3BFDD93D360 /* CanIndicateActivity.swift */,
@@ -1173,6 +1176,7 @@
 				AD3DA24E278B688100BE32F4 /* CodableUIButtonStyle.swift in Sources */,
 				1D434F8521C7E91AD8F80A23B4362E35 /* Configurable.swift in Sources */,
 				37EF3A60FBE83C8B9549502956CCF5B0 /* iOSFunctions.swift in Sources */,
+				D00711D92793135600A5ABD7 /* CodableFont.swift in Sources */,
 				ADD31492278F59BD0019CB8C /* CodableUITextViewStyle.swift in Sources */,
 				D9C817158E83D667E13D24078FDBC479 /* LithoUtils-dummy.m in Sources */,
 				572C4D70B168372280193FC90E428E97 /* Styles.swift in Sources */,
