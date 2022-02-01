@@ -24,6 +24,11 @@ let package = Package(
             dependencies: ["LithoOperators", "fuikit"],
             path: "Sources/LithoUtils/Classes/Base"
         ),
+        .target(
+            name: "litho-utils/Post13",
+            dependencies: ["LithoOperators", "fuikit", "litho-utils"],
+            path: "Sources/LithoUtils/Classes/Post13"
+        ),
         .testTarget(
             name: "litho-utilsTests",
             dependencies: ["litho-utils"])
