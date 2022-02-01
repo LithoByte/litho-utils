@@ -1,0 +1,34 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "fuikit",
+        "repositoryURL": "https://github.com/LithoByte/fuikit",
+        "state": {
+          "branch": "master",
+          "revision": "e7585671c98024f7c03a76de27bea5b99cc46e5c",
+          "version": null
+        }
+      },
+      {
+        "package": "LithoOperators",
+        "repositoryURL": "https://github.com/LithoByte/LithoOperators",
+        "state": {
+          "branch": "master",
+          "revision": "518f40dd4c8e347b416bbe8faa96114f9eb09a3b",
+          "version": null
+        }
+      },
+      {
+        "package": "Prelude",
+        "repositoryURL": "https://github.com/ThryvInc/Prelude",
+        "state": {
+          "branch": null,
+          "revision": "f2950ab5fc6f099c3887efa686cbe086fc2cf687",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}

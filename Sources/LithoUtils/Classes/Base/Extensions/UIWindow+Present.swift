@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import UIKit
 
 public extension UIWindow {
     func present<T>(_ vc: T) where T: UIViewController {

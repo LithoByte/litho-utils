@@ -9,6 +9,7 @@ import Foundation
 import LithoOperators
 import Prelude
 import fuikit
+import UIKit
 
 public func defaultAlertAction(title: String, handler: @escaping (UIAlertAction) -> Void) -> UIAlertAction {
     return UIAlertAction(title: title, style: .default, handler: handler)

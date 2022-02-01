@@ -8,6 +8,7 @@
 import Foundation
 import LithoOperators
 import Prelude
+import UIKit
 
 public let setCappedEnds: (UIView) -> Void = {
     if $0.frame.height >= $0.frame.width {

@@ -412,7 +412,7 @@
 				23A8D2A2272A06DA00DE80DD /* CombineFilters.swift */,
 			);
 			name = Post13;
-			path = LithoUtils/Classes/Post13;
+			path = Classes/Post13;
 			sourceTree = "<group>";
 		};
 		3B654A85FFDB933E330817BDCD461F79 /* Support Files */ = {
@@ -596,7 +596,7 @@
 				F4BFDE72E855E648382D97BC9A7AF4F0 /* Support Files */,
 			);
 			name = LithoUtils;
-			path = ../..;
+			path = ../../Sources/LithoUtils;
 			sourceTree = "<group>";
 		};
 		CA1D4F7248FEF53A120F01F937388596 /* FunNet */ = {
@@ -667,7 +667,7 @@
 				9F99870D740D8564A39C526BD97F1FBF /* Models */,
 			);
 			name = Base;
-			path = LithoUtils/Classes/Base;
+			path = Classes/Base;
 			sourceTree = "<group>";
 		};
 		E23D3A06BC6C1A56047BD7BC75B14A67 /* Frameworks */ = {
@@ -743,7 +743,7 @@
 				8978B4AD7B9B65DF335143BC28E7BB2D /* LithoUtils.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "Example/Pods/Target Support Files/LithoUtils";
+			path = "../../Example/Pods/Target Support Files/LithoUtils";
 			sourceTree = "<group>";
 		};
 		FBE154CD24C29F2542CFBC686AF59364 /* CoreBluetooth */ = {

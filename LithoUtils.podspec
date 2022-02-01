@@ -31,12 +31,12 @@ LithoUtils gives developers a library of shortcuts, streamlining the common oper
 
   s.ios.deployment_target = '13.0'
 
-  s.source_files = 'LithoUtils/Classes/**/*'
+  s.source_files = 'Sources/LithoUtils/Classes/**/*'
   s.dependency 'LithoOperators'
   s.dependency 'fuikit/Core'
   
   s.subspec 'Core' do |sp|
       sp.ios.deployment_target = '11.0'
-      sp.source_files = 'LithoUtils/Classes/Base/**/*.swift'
+      sp.source_files = 'Sources/LithoUtils/Classes/Base/**/*.swift'
   end
 end

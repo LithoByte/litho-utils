@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import UIKit
 
 public extension UIImage {
     func resizedProportionally(newHeight: CGFloat) -> UIImage? {

@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import UIKit
 
 public extension UIViewController {
     func barButtonItem(for imageName: String, selector: Selector) -> UIBarButtonItem {
