@@ -4,13 +4,13 @@
 import PackageDescription
 
 let package = Package(
-    name: "litho-utils",
+    name: "LithoUtils",
     platforms: [.iOS(.v11)],
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
-            name: "litho-utils",
-            targets: ["litho-utils"]),
+            name: "LithoUtils",
+            targets: ["LithoUtils"]),
     ],
     dependencies: [
         .package(name: "LithoOperators", url: "https://github.com/LithoByte/LithoOperators", branch: "master"),
@@ -20,17 +20,31 @@ let package = Package(
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(
-            name: "litho-utils",
+            name: "LithoUtils",
             dependencies: ["LithoOperators", "fuikit"],
             path: "Sources/LithoUtils/Classes/Base"
         ),
-        .target(
-            name: "litho-utils/Post13",
-            dependencies: ["LithoOperators", "fuikit", "litho-utils"],
-            path: "Sources/LithoUtils/Classes/Post13"
-        ),
         .testTarget(
             name: "litho-utilsTests",
-            dependencies: ["litho-utils"])
+            dependencies: ["LithoUtils", "LithoOperators", "fuikit"])
+    ]
+)
+
+let otherPackage = Package(
+    name: "LithoUtils/Post13",
+    platforms: [.iOS(.v13)],
+    products: [
+        .library(name: "LithoUtils", targets: ["LithoUtils"])
+    ],
+    dependencies: [
+        .package(name: "LithoOperators", url: "https://github.com/LithoByte/LithoOperators", branch: "master"),
+        .package(name: "fuikit", url: "https://github.com/LithoByte/fuikit", branch: "master")
+    ],
+    targets: [
+        .target(
+            name: "LithoUtils",
+            dependencies: ["LithoOperators", "fuikit"],
+            path: "Sources/LithoUtils/Classes"
+        )
     ]
 )

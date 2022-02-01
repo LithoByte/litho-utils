@@ -9,6 +9,7 @@ import Foundation
 import Combine
 import LithoOperators
 import Prelude
+import UIKit
 
 @available(iOS 13.0, *)
 public func bindButtonEnabledToPublisher(_ button: UIButton, publisher: AnyPublisher<Bool, Never>, cancelBag: inout Set<AnyCancellable>){
