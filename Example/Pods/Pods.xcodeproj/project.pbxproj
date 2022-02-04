@@ -70,10 +70,10 @@
 		A5C3FB31DFF0AF0F28C8A15523F31E23 /* Requests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DABECCB09113529E3C947A537D4B2A9 /* Requests.swift */; };
 		A7BCB50C4F281A53CE1C7347F1035A90 /* Tuples.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85FF1EFAD889C5F3AC9267D8EBBA7FF /* Tuples.swift */; };
 		AB8945189DDF67206DEB47405CC9189C /* Combine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 361872671279D895CAE5FC1BE0F1F099 /* Combine.framework */; };
-		AD3DA24E278B688100BE32F4 /* CodableUIButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3DA24D278B688100BE32F4 /* CodableUIButtonStyle.swift */; };
-		ADD31490278F58470019CB8C /* CodableUITextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD3148F278F58470019CB8C /* CodableUITextFieldStyle.swift */; };
-		ADD31492278F59BD0019CB8C /* CodableUITextViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD31491278F59BD0019CB8C /* CodableUITextViewStyle.swift */; };
-		ADD3FD5E278F18CE00C85F1C /* CodableUILabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD3FD5D278F18CE00C85F1C /* CodableUILabelStyle.swift */; };
+		AD3DA24E278B688100BE32F4 /* CodableButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3DA24D278B688100BE32F4 /* CodableButtonStyle.swift */; };
+		ADD31490278F58470019CB8C /* CodableTextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD3148F278F58470019CB8C /* CodableTextFieldStyle.swift */; };
+		ADD31492278F59BD0019CB8C /* CodableTextViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD31491278F59BD0019CB8C /* CodableTextViewStyle.swift */; };
+		ADD3FD5E278F18CE00C85F1C /* CodableLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD3FD5D278F18CE00C85F1C /* CodableLabelStyle.swift */; };
 		B177E682B2DD193BD9B21DD7BCF4E845 /* fuikit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BE04D02D5C6771857B64F8273B12DAF /* fuikit.framework */; };
 		B3529762FC91490358A198C2A61660CD /* UIViewController+DismissKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FFF1C57B24CDB119C2979B65975DC09 /* UIViewController+DismissKeyboard.swift */; };
 		B6D56C5D962373773F7766AEC704CC41 /* Pods-LithoUtils_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16966DFF7F592693B55804A8F91B715B /* Pods-LithoUtils_Tests-dummy.m */; };
@@ -257,11 +257,11 @@
 		A91A6D11432075E81830710869742FD3 /* Pods-LithoUtils_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LithoUtils_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		ABB472F5B9F627528371F75002A62931 /* LithoUtils-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LithoUtils-Info.plist"; sourceTree = "<group>"; };
 		ACDCA980BEEFFC430A2D2E8FAF657442 /* fuikit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "fuikit-Info.plist"; sourceTree = "<group>"; };
-		AD3DA24D278B688100BE32F4 /* CodableUIButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableUIButtonStyle.swift; sourceTree = "<group>"; };
+		AD3DA24D278B688100BE32F4 /* CodableButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableButtonStyle.swift; sourceTree = "<group>"; };
 		AD5D7DF3606FC25C8814DD627B8FD16B /* Pods-LithoUtils_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LithoUtils_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		ADD3148F278F58470019CB8C /* CodableUITextFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableUITextFieldStyle.swift; sourceTree = "<group>"; };
-		ADD31491278F59BD0019CB8C /* CodableUITextViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableUITextViewStyle.swift; sourceTree = "<group>"; };
-		ADD3FD5D278F18CE00C85F1C /* CodableUILabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableUILabelStyle.swift; sourceTree = "<group>"; };
+		ADD3148F278F58470019CB8C /* CodableTextFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableTextFieldStyle.swift; sourceTree = "<group>"; };
+		ADD31491278F59BD0019CB8C /* CodableTextViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableTextViewStyle.swift; sourceTree = "<group>"; };
+		ADD3FD5D278F18CE00C85F1C /* CodableLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableLabelStyle.swift; sourceTree = "<group>"; };
 		B2706F646CF36E98141B40AC4F55BF39 /* FunNet-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FunNet-prefix.pch"; sourceTree = "<group>"; };
 		B4E4D1733707305F036B0F1EB03E9149 /* LithoOperators-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LithoOperators-umbrella.h"; sourceTree = "<group>"; };
 		B5D86E2A2D236D7C6467065A1F0DB744 /* FunNet-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FunNet-dummy.m"; sourceTree = "<group>"; };
@@ -522,11 +522,11 @@
 			isa = PBXGroup;
 			children = (
 				49A75A67277D1331003A5213 /* CodableViewStyle.swift */,
-				AD3DA24D278B688100BE32F4 /* CodableUIButtonStyle.swift */,
-				ADD3FD5D278F18CE00C85F1C /* CodableUILabelStyle.swift */,
+				AD3DA24D278B688100BE32F4 /* CodableButtonStyle.swift */,
+				ADD3FD5D278F18CE00C85F1C /* CodableLabelStyle.swift */,
 				D00711D82793135600A5ABD7 /* CodableFont.swift */,
-				ADD31491278F59BD0019CB8C /* CodableUITextViewStyle.swift */,
-				ADD3148F278F58470019CB8C /* CodableUITextFieldStyle.swift */,
+				ADD31491278F59BD0019CB8C /* CodableTextViewStyle.swift */,
+				ADD3148F278F58470019CB8C /* CodableTextFieldStyle.swift */,
 				A2DBA32B4C0746FCBB68E3BFDD93D360 /* CanIndicateActivity.swift */,
 			);
 			path = Models;
@@ -1173,21 +1173,21 @@
 				8A8B429C9A4DB4CDF5EFF19DCACAB2F4 /* BindViewModel.swift in Sources */,
 				E98917DD9504D1783566E0252D44493C /* CanIndicateActivity.swift in Sources */,
 				23E3D1DD2744938100CA18C0 /* OpenUrl.swift in Sources */,
-				AD3DA24E278B688100BE32F4 /* CodableUIButtonStyle.swift in Sources */,
+				AD3DA24E278B688100BE32F4 /* CodableButtonStyle.swift in Sources */,
 				1D434F8521C7E91AD8F80A23B4362E35 /* Configurable.swift in Sources */,
 				37EF3A60FBE83C8B9549502956CCF5B0 /* iOSFunctions.swift in Sources */,
 				D00711D92793135600A5ABD7 /* CodableFont.swift in Sources */,
-				ADD31492278F59BD0019CB8C /* CodableUITextViewStyle.swift in Sources */,
+				ADD31492278F59BD0019CB8C /* CodableTextViewStyle.swift in Sources */,
 				D9C817158E83D667E13D24078FDBC479 /* LithoUtils-dummy.m in Sources */,
 				572C4D70B168372280193FC90E428E97 /* Styles.swift in Sources */,
 				9252A0860F6E944111EF1F40819480BA /* UIColor+hex.swift in Sources */,
 				35B6C7EAA888AAC2D30B68CA2D5033B3 /* UIImage+Resize.swift in Sources */,
 				49A75A68277D1331003A5213 /* CodableViewStyle.swift in Sources */,
-				ADD3FD5E278F18CE00C85F1C /* CodableUILabelStyle.swift in Sources */,
+				ADD3FD5E278F18CE00C85F1C /* CodableLabelStyle.swift in Sources */,
 				23A8D2A3272A06DA00DE80DD /* CombineFilters.swift in Sources */,
 				DD2EB9C57A0742F83949E20E727EBF35 /* UIViewController+BarButtonItem.swift in Sources */,
 				B3529762FC91490358A198C2A61660CD /* UIViewController+DismissKeyboard.swift in Sources */,
-				ADD31490278F58470019CB8C /* CodableUITextFieldStyle.swift in Sources */,
+				ADD31490278F58470019CB8C /* CodableTextFieldStyle.swift in Sources */,
 				4AE0672DEB7D93909EA89796BBAFA2C2 /* UIWindow+Present.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

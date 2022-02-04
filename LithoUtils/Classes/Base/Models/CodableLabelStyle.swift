@@ -1,5 +1,5 @@
 //
-//  CodableUILabelStyle.swift
+//  CodableLabelStyle.swift
 //  LithoUtils
 //
 //  Created by Remmington Damper on 1/12/22.
@@ -10,8 +10,7 @@ import UIKit
 import Prelude
 import LithoOperators
 
-open class CodableUILabelStyle : CodableViewStyle {
-    open var labelText: String?
+open class CodableLabelStyle : CodableViewStyle {
     open var labelFont: CodableFont?
     open var labelTextColor: String?
     open var labelShadowColor: String?
@@ -20,8 +19,7 @@ open class CodableUILabelStyle : CodableViewStyle {
 public func styleLabelFunction(given style: CodableUILabelStyle) -> (UILabel) -> Void {
     let doNothing: (UILabel) -> Void = { _ in }
     var result: (UILabel) -> Void = doNothing
-    
-    result <>= style.labelText |> (~>String.init(stringLiteral:) >>> (\UILabel.text *-> set))
+
     result <>= style.labelTextColor |> (~>UIColor.init(hexString:) >>> (\UILabel.textColor *-> set))
     result <>= style.labelShadowColor |> (~>UIColor.init(hexString:) >>> (\UILabel.shadowColor *-> set))
     result <>= style.labelFont?.setOnLabel

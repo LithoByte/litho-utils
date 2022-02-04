@@ -1,5 +1,5 @@
 //
-//  CodableUIButton.swift
+//  CodableButton.swift
 //  LithoUtils
 //
 //  Created by Remmington Damper on 1/9/22.
@@ -10,7 +10,7 @@ import LithoOperators
 import Prelude
 import UIKit
 
-open class CodableUIButtonStyle: CodableViewStyle {
+open class CodableButtonStyle: CodableViewStyle {
     open var buttonTitleColor: String?
     open var buttonTitleShadowColor: String?
     open var buttonTitleAndImageTintColor: String?
