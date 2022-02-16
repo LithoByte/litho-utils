@@ -18,6 +18,7 @@
 		180FD285D7885124BD5816FBD7F0AD99 /* LithoOperators.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF33FB01C4213CEE32E09EED17997D27 /* LithoOperators.framework */; };
 		1D434F8521C7E91AD8F80A23B4362E35 /* Configurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CE030D228DB4AAEE2102DC9C853F63 /* Configurable.swift */; };
 		1F92193DF04628B442B81772C738256C /* FunNet-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5D86E2A2D236D7C6467065A1F0DB744 /* FunNet-dummy.m */; };
+		2302F10927BDAA2200B00D31 /* AccessoryViewConfigurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2302F10827BDAA2200B00D31 /* AccessoryViewConfigurable.swift */; };
 		23A8D2A3272A06DA00DE80DD /* CombineFilters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A8D2A2272A06DA00DE80DD /* CombineFilters.swift */; };
 		23E3D1DD2744938100CA18C0 /* OpenUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E3D1DC2744938100CA18C0 /* OpenUrl.swift */; };
 		25D51EEF4C17139A25B00F9E7A5440AC /* Comparables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972233FB326EAC8E2FF3A13DB7505C3C /* Comparables.swift */; };
@@ -186,6 +187,7 @@
 		2003BB4FF9A1C347FD2F402DCA1B35F4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		20574C340C819F6F8A2A6D65C9FC616C /* FunNet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FunNet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		21CA6E2DB0B479F011E59C27DA402759 /* FunNet.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FunNet.modulemap; sourceTree = "<group>"; };
+		2302F10827BDAA2200B00D31 /* AccessoryViewConfigurable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccessoryViewConfigurable.swift; sourceTree = "<group>"; };
 		23A8D2A2272A06DA00DE80DD /* CombineFilters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineFilters.swift; sourceTree = "<group>"; };
 		23E3D1DC2744938100CA18C0 /* OpenUrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenUrl.swift; sourceTree = "<group>"; };
 		241E1965D10AF0AE661A0CDFA59A3C60 /* Prelude-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Prelude-Info.plist"; sourceTree = "<group>"; };
@@ -509,6 +511,7 @@
 		9F99870D740D8564A39C526BD97F1FBF /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				2302F10827BDAA2200B00D31 /* AccessoryViewConfigurable.swift */,
 				A2DBA32B4C0746FCBB68E3BFDD93D360 /* CanIndicateActivity.swift */,
 			);
 			path = Models;
@@ -1152,6 +1155,7 @@
 			files = (
 				5F4A47D2443CB8F962AC277452CE68B5 /* Alert.swift in Sources */,
 				4914C69D2756BC940095F993 /* UIImage+Insets.swift in Sources */,
+				2302F10927BDAA2200B00D31 /* AccessoryViewConfigurable.swift in Sources */,
 				8A8B429C9A4DB4CDF5EFF19DCACAB2F4 /* BindViewModel.swift in Sources */,
 				E98917DD9504D1783566E0252D44493C /* CanIndicateActivity.swift in Sources */,
 				23E3D1DD2744938100CA18C0 /* OpenUrl.swift in Sources */,

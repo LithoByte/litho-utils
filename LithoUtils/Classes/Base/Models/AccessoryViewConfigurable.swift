@@ -6,10 +6,11 @@
 //
 
 import Foundation
+import LithoOperators
 import UIKit
 
 @objc public protocol AccessoryViewConfigurable {
-    var textView: UITextView? { get set }
+    var responder: UIResponder? { get set }
     
     @objc func barButtonPressed()
 }
@@ -21,7 +22,8 @@ public func alignRightConfigurer(toolbar: UIToolbar = UIToolbar(), barButton: UI
         barButton.action = #selector(dismissable.barButtonPressed)
         toolbar.items = [flexSpace, barButton]
         toolbar.sizeToFit()
-        dismissable.textView?.inputAccessoryView = toolbar
+        dismissable.responder ?> (~>set(\UITextField.inputAccessoryView, toolbar))
+        dismissable.responder ?> (~>set(\UITextView.inputAccessoryView, toolbar))
     }
 }
 
@@ -32,6 +34,8 @@ public func alignLeftConfigurer(toolbar: UIToolbar = UIToolbar(), barButton: UIB
         barButton.action = #selector(dismissable.barButtonPressed)
         toolbar.items = [barButton, flexSpace]
         toolbar.sizeToFit()
-        dismissable.textView?.inputAccessoryView = toolbar
+        dismissable.responder ?> (~>set(\UITextField.inputAccessoryView, toolbar))
+        dismissable.responder ?> (~>set(\UITextView.inputAccessoryView, toolbar))
     }
 }
+
