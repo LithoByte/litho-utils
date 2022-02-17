@@ -11,17 +11,17 @@ import LithoOperators
 import UIKit
 
 open class CodableTextFieldStyle: CodableViewStyle {
-    open var textFieldFont: CodableFont?
-    open var textFieldTextColor: String?
-    open var textFieldBorderStyle: UITextField.BorderStyle?
+    open var font: CodableFont?
+    open var textColor: String?
+    open var borderStyle: UITextField.BorderStyle?
 }
 
-public func styleTextFieldFunction(given style: CodableUITextFieldStyle) -> (UITextField) -> Void {
-    let doNothing: (UITextField) -> Void = { _ in }
+public func styleTextFieldFunction(given style: CodableTextFieldStyle) -> (UITextField) -> Void {
+    let doNothing: (UITextField) -> Void = styleFunction(given: style)
     var result: (UITextField) -> Void = doNothing
 
-    result <>= style.textFieldFont?.setOnTextField
-    result <>= style.textFieldTextColor |> (~>UIColor.init(hexString:) >>> (\UITextField.textColor *-> set))
-    result <>= style.textFieldBorderStyle ?> (\UITextField.borderStyle *-> set)
+    result <>= style.font?.setOnTextField
+    result <>= style.textColor |> (~>UIColor.init(hexString:) >>> (\UITextField.textColor *-> set))
+    result <>= style.borderStyle ?> (\UITextField.borderStyle *-> set)
     return result
 }

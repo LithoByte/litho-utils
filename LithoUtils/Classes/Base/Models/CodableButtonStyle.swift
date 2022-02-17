@@ -11,19 +11,31 @@ import Prelude
 import UIKit
 
 open class CodableButtonStyle: CodableViewStyle {
-    open var buttonTitleColor: String?
-    open var buttonTitleShadowColor: String?
-    open var buttonTitleAndImageTintColor: String?
-    open var buttonFont: CodableFont?
+    open var titleColor: String?
+    open var titleShadowColor: String?
+    open var titleAndImageTintColor: String?
+    open var font: CodableFont?
 }
 
-public func styleButtonFunction(given style: CodableUIButtonStyle) -> (UIButton) -> Void {
-    let doNothing: (UIButton) -> Void = { _ in }
+public func styleButtonFunction(given style: CodableButtonStyle) -> (UIButton) -> Void {
+    let doNothing: (UIButton) -> Void = styleFunction(given: style)
     var result: (UIButton) -> Void = doNothing
-    
-//    result <>= style.buttonTitleColor |> (~>UIColor.init(hexString:) >>> UIButton.setTitleColor(_:for:))
-//    result <>= style.buttonTitleShadowColor |> (~>UIColor.init(hexString:) >>> (\UIButton.setTitleShadowColor() *-> set))
-    result <>= style.buttonFont?.setOnButton
-    result <>= style.buttonTitleAndImageTintColor |> (~>UIColor.init(hexString:) >>> (\UIButton.tintColor *-> set))
+    result <>= style.titleColor |> (~>UIColor.init(hexString:) >?> buttonTitleColorSetter(color:))
+   result <>= style.titleShadowColor |> (~>UIColor.init(hexString:) >?> buttonTitleColorSetter(color:))
+    result <>= style.font?.setOnButton
+    result <>= style.titleAndImageTintColor |> (~>UIColor.init(hexString:) >>> (\UIButton.tintColor *-> set))
   return result
+}
+
+func buttonTitleColorSetter(color: UIColor) -> (UIButton) -> Void {
+    return {
+        button in
+        button.setTitleColor(color, for: .normal)
+    }
+}
+func buttonTitleShadowColorSetter(color: UIColor) -> (UIButton) -> Void {
+    return {
+        button in
+        button.setTitleShadowColor(color, for: .normal)
+    }
 }

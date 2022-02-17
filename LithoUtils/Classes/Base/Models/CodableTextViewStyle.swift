@@ -11,16 +11,16 @@ import LithoOperators
 import UIKit
 
 open class CodableTextViewStyle: CodableViewStyle {
-    open var textViewFont: CodableFont?
-    open var textViewTextColor: String?
+    open var font: CodableFont?
+    open var textColor: String?
 }
 
-public func styleTextViewFunction(given style: CodableUITextViewStyle) -> (UITextView) -> Void {
-    let doNothing: (UITextView) -> Void = { _ in }
+public func styleTextViewFunction(given style: CodableTextViewStyle) -> (UITextView) -> Void {
+    let doNothing: (UITextView) -> Void = styleFunction(given: style)
     var result: (UITextView) -> Void = doNothing
 
-    result <>= style.textViewTextColor |> (~>UIColor.init(hexString:) >>> (\UITextView.textColor *-> set))
-    result <>= style.textViewFont?.setOnTextView
+    result <>= style.textColor |> (~>UIColor.init(hexString:) >>> (\UITextView.textColor *-> set))
+    result <>= style.font?.setOnTextView
     
     return result
 }
