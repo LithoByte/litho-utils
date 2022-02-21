@@ -9,7 +9,11 @@ import UIKit
 import Prelude
 import LithoOperators
 
-open class CodableViewStyle: Codable {
+public protocol StyleApplicable {
+    func apply(to view: UIView)
+}
+
+open class CodableViewStyle: Codable, StyleApplicable {
     open var backgroundColorHex: String?
     open var tintColorHex: String?
     
@@ -41,6 +45,10 @@ open class CodableViewStyle: Codable {
         self.shadowColorHex = shadowColorHex
         self.shadowRadius = shadowRadius
         self.shadowOpacity = shadowOpacity
+    }
+    
+    public func apply(to view: UIView) {
+        view |> styleFunction(given: self)
     }
 }
 

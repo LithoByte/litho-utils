@@ -27,6 +27,10 @@ open class CodableButtonStyle: CodableViewStyle {
     required public init(from decoder: Decoder) throws {
         try super.init(from: decoder)
     }
+    
+    public override func apply(to view: UIView) {
+        view |> ~>styleButtonFunction(given: self)
+    }
 }
 
 public func styleButtonFunction(given style: CodableButtonStyle) -> (UIButton) -> Void {

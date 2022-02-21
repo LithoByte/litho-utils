@@ -23,6 +23,10 @@ open class CodableTextViewStyle: CodableViewStyle {
     required public init(from decoder: Decoder) throws {
         try super.init(from: decoder)
     }
+    
+    public override func apply(to view: UIView) {
+        view |> ~>styleTextViewFunction(given: self)
+    }
 }
 
 public func styleTextViewFunction(given style: CodableTextViewStyle) -> (UITextView) -> Void {

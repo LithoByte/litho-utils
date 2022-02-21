@@ -25,6 +25,10 @@ open class CodableLabelStyle : CodableViewStyle {
     required public init(from decoder: Decoder) throws {
         try super.init(from: decoder)
     }
+    
+    public override func apply(to view: UIView) {
+        view |> ~>styleLabelFunction(given: self)
+    }
 }
 
 public func styleLabelFunction(given style: CodableLabelStyle) -> (UILabel) -> Void {

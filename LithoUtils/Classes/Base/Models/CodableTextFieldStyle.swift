@@ -25,6 +25,10 @@ open class CodableTextFieldStyle: CodableViewStyle {
     required public init(from decoder: Decoder) throws {
         try super.init(from: decoder)
     }
+    
+    public override func apply(to view: UIView) {
+        view |> ~>styleTextFieldFunction(given: self)
+    }
 }
 
 public func styleTextFieldFunction(given style: CodableTextFieldStyle) -> (UITextField) -> Void {
