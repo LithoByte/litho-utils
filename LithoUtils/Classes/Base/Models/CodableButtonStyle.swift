@@ -15,6 +15,18 @@ open class CodableButtonStyle: CodableViewStyle {
     open var titleShadowColor: String?
     open var titleAndImageTintColor: String?
     open var font: CodableFont?
+    
+    public init(backgroundColorHex: String? = nil, tintColorHex: String? = nil, isHidden: Bool? = nil, isOpaque: Bool? = nil, clipsToBounds: Bool? = nil, alpha: CGFloat? = nil, cornerRadius: CGFloat? = nil, borderWidth: CGFloat? = nil, borderColorHex: String? = nil, shadowColorHex: String? = nil, shadowRadius: CGFloat? = nil, shadowOpacity: Float? = nil, titleColor: String? = nil, titleShadowColor: String? = nil, titleAndImageTintColor: String? = nil, font: CodableFont? = nil) {
+        self.titleColor = titleColor
+        self.titleShadowColor = titleShadowColor
+        self.titleAndImageTintColor = titleAndImageTintColor
+        self.font = font
+        super.init(backgroundColorHex: backgroundColorHex, tintColorHex: tintColorHex, isHidden: isHidden, isOpaque: isOpaque, clipsToBounds: clipsToBounds, alpha: alpha, cornerRadius: cornerRadius, borderWidth: borderWidth, borderColorHex: borderColorHex, shadowColorHex: shadowColorHex, shadowRadius: shadowRadius, shadowOpacity: shadowOpacity)
+    }
+    
+    required public init(from decoder: Decoder) throws {
+        try super.init(from: decoder)
+    }
 }
 
 public func styleButtonFunction(given style: CodableButtonStyle) -> (UIButton) -> Void {
