@@ -9,6 +9,7 @@ import Foundation
 import LithoOperators
 import Prelude
 import UIKit
+import LithoStrings
 
 open class CodableButtonStyle: CodableViewStyle {
     open var titleColor: String?
@@ -37,10 +38,19 @@ public func styleButtonFunction(given style: CodableButtonStyle) -> (UIButton) -
     let doNothing: (UIButton) -> Void = styleFunction(given: style)
     var result: (UIButton) -> Void = doNothing
     result <>= style.titleColor |> (~>UIColor.init(hexString:) >?> buttonTitleColorSetter(color:))
-   result <>= style.titleShadowColor |> (~>UIColor.init(hexString:) >?> buttonTitleColorSetter(color:))
+    result <>= style.titleShadowColor |> (~>UIColor.init(hexString:) >?> buttonTitleColorSetter(color:))
     result <>= style.font?.setOnButton
     result <>= style.titleAndImageTintColor |> (~>UIColor.init(hexString:) >>> (\UIButton.tintColor *-> set))
   return result
+}
+
+public func styleButtonWithTitle(given style: CodableButtonStyle, with title: String?) -> (UIButton) -> Void {
+    let doNothing: (UIButton) -> Void = styleFunction(given: style)
+    var result: (UIButton) -> Void = doNothing
+    result <>= style.titleAndImageTintColor |> (~>UIColor.init(hexString:) >>> (\UIButton.tintColor *-> set))
+    result <>= style.titleShadowColor |> (~>UIColor.init(hexString:) >?> buttonTitleColorSetter(color:))
+    result <>= (title -*> attributedStringSetter(given: style))
+    return result
 }
 
 func buttonTitleColorSetter(color: UIColor) -> (UIButton) -> Void {
@@ -53,5 +63,14 @@ func buttonTitleShadowColorSetter(color: UIColor) -> (UIButton) -> Void {
     return {
         button in
         button.setTitleShadowColor(color, for: .normal)
+    }
+}
+
+func attributedStringSetter(given style: CodableButtonStyle) -> (UIButton, String?) -> Void {
+    return { button, title in
+        let attributed = convertToMutableString(fromRegularString: title ?? "")
+        style.font?.font() ?> (attributed -*> setFontAttributes)
+        style.titleColor ?> (UIColor.init(hexString:) >?> (attributed -*> setForegroundColorAttributes))
+        button.setAttributedTitle(attributed, for: .normal)
     }
 }

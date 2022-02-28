@@ -13,19 +13,23 @@ PODS:
     - LithoOperators
   - LithoOperators (0.1.4):
     - Prelude
+  - LithoStrings (0.0.1)
   - LithoUtils (0.1.0):
     - fuikit/Core
     - LithoOperators
+    - LithoStrings
     - LithoUtils/Core (= 0.1.0)
   - LithoUtils/Core (0.1.0):
     - fuikit/Core
     - LithoOperators
+    - LithoStrings
   - Prelude (3.0.0)
 
 DEPENDENCIES:
   - fuikit (from `https://github.com/LithoByte/fuikit`)
   - FunNet/Combine (from `https://github.com/schrockblock/funnet`, branch `feature/cjc8/update-lithooperators`)
   - LithoOperators (from `https://github.com/LithoByte/LithoOperators`, branch `feature/cjc8/file-split`)
+  - LithoStrings (from `https://github.com/cjc8/LithoStrings`, branch `rd/features`)
   - LithoUtils (from `../`)
 
 SPEC REPOS:
@@ -41,6 +45,9 @@ EXTERNAL SOURCES:
   LithoOperators:
     :branch: feature/cjc8/file-split
     :git: https://github.com/LithoByte/LithoOperators
+  LithoStrings:
+    :branch: rd/features
+    :git: https://github.com/cjc8/LithoStrings
   LithoUtils:
     :path: "../"
 
@@ -54,14 +61,18 @@ CHECKOUT OPTIONS:
   LithoOperators:
     :commit: 0be527c121c0c9a947aa167a9656da993f119710
     :git: https://github.com/LithoByte/LithoOperators
+  LithoStrings:
+    :commit: fa6f3259ae5855c605c7d2b95dcc61ed9cab184d
+    :git: https://github.com/cjc8/LithoStrings
 
 SPEC CHECKSUMS:
   fuikit: 976080e1c04037e01d14541135a104cb208d8c0d
   FunNet: e66d2df77a5663556970a1914c5911ecde2842ef
   LithoOperators: 8fc0c6a49e34a8d1ca01b777844f58e36c062d9f
-  LithoUtils: 672d313a7fede3968e22f082b293cbc01ebcb7f0
+  LithoStrings: 901559949d6b29e4775972c7f436b3aacb5fb6fa
+  LithoUtils: e2d88bfdb723f50e21476f3a517ef84479fafe17
   Prelude: fe4cc0fd961d34edf48fe6b04d05c863449efb0a
 
-PODFILE CHECKSUM: bc9b58a291cbeda0e3c9216ac54a898a7215aea6
+PODFILE CHECKSUM: 36c1ebd3ce7ea813f335edf708d3db4c00f0704e
 
-COCOAPODS: 1.10.0
+COCOAPODS: 1.11.2

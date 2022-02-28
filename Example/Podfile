@@ -7,6 +7,7 @@ target 'LithoUtils_Example' do
   pod 'LithoUtils', :path => '../'
   pod 'FunNet/Combine', git: 'https://github.com/schrockblock/funnet', branch: 'feature/cjc8/update-lithooperators'
   pod 'fuikit', git: 'https://github.com/LithoByte/fuikit'
+  pod 'LithoStrings', git: 'https://github.com/cjc8/LithoStrings', branch: 'rd/features'
   target 'LithoUtils_Tests' do
     inherit! :search_paths
   end
