@@ -8,7 +8,7 @@
 import UIKit
 
 @available(iOS 10.0, *)
-public class FUITextViewDelegate: NSObject, UITextViewDelegate {
+public class FPUITextViewDelegate: NSObject, UITextViewDelegate {
     public var onTextViewShouldBeginEditing: ((UITextView) -> Bool)?
     public var onTextViewShouldEndEditing: ((UITextView) -> Bool)?
     public var onTextViewDidBeginEditing: ((UITextView) -> Void)?

@@ -1,28 +1,28 @@
 //
-//  FUITableViewViewController.swift
+//  FPUITableViewViewController.swift
 //  fuikit
 //
 //  Created by Eddy Varela on 6/24/20.
 //
 import UIKit
 
-open class FUITableViewViewController: UIViewController {
+open class FPUITableViewViewController: UIViewController {
     @IBOutlet public var tableView: UITableView?
     
-    public var onLoadView: ((FUITableViewViewController) -> Void)?
-    public var onViewDidLoad: ((FUITableViewViewController) -> Void)?
-    public var onViewWillAppear: ((FUITableViewViewController, Bool) -> Void)?
-    public var onViewDidAppear: ((FUITableViewViewController, Bool) -> Void)?
-    public var onViewWillDisappear: ((FUITableViewViewController, Bool) -> Void)?
-    public var onViewDidDisappear: ((FUITableViewViewController, Bool) -> Void)?
+    public var onLoadView: ((FPUITableViewViewController) -> Void)?
+    public var onViewDidLoad: ((FPUITableViewViewController) -> Void)?
+    public var onViewWillAppear: ((FPUITableViewViewController, Bool) -> Void)?
+    public var onViewDidAppear: ((FPUITableViewViewController, Bool) -> Void)?
+    public var onViewWillDisappear: ((FPUITableViewViewController, Bool) -> Void)?
+    public var onViewDidDisappear: ((FPUITableViewViewController, Bool) -> Void)?
     
-    public var onShouldPerformSegue: ((FUITableViewViewController, String, Any?) -> Bool )?
-    public var onPrepare: ((FUITableViewViewController, UIStoryboardSegue, Any?) -> Void)?
-    public var onViewWillLayoutSubviews: ((FUITableViewViewController) -> Void)?
-    public var onViewDidLayoutSubviews: ((FUITableViewViewController) -> Void)?
-    public var onUpdateViewConstraints: ((FUITableViewViewController) -> Void)?
-    public var onViewLayoutMarginsDidChange: ((FUITableViewViewController) -> Void)?
-    public var onViewSafeAreaInsetsDidChange: ((FUITableViewViewController) -> Void)?
+    public var onShouldPerformSegue: ((FPUITableViewViewController, String, Any?) -> Bool )?
+    public var onPrepare: ((FPUITableViewViewController, UIStoryboardSegue, Any?) -> Void)?
+    public var onViewWillLayoutSubviews: ((FPUITableViewViewController) -> Void)?
+    public var onViewDidLayoutSubviews: ((FPUITableViewViewController) -> Void)?
+    public var onUpdateViewConstraints: ((FPUITableViewViewController) -> Void)?
+    public var onViewLayoutMarginsDidChange: ((FPUITableViewViewController) -> Void)?
+    public var onViewSafeAreaInsetsDidChange: ((FPUITableViewViewController) -> Void)?
     
     open override func loadView() {
         onLoadView?(self)

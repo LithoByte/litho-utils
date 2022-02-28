@@ -17,22 +17,10 @@ public func isGreaterThan<T: Comparable>(_ t: T) -> (T) -> Bool {
     return { $0 > t }
 }
 
-public func isEqualTo<T: Comparable>(_ t: T) -> (T) -> Bool {
-    return { $0 == t }
-}
-
 public func isGreaterOrEqualThan<T: Comparable>(_ t: T) -> (T) -> Bool {
     return { $0 >= t }
 }
 
 public func isLessOrEqualThan<T: Comparable>(_ t: T) -> (T) -> Bool {
     return { $0 <= t }
-}
-
-public func isContainedIn<T: Comparable>(_ ts: [T]) -> (T) -> Bool {
-    return { ts.contains($0) }
-}
-
-public func isNotContainedIn<T: Comparable>(_ ts: [T]) -> (T) -> Bool {
-    return { ts.contains($0) }
 }

@@ -7,7 +7,7 @@
 
 import UIKit
 
-@objc open class FUITableViewDataSource: NSObject, UITableViewDataSource {
+@objc open class FPUITableViewDataSource: NSObject, UITableViewDataSource {
     open var onNumberOfRowsInSection: (UITableView, Int) -> Int = { _, _ in return 0 }
     open var onCellForRowAt: (UITableView, IndexPath) -> UITableViewCell = { _, _ in return UITableViewCell() }
     open var onNumberOfSections: (UITableView) -> Int = { _ in return 0 }

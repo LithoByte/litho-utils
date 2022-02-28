@@ -8,7 +8,7 @@
 import UIKit
 
 @available(iOS 10.0, *)
-public class FUITextFieldDelegate: NSObject, UITextFieldDelegate {
+public class FPUITextFieldDelegate: NSObject, UITextFieldDelegate {
     public var onTextFieldShouldBeginEditing: ((UITextField) -> Bool)?
     public var onTextFieldDidBeginEditing: ((UITextField) -> Void)?
     public var onTextFieldShouldEndEditing: ((UITextField) -> Bool)?
