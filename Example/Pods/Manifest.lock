@@ -29,7 +29,7 @@ DEPENDENCIES:
   - fuikit (from `https://github.com/LithoByte/fuikit`)
   - FunNet/Combine (from `https://github.com/schrockblock/funnet`, branch `feature/cjc8/update-lithooperators`)
   - LithoOperators (from `https://github.com/LithoByte/LithoOperators`, branch `feature/cjc8/file-split`)
-  - LithoStrings (from `https://github.com/cjc8/LithoStrings`, branch `rd/features`)
+  - LithoStrings (from `https://github.com/cjc8/LithoStrings`)
   - LithoUtils (from `../`)
 
 SPEC REPOS:
@@ -46,7 +46,6 @@ EXTERNAL SOURCES:
     :branch: feature/cjc8/file-split
     :git: https://github.com/LithoByte/LithoOperators
   LithoStrings:
-    :branch: rd/features
     :git: https://github.com/cjc8/LithoStrings
   LithoUtils:
     :path: "../"
@@ -62,7 +61,7 @@ CHECKOUT OPTIONS:
     :commit: 0be527c121c0c9a947aa167a9656da993f119710
     :git: https://github.com/LithoByte/LithoOperators
   LithoStrings:
-    :commit: fa6f3259ae5855c605c7d2b95dcc61ed9cab184d
+    :commit: 286e3be1056bdf621493fd87f1341efd46a67cc4
     :git: https://github.com/cjc8/LithoStrings
 
 SPEC CHECKSUMS:
@@ -73,6 +72,6 @@ SPEC CHECKSUMS:
   LithoUtils: e2d88bfdb723f50e21476f3a517ef84479fafe17
   Prelude: fe4cc0fd961d34edf48fe6b04d05c863449efb0a
 
-PODFILE CHECKSUM: 36c1ebd3ce7ea813f335edf708d3db4c00f0704e
+PODFILE CHECKSUM: 6d617e3302726510ca688344e37edac01dcf9a7a
 
 COCOAPODS: 1.11.2
