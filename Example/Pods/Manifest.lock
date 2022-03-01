@@ -15,6 +15,8 @@ PODS:
     - LithoOperators
   - FunNet/Core (0.1.1):
     - LithoOperators
+    - LithoUtils/Core
+    - Slippers/Core
   - LithoOperators (0.1.4):
     - Prelude
   - LithoStrings (0.0.1)
@@ -28,13 +30,15 @@ PODS:
     - LithoOperators
     - LithoStrings
   - Prelude (3.0.0)
+  - Slippers/Core (0.1.1)
 
 DEPENDENCIES:
   - fuikit (from `https://github.com/LithoByte/fuikit`)
-  - FunNet/Combine (from `https://github.com/schrockblock/funnet`)
+  - FunNet/Combine (from `https://github.com/LithoByte/funnet`)
   - LithoOperators (from `https://github.com/LithoByte/LithoOperators`)
   - LithoStrings (from `https://github.com/cjc8/LithoStrings`)
   - LithoUtils (from `../`)
+  - Slippers/Core (from `https://github.com/LithoByte/slippers`)
 
 SPEC REPOS:
   trunk:
@@ -44,36 +48,42 @@ EXTERNAL SOURCES:
   fuikit:
     :git: https://github.com/LithoByte/fuikit
   FunNet:
-    :git: https://github.com/schrockblock/funnet
+    :git: https://github.com/LithoByte/funnet
   LithoOperators:
     :git: https://github.com/LithoByte/LithoOperators
   LithoStrings:
     :git: https://github.com/cjc8/LithoStrings
   LithoUtils:
     :path: "../"
+  Slippers:
+    :git: https://github.com/LithoByte/slippers
 
 CHECKOUT OPTIONS:
   fuikit:
     :commit: 158d1789ac918edfffd6ac8edd6c1d144e80bce3
     :git: https://github.com/LithoByte/fuikit
   FunNet:
-    :commit: 9ca5a81f8b96a71b2cd671fca642a152823c3704
-    :git: https://github.com/schrockblock/funnet
+    :commit: 7cd8443854fae4508d9a6488ec62dacb43f7d2d3
+    :git: https://github.com/LithoByte/funnet
   LithoOperators:
     :commit: a976e8172958cb699eaacda6bfcf407c7d66b347
     :git: https://github.com/LithoByte/LithoOperators
   LithoStrings:
     :commit: 2fec054702a34c47f9c0565362611f09350c06e6
     :git: https://github.com/cjc8/LithoStrings
+  Slippers:
+    :commit: 673221de7fd877d808b83e6415544be4824a746e
+    :git: https://github.com/LithoByte/slippers
 
 SPEC CHECKSUMS:
   fuikit: 63f9460a7369046de30bc1aaf592321f98aea67e
-  FunNet: e66d2df77a5663556970a1914c5911ecde2842ef
+  FunNet: e4a1051ef3b822eeb55f8e24426b169e4d35ed87
   LithoOperators: 8fc0c6a49e34a8d1ca01b777844f58e36c062d9f
   LithoStrings: 901559949d6b29e4775972c7f436b3aacb5fb6fa
   LithoUtils: e2d88bfdb723f50e21476f3a517ef84479fafe17
   Prelude: fe4cc0fd961d34edf48fe6b04d05c863449efb0a
+  Slippers: 5a3c6f24a556a59a091e2cb60e588472827be87c
 
-PODFILE CHECKSUM: 0fa97a4d74f003a30d79b1e67fc11618b79eac32
+PODFILE CHECKSUM: 8d4430774702569a32bbc9288facc934b741a08a
 
 COCOAPODS: 1.11.2

@@ -181,6 +181,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/LithoStrings/LithoStrings.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/LithoUtils/LithoUtils.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Prelude/Prelude.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Slippers/Slippers.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/fuikit/fuikit.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
@@ -189,6 +190,7 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/LithoStrings/LithoStrings.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/LithoUtils/LithoUtils.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Prelude/Prelude.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Slippers/Slippers.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/fuikit/fuikit.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then

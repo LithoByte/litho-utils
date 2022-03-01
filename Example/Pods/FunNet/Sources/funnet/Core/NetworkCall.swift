@@ -5,6 +5,7 @@
 //  Created by Elliot Schrock on 2/8/19.
 //
 
+import Foundation
 import Prelude
 import LithoOperators
 

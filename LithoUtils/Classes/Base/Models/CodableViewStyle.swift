@@ -20,6 +20,7 @@ open class CodableViewStyle: Codable {
     open var alpha: CGFloat?
     
     open var cornerRadius: CGFloat?
+    open var isRounded: Bool?
     
     open var borderWidth: CGFloat?
     open var borderColorHex: String?
@@ -28,12 +29,13 @@ open class CodableViewStyle: Codable {
     open var shadowRadius: CGFloat?
     open var shadowOpacity: Float?
     
-    public init(backgroundColorHex: String? = nil, tintColorHex: String? = nil, isHidden: Bool? = nil, isOpaque: Bool? = nil, clipsToBounds: Bool? = nil, alpha: CGFloat? = nil, cornerRadius: CGFloat? = nil, borderWidth: CGFloat? = nil, borderColorHex: String? = nil, shadowColorHex: String? = nil, shadowRadius: CGFloat? = nil, shadowOpacity: Float? = nil) {
+    public init(backgroundColorHex: String? = nil, tintColorHex: String? = nil, isHidden: Bool? = nil, isOpaque: Bool? = nil, clipsToBounds: Bool? = nil, alpha: CGFloat? = nil, cornerRadius: CGFloat? = nil, isRounded: Bool? = nil, borderWidth: CGFloat? = nil, borderColorHex: String? = nil, shadowColorHex: String? = nil, shadowRadius: CGFloat? = nil, shadowOpacity: Float? = nil) {
         self.backgroundColorHex = backgroundColorHex
         self.tintColorHex = tintColorHex
         self.isHidden = isHidden
         self.isOpaque = isOpaque
         self.clipsToBounds = clipsToBounds
+        self.isRounded
         self.alpha = alpha
         self.cornerRadius = cornerRadius
         self.borderWidth = borderWidth
@@ -61,6 +63,7 @@ public func styleFunction(given style: CodableViewStyle) -> (UIView) -> Void {
     result <>= (style.alpha ?> (\UIView.alpha *-> set))
     
     result <>= style.cornerRadius ?> (\UIView.layer.cornerRadius *-> set)
+    result <>= style.isRounded ?> ((setCappedEnds, nil) -**> ifThen)
     
     result <>= style.borderColorHex |> (~>UIColor.init(hexString:) >?> ^\UIColor.cgColor >>> (\UIView.layer.borderColor *-> set))
     result <>= style.borderWidth ?> (\UIView.layer.borderWidth *-> set)
