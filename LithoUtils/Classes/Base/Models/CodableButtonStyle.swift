@@ -17,7 +17,7 @@ open class CodableButtonStyle: CodableViewStyle {
     open var titleAndImageTintColor: String?
     open var font: CodableFont?
     
-    public init(backgroundColorHex: String? = nil, tintColorHex: String? = nil, isHidden: Bool? = nil, isOpaque: Bool? = nil, clipsToBounds: Bool? = nil, alpha: CGFloat? = nil, cornerRadius: CGFloat? = nil, isRounded: Bool?, borderWidth: CGFloat? = nil, borderColorHex: String? = nil, shadowColorHex: String? = nil, shadowRadius: CGFloat? = nil, shadowOpacity: Float? = nil, titleColor: String? = nil, titleShadowColor: String? = nil, titleAndImageTintColor: String? = nil, font: CodableFont? = nil) {
+    public init(backgroundColorHex: String? = nil, tintColorHex: String? = nil, isHidden: Bool? = nil, isOpaque: Bool? = nil, clipsToBounds: Bool? = nil, alpha: CGFloat? = nil, cornerRadius: CGFloat? = nil, isRounded: Bool? = nil, borderWidth: CGFloat? = nil, borderColorHex: String? = nil, shadowColorHex: String? = nil, shadowRadius: CGFloat? = nil, shadowOpacity: Float? = nil, titleColor: String? = nil, titleShadowColor: String? = nil, titleAndImageTintColor: String? = nil, font: CodableFont? = nil) {
         self.titleColor = titleColor
         self.titleShadowColor = titleShadowColor
         self.titleAndImageTintColor = titleAndImageTintColor
