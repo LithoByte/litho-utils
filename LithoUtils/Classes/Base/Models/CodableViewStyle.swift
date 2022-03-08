@@ -45,6 +45,27 @@ open class CodableViewStyle: Codable {
         self.shadowOpacity = shadowOpacity
     }
     
+    private enum CodingKeys: String, CodingKey {
+        case backgroundColorHex, tintColorHex, isHidden, isOpaque, isRounded, clipsToBounds, alpha, cornerRadius, borderWidth, borderColorHex, shadowColorHex, shadowRadius, shadowOpacity
+    }
+    
+    required public init(from decoder: Decoder) throws {
+        let container = try decoder.container(keyedBy: CodingKeys.self)
+        backgroundColorHex = try? container.decode(String.self, forKey: .backgroundColorHex)
+        tintColorHex = try? container.decode(String.self, forKey: .tintColorHex)
+        isHidden = try? container.decode(Bool.self, forKey: .isHidden)
+        isOpaque = try? container.decode(Bool.self, forKey: .isOpaque)
+        clipsToBounds = try? container.decode(Bool.self, forKey: .clipsToBounds)
+        isRounded = try? container.decode(Bool.self, forKey: .isRounded)
+        alpha = try? container.decode(CGFloat.self, forKey: .alpha)
+        cornerRadius = try? container.decode(CGFloat.self, forKey: .cornerRadius)
+        borderWidth = try? container.decode(CGFloat.self, forKey: .borderWidth)
+        borderColorHex = try? container.decode(String.self, forKey: .borderColorHex)
+        shadowColorHex = try? container.decode(String.self, forKey: .shadowColorHex)
+        shadowRadius = try? container.decode(CGFloat.self, forKey: .shadowRadius)
+        shadowOpacity = try? container.decode(Float.self, forKey: .shadowOpacity)
+    }
+    
     public func apply(to view: UIView) {
         view |> styleFunction(given: self)
     }
