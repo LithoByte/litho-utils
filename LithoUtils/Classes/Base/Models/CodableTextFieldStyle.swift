@@ -28,8 +28,8 @@ open class CodableTextFieldStyle: CodableViewStyle {
     
     required public init(from decoder: Decoder) throws {
         let container = try decoder.container(keyedBy: CodingKeys.self)
-        textColor = try container.decode(String.self, forKey: .textColor)
-        font = try container.decode(CodableFont.self, forKey: .font)
+        textColor = try? container.decode(String.self, forKey: .textColor)
+        font = try? container.decode(CodableFont.self, forKey: .font)
         if let intValue = try? container.decode(Int.self, forKey: .borderStyle) {
             borderStyle = UITextField.BorderStyle(rawValue: intValue)
         }

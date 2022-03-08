@@ -29,9 +29,9 @@ open class CodableTextViewStyle: CodableViewStyle {
     
     required public init(from decoder: Decoder) throws {
         let container = try decoder.container(keyedBy: CodingKeys.self)
-        textColor = try container.decode(String.self, forKey: .textColor)
-        lineHeightMultiplier = try container.decode(CGFloat.self, forKey: .lineHeightMultiplier)
-        font = try container.decode(CodableFont.self, forKey: .font)
+        textColor = try? container.decode(String.self, forKey: .textColor)
+        lineHeightMultiplier = try? container.decode(CGFloat.self, forKey: .lineHeightMultiplier)
+        font = try? container.decode(CodableFont.self, forKey: .font)
         let superDecoder = try container.superDecoder()
         try super.init(from: superDecoder)
     }
