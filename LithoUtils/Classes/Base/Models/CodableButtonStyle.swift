@@ -34,7 +34,7 @@ open class CodableButtonStyle: CodableViewStyle {
         titleColor = try? container.decode(String.self, forKey: .titleColor)
         titleShadowColor = try? container.decode(String.self, forKey: .titleShadowColor)
         titleAndImageTintColor = try? container.decode(String.self, forKey: .titleColor)
-        font = try container.decode(CodableFont.self, forKey: .font)
+        font = try? container.decode(CodableFont.self, forKey: .font)
         let superDecoder = try container.superDecoder()
         try super.init(from: superDecoder)
     }
