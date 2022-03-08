@@ -23,8 +23,17 @@ open class CodableTextViewStyle: CodableViewStyle {
         super.init(backgroundColorHex: backgroundColorHex, tintColorHex: tintColorHex, isHidden: isHidden, isOpaque: isOpaque, clipsToBounds: clipsToBounds, alpha: alpha, cornerRadius: cornerRadius, isRounded: isRounded, borderWidth: borderWidth, borderColorHex: borderColorHex, shadowColorHex: shadowColorHex, shadowRadius: shadowRadius, shadowOpacity: shadowOpacity)
     }
     
+    private enum CodingKeys: String, CodingKey {
+        case font, textColor, lineHeightMultiplier
+    }
+    
     required public init(from decoder: Decoder) throws {
-        try super.init(from: decoder)
+        let container = try decoder.container(keyedBy: CodingKeys.self)
+        textColor = try container.decode(String.self, forKey: .textColor)
+        lineHeightMultiplier = try container.decode(CGFloat.self, forKey: .lineHeightMultiplier)
+        font = try container.decode(CodableFont.self, forKey: .font)
+        let superDecoder = try container.superDecoder()
+        try super.init(from: superDecoder)
     }
     
     public override func apply(to view: UIView) {

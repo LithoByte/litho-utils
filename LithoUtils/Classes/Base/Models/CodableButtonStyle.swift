@@ -25,8 +25,18 @@ open class CodableButtonStyle: CodableViewStyle {
         super.init(backgroundColorHex: backgroundColorHex, tintColorHex: tintColorHex, isHidden: isHidden, isOpaque: isOpaque, clipsToBounds: clipsToBounds, alpha: alpha, cornerRadius: cornerRadius, isRounded: isRounded, borderWidth: borderWidth, borderColorHex: borderColorHex, shadowColorHex: shadowColorHex, shadowRadius: shadowRadius, shadowOpacity: shadowOpacity)
     }
     
+    private enum CodingKeys: String, CodingKey {
+        case titleColor, titleShadowColor, titleAndImageColor, font
+    }
+    
     required public init(from decoder: Decoder) throws {
-        try super.init(from: decoder)
+        let container = try decoder.container(keyedBy: CodingKeys.self)
+        titleColor = try container.decode(String.self, forKey: .titleColor)
+        titleShadowColor = try container.decode(String.self, forKey: .titleShadowColor)
+        titleAndImageTintColor = try container.decode(String.self, forKey: .titleColor)
+        font = try container.decode(CodableFont.self, forKey: .font)
+        let superDecoder = try container.superDecoder()
+        try super.init(from: superDecoder)
     }
     
     public override func apply(to view: UIView) {
