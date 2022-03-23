@@ -65,7 +65,7 @@
 		7EADBA346095D3CFAB78030009E1251C /* FCBPeripheralManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76DEED194599D576F5BBCC745438469 /* FCBPeripheralManager.swift */; };
 		8226B0EE367E4ED3F8A0407CDEED37CC /* CodableFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AAF60867C40609E1888B62A3FE21554 /* CodableFont.swift */; };
 		84EDCCFF103BDDC06F6290E8D8CAEEFF /* FPUITableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2B24965ABEED9C29E6B84EFC2DF0F2 /* FPUITableViewDataSource.swift */; };
-		86EAB6DDF09E24DFB9F69330FB8ADBAF /* OpenUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D8156505F490D66FBFED0834D7238B /* OpenUrl.swift */; };
+		86EAB6DDF09E24DFB9F69330FB8ADBAF /* UrlOpening.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D8156505F490D66FBFED0834D7238B /* UrlOpening.swift */; };
 		86F914B3247753E1247EE11C5FE24933 /* Stubbable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9636F27F6151F4AA24391BBAA3FD33 /* Stubbable.swift */; };
 		8CFC60B6E61C3BC7A52BF8C18329A342 /* FCLLocationManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC01C60372AC901ABFA29D1B8820735 /* FCLLocationManagerDelegate.swift */; };
 		91ED025BE7DE35C64313D8C081321D5F /* AccessoryViewConfigurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83F1A4FB71636A594F932035568044C /* AccessoryViewConfigurable.swift */; };
@@ -266,7 +266,7 @@
 		2F32119CA648DBAD713894E4B3F3AB0E /* FPUIPickerViewDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FPUIPickerViewDataSource.swift; path = Sources/fuikit/Classes/Core/FPUIPickerViewDataSource.swift; sourceTree = "<group>"; };
 		317570907AAD59ACA4D2361FA9120CB3 /* FPUIScrollViewDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FPUIScrollViewDelegate.swift; path = Sources/fuikit/Classes/Core/FPUIScrollViewDelegate.swift; sourceTree = "<group>"; };
 		31B0BC1EC6D47871F1B93ECBB6393944 /* Comparables.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Comparables.swift; path = Sources/LithoOperators/Classes/Comparables.swift; sourceTree = "<group>"; };
-		34B6A10DB4B3831F5C8DEB61A226B49E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		34B6A10DB4B3831F5C8DEB61A226B49E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		34C7075BA798CC7B57571CA102251376 /* LithoStrings-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LithoStrings-umbrella.h"; sourceTree = "<group>"; };
 		373FBF61DFC68BD979B1F6499A43018D /* LithoOperators.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LithoOperators.modulemap; sourceTree = "<group>"; };
 		374629DFE99EDF69181AFD0761474EA2 /* fuikit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "fuikit-dummy.m"; sourceTree = "<group>"; };
@@ -300,7 +300,7 @@
 		6B7C6BF9B140EF5EE11FB4C1C4FE3CDF /* FPUITabBarControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FPUITabBarControllerDelegate.swift; path = Sources/fuikit/Classes/Core/FPUITabBarControllerDelegate.swift; sourceTree = "<group>"; };
 		6BDE82384763EE4136AB84DF13290575 /* iOSFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = iOSFunctions.swift; sourceTree = "<group>"; };
 		6DE05F0A95D2FDF259BEA7F99E96EBDA /* CanIndicateActivity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CanIndicateActivity.swift; sourceTree = "<group>"; };
-		70BA1D795878BF153EF1AC5967A9D42D /* LithoUtils.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LithoUtils.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		70BA1D795878BF153EF1AC5967A9D42D /* LithoUtils.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = LithoUtils.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		70C54D3C3B6955FADE44D49C00C5DB2A /* NSAttributesReturnFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSAttributesReturnFunctions.swift; path = LithoStrings/Classes/NSAttributesReturnFunctions.swift; sourceTree = "<group>"; };
 		7375A81860FC8096B64A8F25B9DAFB77 /* Combine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Combine.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Combine.framework; sourceTree = DEVELOPER_DIR; };
 		7502E70F3005E86BD032DA238B9D8073 /* fuikit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = fuikit.release.xcconfig; sourceTree = "<group>"; };
@@ -327,9 +327,9 @@
 		9A277DCC48C6FECCA84836240EF148B1 /* FPUIImagePickerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FPUIImagePickerDelegate.swift; path = Sources/fuikit/Classes/Core/FPUIImagePickerDelegate.swift; sourceTree = "<group>"; };
 		9A3EEADA48D9FE4006C228DD987E19C0 /* FPUIPickerViewDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FPUIPickerViewDelegate.swift; path = Sources/fuikit/Classes/Core/FPUIPickerViewDelegate.swift; sourceTree = "<group>"; };
 		9D064C33305E734292DE57A6DDD4CA9B /* LithoStrings.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LithoStrings.release.xcconfig; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F8715453B6FF355D77CBED493838EE8 /* LithoOperators-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LithoOperators-umbrella.h"; sourceTree = "<group>"; };
-		9FC7C53437CFF34EC3538C1FB8F51DB5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9FC7C53437CFF34EC3538C1FB8F51DB5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A17BFCA6461FF828A06C1D59BBC27189 /* FPUITextViewDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FPUITextViewDelegate.swift; path = Sources/fuikit/Classes/Core/FPUITextViewDelegate.swift; sourceTree = "<group>"; };
 		A1E82562230D2C73E85199665A757FE1 /* Configurable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Configurable.swift; sourceTree = "<group>"; };
 		A3955DFD3199384A9F4A24023B0BE3B6 /* Prelude.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Prelude.swift; path = Prelude/Prelude.swift; sourceTree = "<group>"; };
@@ -373,7 +373,7 @@
 		D83E2A27E2F13B75D3D825C575D07179 /* CodableButtonStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CodableButtonStyle.swift; sourceTree = "<group>"; };
 		D9F6C6CAD3C75772E429133567ED34F9 /* Pods-LithoUtils_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LithoUtils_Tests.modulemap"; sourceTree = "<group>"; };
 		E0B189AF4C8715F9C48BDBD9309FB9AB /* Tuples.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Tuples.swift; path = Sources/LithoOperators/Classes/Tuples.swift; sourceTree = "<group>"; };
-		E0D8156505F490D66FBFED0834D7238B /* OpenUrl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OpenUrl.swift; sourceTree = "<group>"; };
+		E0D8156505F490D66FBFED0834D7238B /* UrlOpening.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UrlOpening.swift; sourceTree = "<group>"; };
 		E206D0F61EAF77F456EF81F276BF15E5 /* CodableLabelStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CodableLabelStyle.swift; sourceTree = "<group>"; };
 		E2CD7C5EC3510FF63F1E93314C28FE94 /* FunNet-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FunNet-prefix.pch"; sourceTree = "<group>"; };
 		E3B9409315D429E5C6A5D49F281A2114 /* Slippers-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Slippers-prefix.pch"; sourceTree = "<group>"; };
@@ -519,10 +519,9 @@
 			isa = PBXGroup;
 			children = (
 				6BDE82384763EE4136AB84DF13290575 /* iOSFunctions.swift */,
-				E0D8156505F490D66FBFED0834D7238B /* OpenUrl.swift */,
+				E0D8156505F490D66FBFED0834D7238B /* UrlOpening.swift */,
 				2B7F03F597868BD6DEE421DABAF41954 /* Styles.swift */,
 			);
-			name = Functions;
 			path = Functions;
 			sourceTree = "<group>";
 		};
@@ -588,7 +587,6 @@
 				684E444113F802394B23BE3457D3B7D1 /* Tuple.swift */,
 				9444337CD1D1DA49440C3135A0F8B662 /* Support Files */,
 			);
-			name = Prelude;
 			path = Prelude;
 			sourceTree = "<group>";
 		};
@@ -656,7 +654,6 @@
 				ED360DEF5FCE4FDCF1CF6B27847B176F /* Core */,
 				569D69A32A799F7850F26CFFA440D21F /* Support Files */,
 			);
-			name = FunNet;
 			path = FunNet;
 			sourceTree = "<group>";
 		};
@@ -666,7 +663,6 @@
 				B31D6356F87BF744EDF40A026D944F40 /* Core */,
 				54A7ACBE800CFD1916600DF6C8AB2D9A /* Support Files */,
 			);
-			name = Slippers;
 			path = Slippers;
 			sourceTree = "<group>";
 		};
@@ -675,7 +671,6 @@
 			children = (
 				1F937D88D86317A651CB4816D6EC5B84 /* Alert.swift */,
 			);
-			name = Alert;
 			path = Alert;
 			sourceTree = "<group>";
 		};
@@ -690,7 +685,6 @@
 				440103F616CC3534EFDD629014EA3B94 /* UIViewController+DismissKeyboard.swift */,
 				EA936377E62E54001D4DE8A32E89BC32 /* UIWindow+Present.swift */,
 			);
-			name = Extensions;
 			path = Extensions;
 			sourceTree = "<group>";
 		};
@@ -733,7 +727,6 @@
 				E0B189AF4C8715F9C48BDBD9309FB9AB /* Tuples.swift */,
 				9A88D8F03E5A3C949544DD32380B6DB3 /* Support Files */,
 			);
-			name = LithoOperators;
 			path = LithoOperators;
 			sourceTree = "<group>";
 		};
@@ -796,7 +789,6 @@
 				93B19C2888CE2D955DBD1F01742E21A1 /* NSMutableAttributeStringAdds.swift */,
 				D7A8DB341D8E7580B83ABFD20E8A5688 /* Support Files */,
 			);
-			name = LithoStrings;
 			path = LithoStrings;
 			sourceTree = "<group>";
 		};
@@ -841,7 +833,6 @@
 				4574F06BDA76C29CB6CB5895A0ED7DA1 /* CoreLocation */,
 				066B4F66D197B809390E6844A3FCAE71 /* Support Files */,
 			);
-			name = fuikit;
 			path = fuikit;
 			sourceTree = "<group>";
 		};
@@ -857,7 +848,6 @@
 				7642E13814BA4E0B035DFE3B6E703D61 /* CodableTextViewStyle.swift */,
 				A475DADBA37DF34DE92BCC23314397AE /* CodableViewStyle.swift */,
 			);
-			name = Models;
 			path = Models;
 			sourceTree = "<group>";
 		};
@@ -1437,7 +1427,7 @@
 				B52FD61C1EDA38842EE6613F08D478B3 /* Configurable.swift in Sources */,
 				98692A3206C6DB6C2CBAE76CCDF1DB75 /* iOSFunctions.swift in Sources */,
 				319EB0A06F8BAA59C6CBA22D089B27E5 /* LithoUtils-dummy.m in Sources */,
-				86EAB6DDF09E24DFB9F69330FB8ADBAF /* OpenUrl.swift in Sources */,
+				86EAB6DDF09E24DFB9F69330FB8ADBAF /* UrlOpening.swift in Sources */,
 				DFAA6D1EBF54E14BA78CB99103CF6AA4 /* Styles.swift in Sources */,
 				F8C1D24A0F4A067EB4B37FA07F2CA21A /* UIColor+hex.swift in Sources */,
 				FB26BADB327E4D93330EA9F7E3BCAF90 /* UIImage+Insets.swift in Sources */,
@@ -2121,8 +2111,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

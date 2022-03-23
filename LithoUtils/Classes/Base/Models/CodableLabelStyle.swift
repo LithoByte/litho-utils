@@ -10,35 +10,26 @@ import UIKit
 import Prelude
 import LithoOperators
 
-open class CodableLabelStyle : CodableViewStyle {
-    open var font: CodableFont?
-    open var textColor: String?
-    open var labelShadowColor: String?
-    open var lineHeightMultiple: CGFloat?
+open class CodableLabelStyle: CodableViewStyleProtocol, Codable {
+    public var backgroundColorHex: String?
+    public var tintColorHex: String?
+    public var isHidden: Bool?
+    public var isOpaque: Bool?
+    public var clipsToBounds: Bool?
+    public var alpha: CGFloat?
+    public var cornerRadius: CGFloat?
+    public var isRounded: Bool?
+    public var borderWidth: CGFloat?
+    public var borderColorHex: String?
+    public var shadowColorHex: String?
+    public var shadowRadius: CGFloat?
+    public var shadowOpacity: Float?
     
-    public init(backgroundColorHex: String? = nil, tintColorHex: String? = nil, isHidden: Bool? = nil, isOpaque: Bool? = nil, clipsToBounds: Bool? = nil, alpha: CGFloat? = nil, cornerRadius: CGFloat? = nil, isRounded: Bool? = nil, borderWidth: CGFloat? = nil, borderColorHex: String? = nil, shadowColorHex: String? = nil, shadowRadius: CGFloat? = nil, shadowOpacity: Float? = nil, font: CodableFont? = nil, textColor: String? = nil, labelShadowColor: String? = nil, lineHeightMultiple: CGFloat? = nil) {
-        self.font = font
-        self.textColor = textColor
-        self.labelShadowColor = labelShadowColor
-        self.lineHeightMultiple = lineHeightMultiple
-        super.init(backgroundColorHex: backgroundColorHex, tintColorHex: tintColorHex, isHidden: isHidden, isOpaque: isOpaque, clipsToBounds: clipsToBounds, alpha: alpha, cornerRadius: cornerRadius, isRounded: isRounded, borderWidth: borderWidth, borderColorHex: borderColorHex, shadowColorHex: shadowColorHex, shadowRadius: shadowRadius, shadowOpacity: shadowOpacity)
-    }
+    public var font: CodableFont?
+    public var textColor: String?
+    public var labelShadowColor: String?
     
-    private enum CodingKeys: String, CodingKey {
-        case font, textColor, labelShadowColor, lineHeightMultiple
-    }
-    
-    required public init(from decoder: Decoder) throws {
-        let container = try decoder.container(keyedBy: CodingKeys.self)
-        textColor = try? container.decode(String.self, forKey: .textColor)
-        labelShadowColor = try? container.decode(String.self, forKey: .labelShadowColor)
-        lineHeightMultiple = try? container.decode(CGFloat.self, forKey: .lineHeightMultiple)
-        font = try? container.decode(CodableFont.self, forKey: .font)
-        let superDecoder = try container.superDecoder()
-        try super.init(from: superDecoder)
-    }
-    
-    public override func apply(to view: UIView) {
+    public func apply(to view: UIView) {
         view |> ~>styleLabelFunction(given: self)
     }
 }

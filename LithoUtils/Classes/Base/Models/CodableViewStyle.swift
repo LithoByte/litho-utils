@@ -9,7 +9,30 @@ import UIKit
 import Prelude
 import LithoOperators
 
-open class CodableViewStyle: Codable {
+public protocol CodableViewStyleProtocol {
+    var backgroundColorHex: String? { get set }
+    var tintColorHex: String? { get set }
+    
+    var isHidden: Bool? { get set }
+    var isOpaque: Bool? { get set }
+    var clipsToBounds: Bool? { get set }
+    
+    var alpha: CGFloat? { get set }
+    
+    var cornerRadius: CGFloat? { get set }
+    var isRounded: Bool? { get set }
+    
+    var borderWidth: CGFloat? { get set }
+    var borderColorHex: String? { get set }
+    
+    var shadowColorHex: String? { get set }
+    var shadowRadius: CGFloat? { get set }
+    var shadowOpacity: Float? { get set }
+    
+    func apply(to view: UIView)
+}
+
+open class CodableViewStyle: CodableViewStyleProtocol, Codable {
     open var backgroundColorHex: String?
     open var tintColorHex: String?
     
@@ -29,49 +52,12 @@ open class CodableViewStyle: Codable {
     open var shadowRadius: CGFloat?
     open var shadowOpacity: Float?
     
-    public init(backgroundColorHex: String? = nil, tintColorHex: String? = nil, isHidden: Bool? = nil, isOpaque: Bool? = nil, clipsToBounds: Bool? = nil, alpha: CGFloat? = nil, cornerRadius: CGFloat? = nil, isRounded: Bool? = nil, borderWidth: CGFloat? = nil, borderColorHex: String? = nil, shadowColorHex: String? = nil, shadowRadius: CGFloat? = nil, shadowOpacity: Float? = nil) {
-        self.backgroundColorHex = backgroundColorHex
-        self.tintColorHex = tintColorHex
-        self.isHidden = isHidden
-        self.isOpaque = isOpaque
-        self.clipsToBounds = clipsToBounds
-        self.isRounded
-        self.alpha = alpha
-        self.cornerRadius = cornerRadius
-        self.borderWidth = borderWidth
-        self.borderColorHex = borderColorHex
-        self.shadowColorHex = shadowColorHex
-        self.shadowRadius = shadowRadius
-        self.shadowOpacity = shadowOpacity
-    }
-    
-    private enum CodingKeys: String, CodingKey {
-        case backgroundColorHex, tintColorHex, isHidden, isOpaque, isRounded, clipsToBounds, alpha, cornerRadius, borderWidth, borderColorHex, shadowColorHex, shadowRadius, shadowOpacity
-    }
-    
-    required public init(from decoder: Decoder) throws {
-        let container = try decoder.container(keyedBy: CodingKeys.self)
-        backgroundColorHex = try? container.decode(String.self, forKey: .backgroundColorHex)
-        tintColorHex = try? container.decode(String.self, forKey: .tintColorHex)
-        isHidden = try? container.decode(Bool.self, forKey: .isHidden)
-        isOpaque = try? container.decode(Bool.self, forKey: .isOpaque)
-        clipsToBounds = try? container.decode(Bool.self, forKey: .clipsToBounds)
-        isRounded = try? container.decode(Bool.self, forKey: .isRounded)
-        alpha = try? container.decode(CGFloat.self, forKey: .alpha)
-        cornerRadius = try? container.decode(CGFloat.self, forKey: .cornerRadius)
-        borderWidth = try? container.decode(CGFloat.self, forKey: .borderWidth)
-        borderColorHex = try? container.decode(String.self, forKey: .borderColorHex)
-        shadowColorHex = try? container.decode(String.self, forKey: .shadowColorHex)
-        shadowRadius = try? container.decode(CGFloat.self, forKey: .shadowRadius)
-        shadowOpacity = try? container.decode(Float.self, forKey: .shadowOpacity)
-    }
-    
     public func apply(to view: UIView) {
         view |> styleFunction(given: self)
     }
 }
 
-public func styleFunction(given style: CodableViewStyle) -> (UIView) -> Void {
+public func styleFunction(given style: CodableViewStyleProtocol) -> (UIView) -> Void {
     let doNothing: (UIView) -> Void = { _ in }
     var result: (UIView) -> Void = doNothing
     result <>= style.backgroundColorHex |> (~>UIColor.init(hexString:) >>> (\UIView.backgroundColor *-> set))
