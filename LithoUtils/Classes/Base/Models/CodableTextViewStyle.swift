@@ -29,29 +29,30 @@ open class CodableTextViewStyle: CodableViewStyleProtocol, Codable {
     public var textColor: String?
     public var lineHeightMultiplier: CGFloat?
     
-    public func apply(to view: UIView) {
+    public func apply(to view: UIView?) {
         view |> ~>styleTextViewFunction(given: self)
     }
 }
 
-public func styleTextViewFunction(given style: CodableTextViewStyle) -> (UITextView) -> Void {
+public func styleTextViewFunction(given style: CodableTextViewStyle) -> (UITextView?) -> Void {
     var result: (UITextView) -> Void = styleFunction(given: style)
 
     result <>= style.textColor |> (~>UIColor.init(hexString:) >>> (\UITextView.textColor *-> set))
     result <>= style.font?.setOnTextView
     
-    return result
+    return ~>result
 }
 
-public func styleTextViewFunctionWithTitle(given style: CodableTextViewStyle, with title: String?) -> (UITextView) -> Void {
-    let doNothing: (UITextView) -> Void = styleFunction(given: style)
-    var result: (UITextView) -> Void = doNothing
+public func styleTextViewFunctionWithTitle(given style: CodableTextViewStyle, with title: String?) -> (UITextView?) -> Void {
+    let doNothing: (UITextView?) -> Void = styleFunction(given: style)
+    var result: (UITextView?) -> Void = doNothing
+    
     result <>= (title -*> attributedTextSetter(given: style))
     
     return result
 }
 
-public func attributedTextSetter(given style: CodableTextViewStyle) -> (UITextView, String?) -> Void {
+public func attributedTextSetter(given style: CodableTextViewStyle) -> (UITextView?, String?) -> Void {
     return { textView, text in
         let attributed = convertToMutableString(fromRegularString: text ?? "")
         style.font?.font() ?> (attributed -*> setFontAttributes)
@@ -59,6 +60,6 @@ public func attributedTextSetter(given style: CodableTextViewStyle) -> (UITextVi
         let paragraphStyle = NSMutableParagraphStyle()
         paragraphStyle.lineHeightMultiple = style.lineHeightMultiplier ?? 1.0
         paragraphStyle |> (attributed -*> setParagraphStyleAttributes)
-        textView.attributedText = attributed
+        textView?.attributedText = attributed
     }
 }

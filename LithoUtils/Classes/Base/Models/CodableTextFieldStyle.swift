@@ -29,14 +29,14 @@ open class CodableTextFieldStyle: CodableViewStyleProtocol, Codable {
     public var textColor: String?
     public var borderStyle: UITextField.BorderStyle?
     
-    public func apply(to view: UIView) {
+    public func apply(to view: UIView?) {
         view |> ~>styleTextFieldFunction(given: self)
     }
 }
 
 extension UITextField.BorderStyle: Codable {}
 
-public func styleTextFieldFunction(given style: CodableTextFieldStyle) -> (UITextField) -> Void {
+public func styleTextFieldFunction(given style: CodableTextFieldStyle) -> (UITextField?) -> Void {
     var result: (UITextField) -> Void = { _ in }
 
     result <>= style.font?.setOnTextField
@@ -45,5 +45,5 @@ public func styleTextFieldFunction(given style: CodableTextFieldStyle) -> (UITex
     
     result <>= styleFunction(given: style)
     
-    return result
+    return ~>result
 }

@@ -29,12 +29,12 @@ open class CodableLabelStyle: CodableViewStyleProtocol, Codable {
     public var textColor: String?
     public var labelShadowColor: String?
     
-    public func apply(to view: UIView) {
+    public func apply(to view: UIView?) {
         view |> ~>styleLabelFunction(given: self)
     }
 }
 
-public func styleLabelFunction(given style: CodableLabelStyle) -> (UILabel) -> Void {
+public func styleLabelFunction(given style: CodableLabelStyle) -> (UILabel?) -> Void {
     let doNothing: (UILabel) -> Void = styleFunction(given: style)
     var result: (UILabel) -> Void = doNothing
 
@@ -42,10 +42,10 @@ public func styleLabelFunction(given style: CodableLabelStyle) -> (UILabel) -> V
     result <>= style.labelShadowColor |> (~>UIColor.init(hexString:) >>> (\UILabel.shadowColor *-> set))
     result <>= style.font?.setOnLabel
     
-    return result
+    return ~>result
 }
 
-public func attributedTextSetter(given style: CodableLabelStyle) -> (UILabel, String?) -> Void {
+public func attributedTextSetter(given style: CodableLabelStyle) -> (UILabel?, String?) -> Void {
     return { label, text in
         
     }

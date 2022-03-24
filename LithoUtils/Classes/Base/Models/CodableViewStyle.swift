@@ -29,7 +29,7 @@ public protocol CodableViewStyleProtocol {
     var shadowRadius: CGFloat? { get set }
     var shadowOpacity: Float? { get set }
     
-    func apply(to view: UIView)
+    func apply(to view: UIView?)
 }
 
 open class CodableViewStyle: CodableViewStyleProtocol, Codable {
@@ -52,16 +52,17 @@ open class CodableViewStyle: CodableViewStyleProtocol, Codable {
     open var shadowRadius: CGFloat?
     open var shadowOpacity: Float?
     
-    public func apply(to view: UIView) {
+    public func apply(to view: UIView?) {
         view |> styleFunction(given: self)
     }
 }
 
-public func styleFunction(given style: CodableViewStyleProtocol) -> (UIView) -> Void {
+public func styleFunction(given style: CodableViewStyleProtocol) -> (UIView?) -> Void {
     let doNothing: (UIView) -> Void = { _ in }
     var result: (UIView) -> Void = doNothing
-    result <>= style.backgroundColorHex |> (~>UIColor.init(hexString:) >>> (\UIView.backgroundColor *-> set))
-    result <>= style.tintColorHex |> (~>UIColor.init(hexString:) >>> (\UIView.tintColor *-> set))
+    
+    result <>= style.backgroundColorHex ?> (UIColor.init(hexString:) >>> (\UIView.backgroundColor *-> set))
+    result <>= style.tintColorHex ?> (UIColor.init(hexString:) >>> (\UIView.tintColor *-> set))
     
     result <>= style.isHidden ?> (\UIView.isHidden *-> set)
     result <>= style.isOpaque ?> (\UIView.isOpaque *-> set)
@@ -78,5 +79,6 @@ public func styleFunction(given style: CodableViewStyleProtocol) -> (UIView) -> 
     result <>= style.shadowColorHex |> (~>UIColor.init(hexString:) >?> ^\UIColor.cgColor >>> (\UIView.layer.shadowColor *-> set))
     result <>= style.shadowRadius ?> (\UIView.layer.shadowRadius *-> set)
     result <>= style.shadowOpacity ?> (\UIView.layer.shadowOpacity *-> set)
-    return result
+    
+    return ~>result
 }
