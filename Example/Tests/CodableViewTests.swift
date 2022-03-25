@@ -126,16 +126,16 @@ class CodableViewTests: XCTestCase {
         
         XCTAssertEqual(view.backgroundColor, UIColor.red)
         XCTAssertEqual(view.tintColor, UIColor.green)
-        XCTAssertEqual(view.isHidden, codableViewJson["isHidden"] as? Bool)
-        XCTAssertEqual(view.isOpaque, codableViewJson["isOpaque"] as? Bool)
-        XCTAssertEqual(view.clipsToBounds, codableViewJson["clipsToBounds"] as? Bool)
-        XCTAssertEqual(view.alpha, CGFloat(codableViewJson["alpha"] as! Double))
-        XCTAssertEqual(view.layer.cornerRadius, CGFloat(codableViewJson["cornerRadius"] as! Int))
+        XCTAssertEqual(view.isHidden, codableLabelJson["isHidden"] as? Bool)
+        XCTAssertEqual(view.isOpaque, codableLabelJson["isOpaque"] as? Bool)
+        XCTAssertEqual(view.clipsToBounds, codableLabelJson["clipsToBounds"] as? Bool)
+        XCTAssertEqual(view.alpha, CGFloat(codableLabelJson["alpha"] as! Double))
+        XCTAssertEqual(view.layer.cornerRadius, CGFloat(codableLabelJson["cornerRadius"] as! Int))
         XCTAssertEqual(view.layer.borderColor, UIColor.yellow.cgColor)
-        XCTAssertEqual(view.layer.borderWidth, CGFloat(codableViewJson["borderWidth"] as! Int))
+        XCTAssertEqual(view.layer.borderWidth, CGFloat(codableLabelJson["borderWidth"] as! Int))
         XCTAssertEqual(view.layer.shadowColor, UIColor(hexString: "800080").cgColor)
-        XCTAssertEqual(view.layer.shadowRadius, CGFloat(codableViewJson["shadowRadius"] as! Int))
-        XCTAssertEqual(view.layer.shadowOpacity, Float(codableViewJson["shadowOpacity"] as! Double))
+        XCTAssertEqual(view.layer.shadowRadius, CGFloat(codableLabelJson["shadowRadius"] as! Int))
+        XCTAssertEqual(view.layer.shadowOpacity, Float(codableLabelJson["shadowOpacity"] as! Double))
         
         XCTAssertEqual(view.textColor, UIColor.blue)
         XCTAssertEqual(view.shadowColor, UIColor.blue)
@@ -210,16 +210,16 @@ class CodableViewTests: XCTestCase {
         
         XCTAssertEqual(view.backgroundColor, UIColor.red)
         XCTAssertEqual(view.tintColor, UIColor.green)
-        XCTAssertEqual(view.isHidden, codableViewJson["isHidden"] as? Bool)
-        XCTAssertEqual(view.isOpaque, codableViewJson["isOpaque"] as? Bool)
-        XCTAssertEqual(view.clipsToBounds, codableViewJson["clipsToBounds"] as? Bool)
-        XCTAssertEqual(view.alpha, CGFloat(codableViewJson["alpha"] as! Double))
-        XCTAssertEqual(view.layer.cornerRadius, CGFloat(codableViewJson["cornerRadius"] as! Int))
+        XCTAssertEqual(view.isHidden, codableTextFieldJson["isHidden"] as? Bool)
+        XCTAssertEqual(view.isOpaque, codableTextFieldJson["isOpaque"] as? Bool)
+        XCTAssertEqual(view.clipsToBounds, codableTextFieldJson["clipsToBounds"] as? Bool)
+        XCTAssertEqual(view.alpha, CGFloat(codableTextFieldJson["alpha"] as! Double))
+        XCTAssertEqual(view.layer.cornerRadius, CGFloat(codableTextFieldJson["cornerRadius"] as! Int))
         XCTAssertEqual(view.layer.borderColor, UIColor.yellow.cgColor)
-        XCTAssertEqual(view.layer.borderWidth, CGFloat(codableViewJson["borderWidth"] as! Int))
+        XCTAssertEqual(view.layer.borderWidth, CGFloat(codableTextFieldJson["borderWidth"] as! Int))
         XCTAssertEqual(view.layer.shadowColor, UIColor(hexString: "800080").cgColor)
-        XCTAssertEqual(view.layer.shadowRadius, CGFloat(codableViewJson["shadowRadius"] as! Int))
-        XCTAssertEqual(view.layer.shadowOpacity, Float(codableViewJson["shadowOpacity"] as! Double))
+        XCTAssertEqual(view.layer.shadowRadius, CGFloat(codableTextFieldJson["shadowRadius"] as! Int))
+        XCTAssertEqual(view.layer.shadowOpacity, Float(codableTextFieldJson["shadowOpacity"] as! Double))
         
         XCTAssertEqual(view.textColor, UIColor.blue)
         XCTAssertEqual(view.borderStyle, .line)
@@ -294,18 +294,19 @@ class CodableViewTests: XCTestCase {
         
         XCTAssertEqual(view.backgroundColor, UIColor.red)
         XCTAssertEqual(view.tintColor, UIColor.green)
-        XCTAssertEqual(view.isHidden, codableViewJson["isHidden"] as? Bool)
-        XCTAssertEqual(view.isOpaque, codableViewJson["isOpaque"] as? Bool)
-        XCTAssertEqual(view.clipsToBounds, codableViewJson["clipsToBounds"] as? Bool)
-        XCTAssertEqual(view.alpha, CGFloat(codableViewJson["alpha"] as! Double))
-        XCTAssertEqual(view.layer.cornerRadius, CGFloat(codableViewJson["cornerRadius"] as! Int))
+        XCTAssertEqual(view.isHidden, codableTextViewJson["isHidden"] as? Bool)
+        XCTAssertEqual(view.isOpaque, codableTextViewJson["isOpaque"] as? Bool)
+        XCTAssertEqual(view.clipsToBounds, codableTextViewJson["clipsToBounds"] as? Bool)
+        XCTAssertEqual(view.alpha, CGFloat(codableTextViewJson["alpha"] as! Double))
+        XCTAssertEqual(view.layer.cornerRadius, CGFloat(codableTextViewJson["cornerRadius"] as! Int))
         XCTAssertEqual(view.layer.borderColor, UIColor.yellow.cgColor)
-        XCTAssertEqual(view.layer.borderWidth, CGFloat(codableViewJson["borderWidth"] as! Int))
+        XCTAssertEqual(view.layer.borderWidth, CGFloat(codableTextViewJson["borderWidth"] as! Int))
         XCTAssertEqual(view.layer.shadowColor, UIColor(hexString: "800080").cgColor)
-        XCTAssertEqual(view.layer.shadowRadius, CGFloat(codableViewJson["shadowRadius"] as! Int))
-        XCTAssertEqual(view.layer.shadowOpacity, Float(codableViewJson["shadowOpacity"] as! Double))
+        XCTAssertEqual(view.layer.shadowRadius, CGFloat(codableTextViewJson["shadowRadius"] as! Int))
+        XCTAssertEqual(view.layer.shadowOpacity, Float(codableTextViewJson["shadowOpacity"] as! Double))
         
         XCTAssertEqual(view.textColor, UIColor.blue)
+        XCTAssertEqual(view.textContainer.lineFragmentPadding, CGFloat(codableTextViewJson["lineFragmentPadding"] as! Double))
         XCTAssertEqual(view.font?.fontName, codableAvenir["name"] as? String)
     }
     
@@ -328,6 +329,7 @@ class CodableViewTests: XCTestCase {
         view.layer.shadowOpacity = 0.2
         
         view.textColor = UIColor.blue
+        view.textContainer.lineFragmentPadding = 12.0
         view.font = UIFont(name: "Avenir-Medium", size: 21)
         
         let backgroundColor = view.backgroundColor
@@ -344,6 +346,7 @@ class CodableViewTests: XCTestCase {
         let shadowOpacity = view.layer.shadowOpacity
         
         let textColor = view.textColor
+        let lineFragmentPadding = view.textContainer.lineFragmentPadding
         let fontName = view.font?.fontName
 
         codableStyle.apply(to: view)
@@ -362,6 +365,7 @@ class CodableViewTests: XCTestCase {
         XCTAssertEqual(view.layer.shadowOpacity, shadowOpacity)
         
         XCTAssertEqual(view.textColor, textColor)
+        XCTAssertEqual(view.textContainer.lineFragmentPadding, lineFragmentPadding)
         XCTAssertEqual(view.font?.fontName, fontName)
     }
     
@@ -374,21 +378,21 @@ class CodableViewTests: XCTestCase {
         
         XCTAssertEqual(view.backgroundColor, UIColor.red)
         XCTAssertEqual(view.tintColor, UIColor.green)
-        XCTAssertEqual(view.isHidden, codableViewJson["isHidden"] as? Bool)
-        XCTAssertEqual(view.isOpaque, codableViewJson["isOpaque"] as? Bool)
-        XCTAssertEqual(view.clipsToBounds, codableViewJson["clipsToBounds"] as? Bool)
-        XCTAssertEqual(view.alpha, CGFloat(codableViewJson["alpha"] as! Double))
-        XCTAssertEqual(view.layer.cornerRadius, CGFloat(codableViewJson["cornerRadius"] as! Int))
+        XCTAssertEqual(view.isHidden, codableButtonJson["isHidden"] as? Bool)
+        XCTAssertEqual(view.isOpaque, codableButtonJson["isOpaque"] as? Bool)
+        XCTAssertEqual(view.clipsToBounds, codableButtonJson["clipsToBounds"] as? Bool)
+        XCTAssertEqual(view.alpha, CGFloat(codableButtonJson["alpha"] as! Double))
+        XCTAssertEqual(view.layer.cornerRadius, CGFloat(codableButtonJson["cornerRadius"] as! Int))
         XCTAssertEqual(view.layer.borderColor, UIColor.yellow.cgColor)
-        XCTAssertEqual(view.layer.borderWidth, CGFloat(codableViewJson["borderWidth"] as! Int))
+        XCTAssertEqual(view.layer.borderWidth, CGFloat(codableButtonJson["borderWidth"] as! Int))
         XCTAssertEqual(view.layer.shadowColor, UIColor(hexString: "800080").cgColor)
-        XCTAssertEqual(view.layer.shadowRadius, CGFloat(codableViewJson["shadowRadius"] as! Int))
-        XCTAssertEqual(view.layer.shadowOpacity, Float(codableViewJson["shadowOpacity"] as! Double))
+        XCTAssertEqual(view.layer.shadowRadius, CGFloat(codableButtonJson["shadowRadius"] as! Int))
+        XCTAssertEqual(view.layer.shadowOpacity, Float(codableButtonJson["shadowOpacity"] as! Double))
     }
     
     func testNoCodableButton() throws {
         guard let data = dictToData([:]) else { XCTFail(); return }
-        guard let codableStyle = try? JSONDecoder().decode(CodableViewStyle.self, from: data) else { XCTFail(); return }
+        guard let codableStyle = try? JSONDecoder().decode(CodableButtonStyle.self, from: data) else { XCTFail(); return }
         let view = UIButton()
         
         view.backgroundColor = .black
@@ -497,6 +501,7 @@ let codableTextViewJson: [String: Any] = ["backgroundColorHex": "#FF0000",
                                           "shadowOpacity": 0.1,
                                           "font": codableAvenir,
                                           "textColor": "#0000FF",
+                                          "lineFragmentPadding": 24.0,
                                           "lineHeightMultiplier": 0.8]
 
 let codableButtonJson: [String: Any] = ["backgroundColorHex": "#FF0000",

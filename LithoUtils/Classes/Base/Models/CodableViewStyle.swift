@@ -52,6 +52,8 @@ open class CodableViewStyle: CodableViewStyleProtocol, Codable {
     open var shadowRadius: CGFloat?
     open var shadowOpacity: Float?
     
+    public init() {}
+    
     public func apply(to view: UIView?) {
         view |> styleFunction(given: self)
     }

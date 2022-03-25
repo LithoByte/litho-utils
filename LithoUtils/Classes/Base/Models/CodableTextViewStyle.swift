@@ -28,28 +28,37 @@ open class CodableTextViewStyle: CodableViewStyleProtocol, Codable {
     public var font: CodableFont?
     public var textColor: String?
     public var lineHeightMultiplier: CGFloat?
+    public var lineFragmentPadding: CGFloat?
+    
+    public init() {}
     
     public func apply(to view: UIView?) {
         view |> ~>styleTextViewFunction(given: self)
+    }
+    
+    public func apply(to view: UIView?, with title: String?) {
+        view |> ~>styleTextViewFunctionWithTitle(given: self, with: title)
     }
 }
 
 public func styleTextViewFunction(given style: CodableTextViewStyle) -> (UITextView?) -> Void {
     var result: (UITextView) -> Void = styleFunction(given: style)
-
+    
     result <>= style.textColor |> (~>UIColor.init(hexString:) >>> (\UITextView.textColor *-> set))
+    result <>= style.lineFragmentPadding ?> (\UITextView.textContainer.lineFragmentPadding *-> set)
     result <>= style.font?.setOnTextView
     
     return ~>result
 }
 
 public func styleTextViewFunctionWithTitle(given style: CodableTextViewStyle, with title: String?) -> (UITextView?) -> Void {
-    let doNothing: (UITextView?) -> Void = styleFunction(given: style)
-    var result: (UITextView?) -> Void = doNothing
+    let doNothing: (UITextView) -> Void = styleFunction(given: style)
+    var result: (UITextView) -> Void = doNothing
     
+    result <>= style.lineFragmentPadding ?> (\UITextView.textContainer.lineFragmentPadding *-> set)
     result <>= (title -*> attributedTextSetter(given: style))
     
-    return result
+    return ~>result
 }
 
 public func attributedTextSetter(given style: CodableTextViewStyle) -> (UITextView?, String?) -> Void {

@@ -24,10 +24,13 @@ open class CodableLabelStyle: CodableViewStyleProtocol, Codable {
     public var shadowColorHex: String?
     public var shadowRadius: CGFloat?
     public var shadowOpacity: Float?
+    public var lineHeightMultiplier: CGFloat?
     
     public var font: CodableFont?
     public var textColor: String?
     public var labelShadowColor: String?
+    
+    public init() {}
     
     public func apply(to view: UIView?) {
         view |> ~>styleLabelFunction(given: self)
@@ -38,15 +41,28 @@ public func styleLabelFunction(given style: CodableLabelStyle) -> (UILabel?) -> 
     let doNothing: (UILabel) -> Void = styleFunction(given: style)
     var result: (UILabel) -> Void = doNothing
 
-    result <>= style.textColor |> (~>UIColor.init(hexString:) >>> (\UILabel.textColor *-> set))
     result <>= style.labelShadowColor |> (~>UIColor.init(hexString:) >>> (\UILabel.shadowColor *-> set))
+    result <>= { $0 |> set(\.attributedText, $0.text |> styledAttributedText(given: style)) }
+    result <>= style.textColor |> (~>UIColor.init(hexString:) >>> (\UILabel.textColor *-> set))
     result <>= style.font?.setOnLabel
     
     return ~>result
 }
 
-public func attributedTextSetter(given style: CodableLabelStyle) -> (UILabel?, String?) -> Void {
-    return { label, text in
-        
+public func styledAttributedText(given style: CodableLabelStyle) -> (String?) -> NSAttributedString? {
+    return { text in
+        var promptAttributes: [NSAttributedString.Key: Any] = [:]
+        if let spacing = style.lineHeightMultiplier {
+            let paragraph = NSMutableParagraphStyle()
+            paragraph.lineHeightMultiple = spacing
+            promptAttributes[.paragraphStyle] = paragraph
+        }
+        if let color = style.textColor {
+            promptAttributes[.foregroundColor] = UIColor(hexString: color)
+        }
+        if let font = style.font {
+            promptAttributes[.font] = font.font()
+        }
+        return NSAttributedString(string: text ?? "", attributes: promptAttributes)
     }
 }

@@ -11,14 +11,33 @@ import Prelude
 import UIKit
 import LithoStrings
 
-open class CodableButtonStyle: CodableViewStyle {
+open class CodableButtonStyle: CodableViewStyleProtocol, Codable {
+    public var backgroundColorHex: String?
+    public var tintColorHex: String?
+    public var isHidden: Bool?
+    public var isOpaque: Bool?
+    public var clipsToBounds: Bool?
+    public var alpha: CGFloat?
+    public var cornerRadius: CGFloat?
+    public var isRounded: Bool?
+    public var borderWidth: CGFloat?
+    public var borderColorHex: String?
+    public var shadowColorHex: String?
+    public var shadowRadius: CGFloat?
+    public var shadowOpacity: Float?
+    
     open var titleColor: String?
     open var titleShadowColor: String?
     open var font: CodableFont?
     
-    public override func apply(to view: UIView?) {
-        super.apply(to: view)
+    public init() {}
+    
+    public func apply(to view: UIView?) {
         view |> ~>styleButtonFunction(given: self)
+    }
+    
+    public func apply(to view: UIView?, withTitle title: String?) {
+        view |> ~>styleButtonWithTitle(given: self, with: title)
     }
 }
 

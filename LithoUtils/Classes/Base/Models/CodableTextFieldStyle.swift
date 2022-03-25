@@ -29,6 +29,8 @@ open class CodableTextFieldStyle: CodableViewStyleProtocol, Codable {
     public var textColor: String?
     public var borderStyle: UITextField.BorderStyle?
     
+    public init() {}
+    
     public func apply(to view: UIView?) {
         view |> ~>styleTextFieldFunction(given: self)
     }
