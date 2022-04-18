@@ -19,14 +19,14 @@
     "Elliot": ""
   },
   "source": {
-    "git": "https://github.com/schrockblock/funnet.git",
+    "git": "https://github.com/LithoByte/funnet.git",
     "tag": "0.1.1"
   },
   "social_media_url": "https://twitter.com/elliot_schrock",
   "platforms": {
-    "ios": "9.0"
+    "ios": "11.0"
   },
-  "source_files": "FunNet/Classes/**/*",
+  "source_files": "Sources/funnet/**/*",
   "dependencies": {
     "LithoOperators": [
 
@@ -35,16 +35,22 @@
   "subspecs": [
     {
       "name": "Core",
-      "source_files": "FunNet/Classes/Core/**/*.swift",
+      "source_files": "Sources/funnet/Core/**/*.swift",
       "dependencies": {
         "LithoOperators": [
+
+        ],
+        "LithoUtils/Core": [
+
+        ],
+        "Slippers/Core": [
 
         ]
       }
     },
     {
       "name": "Combine",
-      "source_files": "FunNet/Classes/Combine/**/*.swift",
+      "source_files": "Sources/funnet/Combine/**/*.swift",
       "platforms": {
         "ios": "13.0"
       },
@@ -57,7 +63,7 @@
     },
     {
       "name": "ReactiveSwift",
-      "source_files": "FunNet/Classes/ReactiveSwift/**/*",
+      "source_files": "Sources/funnet/ReactiveSwift/**/*",
       "dependencies": {
         "FunNet/Core": [
 
@@ -69,12 +75,46 @@
     },
     {
       "name": "Multipart",
-      "source_files": "FunNet/Classes/Multipart/**/*.swift",
+      "source_files": "Sources/funnet/Multipart/**/*.swift",
       "dependencies": {
         "LithoOperators": [
 
         ]
       }
+    },
+    {
+      "name": "ErrorHandling",
+      "source_files": "Sources/funnet/ErrorHandling/**/*.swift",
+      "dependencies": {
+        "LithoOperators": [
+
+        ],
+        "LithoUtils/Core": [
+
+        ],
+        "Slippers/Core": [
+
+        ]
+      }
+    },
+    {
+      "name": "ErrorHandlingCombine",
+      "source_files": "Sources/funnet/ErrorHandlingCombine/**/*.swift",
+      "dependencies": {
+        "FunNet/ErrorHandling": [
+
+        ],
+        "LithoOperators": [
+
+        ],
+        "LithoUtils/Core": [
+
+        ],
+        "Slippers/Core": [
+
+        ]
+      },
+      "frameworks": "Combine"
     }
   ],
   "swift_version": "5.3"

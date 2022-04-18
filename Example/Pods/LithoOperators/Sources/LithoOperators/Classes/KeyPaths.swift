@@ -40,6 +40,13 @@ public func setter<Root, Value>(_ kp: WritableKeyPath<Root, Value>) -> (Root, Va
     }
 }
 
+public func toggle<Root>(_ kp: WritableKeyPath<Root, Bool>) -> (Root) -> Void {
+    return { root in
+        var copy = root
+        copy[keyPath: kp].toggle()
+    }
+}
+
 /**
  The following are from the excellent PointFree videos, and are used here and there above to
  implement some of functions.

@@ -3,30 +3,42 @@ PODS:
     - fuikit/Core (= 0.1.5)
     - fuikit/CoreBluetooth (= 0.1.5)
     - fuikit/CoreLocation (= 0.1.5)
-  - fuikit/Core (0.1.5)
-  - fuikit/CoreBluetooth (0.1.5)
-  - fuikit/CoreLocation (0.1.5)
+    - LithoOperators
+  - fuikit/Core (0.1.5):
+    - LithoOperators
+  - fuikit/CoreBluetooth (0.1.5):
+    - LithoOperators
+  - fuikit/CoreLocation (0.1.5):
+    - LithoOperators
   - FunNet/Combine (0.1.1):
     - FunNet/Core
     - LithoOperators
   - FunNet/Core (0.1.1):
     - LithoOperators
+    - LithoUtils/Core
+    - Slippers/Core
   - LithoOperators (0.1.4):
     - Prelude
+  - LithoStrings (0.0.1)
   - LithoUtils (0.1.0):
     - fuikit/Core
     - LithoOperators
+    - LithoStrings
     - LithoUtils/Core (= 0.1.0)
   - LithoUtils/Core (0.1.0):
     - fuikit/Core
     - LithoOperators
+    - LithoStrings
   - Prelude (3.0.0)
+  - Slippers/Core (0.1.1)
 
 DEPENDENCIES:
   - fuikit (from `https://github.com/LithoByte/fuikit`)
-  - FunNet/Combine (from `https://github.com/schrockblock/funnet`, branch `feature/cjc8/update-lithooperators`)
-  - LithoOperators (from `https://github.com/LithoByte/LithoOperators`, branch `feature/cjc8/file-split`)
+  - FunNet/Combine (from `https://github.com/LithoByte/funnet`)
+  - LithoOperators (from `https://github.com/LithoByte/LithoOperators`)
+  - LithoStrings (from `https://github.com/cjc8/LithoStrings`)
   - LithoUtils (from `../`)
+  - Slippers/Core (from `https://github.com/LithoByte/slippers`)
 
 SPEC REPOS:
   trunk:
@@ -36,32 +48,42 @@ EXTERNAL SOURCES:
   fuikit:
     :git: https://github.com/LithoByte/fuikit
   FunNet:
-    :branch: feature/cjc8/update-lithooperators
-    :git: https://github.com/schrockblock/funnet
+    :git: https://github.com/LithoByte/funnet
   LithoOperators:
-    :branch: feature/cjc8/file-split
     :git: https://github.com/LithoByte/LithoOperators
+  LithoStrings:
+    :git: https://github.com/cjc8/LithoStrings
   LithoUtils:
     :path: "../"
+  Slippers:
+    :git: https://github.com/LithoByte/slippers
 
 CHECKOUT OPTIONS:
   fuikit:
-    :commit: 7d5c8329b834e8a415cf5217a2d4a118281adcc9
+    :commit: 158d1789ac918edfffd6ac8edd6c1d144e80bce3
     :git: https://github.com/LithoByte/fuikit
   FunNet:
-    :commit: 4fb1df13db008e5ebfb741954270ad301d4d9eb8
-    :git: https://github.com/schrockblock/funnet
+    :commit: 7cd8443854fae4508d9a6488ec62dacb43f7d2d3
+    :git: https://github.com/LithoByte/funnet
   LithoOperators:
-    :commit: 0be527c121c0c9a947aa167a9656da993f119710
+    :commit: a976e8172958cb699eaacda6bfcf407c7d66b347
     :git: https://github.com/LithoByte/LithoOperators
+  LithoStrings:
+    :commit: 2fec054702a34c47f9c0565362611f09350c06e6
+    :git: https://github.com/cjc8/LithoStrings
+  Slippers:
+    :commit: 673221de7fd877d808b83e6415544be4824a746e
+    :git: https://github.com/LithoByte/slippers
 
 SPEC CHECKSUMS:
-  fuikit: 976080e1c04037e01d14541135a104cb208d8c0d
-  FunNet: e66d2df77a5663556970a1914c5911ecde2842ef
+  fuikit: 63f9460a7369046de30bc1aaf592321f98aea67e
+  FunNet: e4a1051ef3b822eeb55f8e24426b169e4d35ed87
   LithoOperators: 8fc0c6a49e34a8d1ca01b777844f58e36c062d9f
-  LithoUtils: 672d313a7fede3968e22f082b293cbc01ebcb7f0
+  LithoStrings: 901559949d6b29e4775972c7f436b3aacb5fb6fa
+  LithoUtils: e2d88bfdb723f50e21476f3a517ef84479fafe17
   Prelude: fe4cc0fd961d34edf48fe6b04d05c863449efb0a
+  Slippers: 5a3c6f24a556a59a091e2cb60e588472827be87c
 
-PODFILE CHECKSUM: bc9b58a291cbeda0e3c9216ac54a898a7215aea6
+PODFILE CHECKSUM: 8d4430774702569a32bbc9288facc934b741a08a
 
-COCOAPODS: 1.10.0
+COCOAPODS: 1.11.2

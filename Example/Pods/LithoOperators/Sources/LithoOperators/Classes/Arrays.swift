@@ -52,6 +52,16 @@ public func filter<T>(f: @escaping (T) -> Bool) -> ([T]) -> [T] {
     }
 }
 
+// A free function that returns true only if there is one element that satisfies the condition
+public func someSatisfy<T>(f: @escaping (T) -> Bool) -> ([T]) -> Bool {
+    return filter(f: f) >>> ^\.count >>> isGreaterThan(0)
+}
+
+// A free function that returns true only if all elements satisfy the condition
+public func allSatisfy<T>(f: @escaping (T) -> Bool) -> ([T]) -> Bool {
+    return fzip(^\.count, filter(f: f) >>> ^\.count) >>> (==)
+}
+
 // A free function version of `compactMap`.
 // TESTED
 public func compactMap<U, V>(array: [U], f: (U) -> V?) -> [V] {

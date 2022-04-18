@@ -28,21 +28,26 @@
   "platforms": {
     "ios": "11.0"
   },
-  "source_files": "fuikit/Classes/**/*.swift",
+  "source_files": "Sources/fuikit/Classes/**/*.swift",
   "resources": "fuikit/**/*.xib",
+  "dependencies": {
+    "LithoOperators": [
+
+    ]
+  },
   "subspecs": [
     {
       "name": "Core",
-      "source_files": "fuikit/Classes/Core/**/*.swift",
-      "resources": "fuikit/Classes/Core/**/*.xib"
+      "source_files": "Sources/fuikit/Classes/Core/**/*.swift",
+      "resources": "Sources/fuikit/Classes/Core/**/*.xib"
     },
     {
       "name": "CoreLocation",
-      "source_files": "fuikit/Classes/FCL/*.swift"
+      "source_files": "Sources/fuikit/Classes/FCL/*.swift"
     },
     {
       "name": "CoreBluetooth",
-      "source_files": "fuikit/Classes/FCB/*.swift"
+      "source_files": "Sources/fuikit/Classes/FCB/*.swift"
     }
   ],
   "swift_version": "5.2"
