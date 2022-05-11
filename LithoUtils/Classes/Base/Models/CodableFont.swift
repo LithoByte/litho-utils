@@ -12,7 +12,7 @@ import LithoOperators
 public struct CodableFont: Codable {
     public var name: String?
     public var size: CGFloat?
-    public var dynamic = false
+    public var isDynamic = false
     
     public var setOnLabel: ((UILabel?) -> Void)? {
         get { return ~>set(\UILabel.font, font()) }
@@ -39,15 +39,15 @@ public struct CodableFont: Codable {
         }}
     }
     
-    public init(name: String?, size: CGFloat?, dynamic: Bool = false) {
+    public init(name: String?, size: CGFloat?, isDynamic: Bool = false) {
         self.name = name
         self.size = size
-        self.dynamic = dynamic
+        self.isDynamic = isDynamic
     }
     
     public func font() -> UIFont? {
         if let fontName = name, let fontSize = size, let font = UIFont(name: fontName, size: fontSize) {
-            if dynamic {
+            if isDynamic {
                 return scaleFont(font)
             } else {
                 return font
@@ -57,7 +57,7 @@ public struct CodableFont: Codable {
     }
 }
 
-public func scaledFont(name: String, size:CGFloat) -> UIFont? {
+public func scaledFont(name: String, size: CGFloat) -> UIFont? {
     if let font = UIFont(name: name, size: size) {
         return scaleFont(font)
     }
