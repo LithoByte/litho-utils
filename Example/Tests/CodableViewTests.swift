@@ -520,4 +520,4 @@ let codableButtonJson: [String: Any] = ["backgroundColorHex": "#FF0000",
                                         "titleColor": "#0000FF",
                                         "titleShadowColor": "#0000FF"]
 
-let codableAvenir: [String: Any] = ["name": "Avenir-Medium", "size": 18]
+let codableAvenir: [String: Any] = ["name": "Avenir-Medium", "size": 18, "isDynamic": false]
