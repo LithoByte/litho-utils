@@ -24,6 +24,7 @@
 		1CC9FE6228768D2CD2B2AC4A2B14654A /* FPUIImagePickerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A277DCC48C6FECCA84836240EF148B1 /* FPUIImagePickerDelegate.swift */; };
 		1D19FBF9CB72FBD70F1C4207BB8D326F /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FC48A311987D2382C16B1335DAAAAB /* Application.swift */; };
 		1E52423A114C26341F7FCDCFE1A2C8FB /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F937D88D86317A651CB4816D6EC5B84 /* Alert.swift */; };
+		233196C5282ED7B800B6F39A /* TappableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233196C4282ED7B800B6F39A /* TappableView.swift */; };
 		23B3B369CBE3875BD61AFC1285E5FE41 /* Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = A943A8FC465947452FA3BEC7443481EE /* Optional.swift */; };
 		23CAC9E158B949B86540CEE50CFE90F5 /* CanIndicateActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE05F0A95D2FDF259BEA7F99E96EBDA /* CanIndicateActivity.swift */; };
 		24EB96E51081818E28CF10711B5FAC77 /* JsonProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC55A4B8C5031FD1C5B4F5C629F29763 /* JsonProvider.swift */; };
@@ -65,7 +66,7 @@
 		7EADBA346095D3CFAB78030009E1251C /* FCBPeripheralManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76DEED194599D576F5BBCC745438469 /* FCBPeripheralManager.swift */; };
 		8226B0EE367E4ED3F8A0407CDEED37CC /* CodableFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AAF60867C40609E1888B62A3FE21554 /* CodableFont.swift */; };
 		84EDCCFF103BDDC06F6290E8D8CAEEFF /* FPUITableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2B24965ABEED9C29E6B84EFC2DF0F2 /* FPUITableViewDataSource.swift */; };
-		86EAB6DDF09E24DFB9F69330FB8ADBAF /* UrlOpening.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D8156505F490D66FBFED0834D7238B /* UrlOpening.swift */; };
+		86EAB6DDF09E24DFB9F69330FB8ADBAF /* OpenUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D8156505F490D66FBFED0834D7238B /* OpenUrl.swift */; };
 		86F914B3247753E1247EE11C5FE24933 /* Stubbable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9636F27F6151F4AA24391BBAA3FD33 /* Stubbable.swift */; };
 		8CFC60B6E61C3BC7A52BF8C18329A342 /* FCLLocationManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC01C60372AC901ABFA29D1B8820735 /* FCLLocationManagerDelegate.swift */; };
 		91ED025BE7DE35C64313D8C081321D5F /* AccessoryViewConfigurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83F1A4FB71636A594F932035568044C /* AccessoryViewConfigurable.swift */; };
@@ -254,6 +255,7 @@
 		1F937D88D86317A651CB4816D6EC5B84 /* Alert.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		20574C340C819F6F8A2A6D65C9FC616C /* FunNet */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FunNet; path = FunNet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		21099AE26BFD0254EAE9406D3183FC9A /* FCBCentralManagerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FCBCentralManagerDelegate.swift; path = Sources/fuikit/Classes/FCB/FCBCentralManagerDelegate.swift; sourceTree = "<group>"; };
+		233196C4282ED7B800B6F39A /* TappableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TappableView.swift; sourceTree = "<group>"; };
 		25F77EA46ADFCC785D8ADF162BF109EB /* Pods-LithoUtils_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LithoUtils_Tests-Info.plist"; sourceTree = "<group>"; };
 		2ACF3012BADE78F48028C658830B4117 /* FPUICollectionViewViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = FPUICollectionViewViewController.xib; path = Sources/fuikit/Classes/Core/FPUICollectionViewViewController.xib; sourceTree = "<group>"; };
 		2AD4F34A13D2A99E0FB2A39CDAA2F71A /* Flip.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Flip.swift; path = Prelude/Flip.swift; sourceTree = "<group>"; };
@@ -373,7 +375,7 @@
 		D83E2A27E2F13B75D3D825C575D07179 /* CodableButtonStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CodableButtonStyle.swift; sourceTree = "<group>"; };
 		D9F6C6CAD3C75772E429133567ED34F9 /* Pods-LithoUtils_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LithoUtils_Tests.modulemap"; sourceTree = "<group>"; };
 		E0B189AF4C8715F9C48BDBD9309FB9AB /* Tuples.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Tuples.swift; path = Sources/LithoOperators/Classes/Tuples.swift; sourceTree = "<group>"; };
-		E0D8156505F490D66FBFED0834D7238B /* UrlOpening.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UrlOpening.swift; sourceTree = "<group>"; };
+		E0D8156505F490D66FBFED0834D7238B /* OpenUrl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OpenUrl.swift; sourceTree = "<group>"; };
 		E206D0F61EAF77F456EF81F276BF15E5 /* CodableLabelStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CodableLabelStyle.swift; sourceTree = "<group>"; };
 		E2CD7C5EC3510FF63F1E93314C28FE94 /* FunNet-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FunNet-prefix.pch"; sourceTree = "<group>"; };
 		E3B9409315D429E5C6A5D49F281A2114 /* Slippers-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Slippers-prefix.pch"; sourceTree = "<group>"; };
@@ -519,7 +521,7 @@
 			isa = PBXGroup;
 			children = (
 				6BDE82384763EE4136AB84DF13290575 /* iOSFunctions.swift */,
-				E0D8156505F490D66FBFED0834D7238B /* UrlOpening.swift */,
+				E0D8156505F490D66FBFED0834D7238B /* OpenUrl.swift */,
 				2B7F03F597868BD6DEE421DABAF41954 /* Styles.swift */,
 			);
 			path = Functions;
@@ -847,6 +849,7 @@
 				C80C3ABB6BEDE9042F97ABD52799A11A /* CodableTextFieldStyle.swift */,
 				7642E13814BA4E0B035DFE3B6E703D61 /* CodableTextViewStyle.swift */,
 				A475DADBA37DF34DE92BCC23314397AE /* CodableViewStyle.swift */,
+				233196C4282ED7B800B6F39A /* TappableView.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -1427,10 +1430,11 @@
 				B52FD61C1EDA38842EE6613F08D478B3 /* Configurable.swift in Sources */,
 				98692A3206C6DB6C2CBAE76CCDF1DB75 /* iOSFunctions.swift in Sources */,
 				319EB0A06F8BAA59C6CBA22D089B27E5 /* LithoUtils-dummy.m in Sources */,
-				86EAB6DDF09E24DFB9F69330FB8ADBAF /* UrlOpening.swift in Sources */,
+				86EAB6DDF09E24DFB9F69330FB8ADBAF /* OpenUrl.swift in Sources */,
 				DFAA6D1EBF54E14BA78CB99103CF6AA4 /* Styles.swift in Sources */,
 				F8C1D24A0F4A067EB4B37FA07F2CA21A /* UIColor+hex.swift in Sources */,
 				FB26BADB327E4D93330EA9F7E3BCAF90 /* UIImage+Insets.swift in Sources */,
+				233196C5282ED7B800B6F39A /* TappableView.swift in Sources */,
 				0B81E918F40E87BE13C9C49F2082D40F /* UIImage+Resize.swift in Sources */,
 				C041AD08B5B207DC18417AF40A92ABFA /* UIViewController+BarButtonItem.swift in Sources */,
 				A543BAC10FFAFA543C2CDEC8AEBA3E38 /* UIViewController+DismissKeyboard.swift in Sources */,
