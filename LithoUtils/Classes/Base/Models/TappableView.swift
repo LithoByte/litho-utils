@@ -11,14 +11,16 @@ import LithoOperators
 public class TappableView: UIView {
     public var onTap: ((TappableView) -> Void)?
     
-    public convenience init(frame: CGRect, onTap: @escaping (TappableView) -> Void) {
-        self.init(frame: frame)
+    public init(frame: CGRect, onTap: @escaping (TappableView) -> Void) {
+        super.init(frame: frame)
+        setupGestureRecognizers()
         self.onTap = onTap
     }
     
-    public convenience init?(coder: NSCoder, onTap: @escaping (TappableView) -> Void) {
-        self.init(coder: coder)
+    public init?(coder: NSCoder, onTap: @escaping (TappableView) -> Void) {
+        super.init(coder: coder)
         self.onTap = onTap
+        setupGestureRecognizers()
     }
     
     public override init(frame: CGRect) {
