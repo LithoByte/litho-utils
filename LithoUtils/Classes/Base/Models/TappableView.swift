@@ -42,7 +42,7 @@ public class TappableView: UIView {
 }
 
 public class TappableModelView<T>: TappableView {
-    public let model: T?
+    public var model: T?
     public init(frame: CGRect, model: T, onTap: @escaping (T, TappableView) -> Void) {
         self.model = model
         super.init(frame: frame, onTap: model *-> onTap)
