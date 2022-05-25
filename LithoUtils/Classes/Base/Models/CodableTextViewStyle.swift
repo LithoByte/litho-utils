@@ -19,6 +19,7 @@ open class CodableTextViewStyle: CodableViewStyleProtocol, Codable {
     public var clipsToBounds: Bool?
     public var alpha: CGFloat?
     public var cornerRadius: CGFloat?
+    public var maskedCorners: CACornerMask?
     public var isRounded: Bool?
     public var borderWidth: CGFloat?
     public var borderColorHex: String?

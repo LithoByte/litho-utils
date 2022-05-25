@@ -20,6 +20,7 @@ public protocol CodableViewStyleProtocol {
     var alpha: CGFloat? { get set }
     
     var cornerRadius: CGFloat? { get set }
+    var maskedCorners: CACornerMask? { get set }
     var isRounded: Bool? { get set }
     
     var borderWidth: CGFloat? { get set }
@@ -43,6 +44,7 @@ open class CodableViewStyle: CodableViewStyleProtocol, Codable {
     open var alpha: CGFloat?
     
     open var cornerRadius: CGFloat?
+    open var maskedCorners: CACornerMask?
     open var isRounded: Bool?
     
     open var borderWidth: CGFloat?
@@ -59,6 +61,8 @@ open class CodableViewStyle: CodableViewStyleProtocol, Codable {
     }
 }
 
+extension CACornerMask: Codable {}
+
 public func styleFunction(given style: CodableViewStyleProtocol) -> (UIView?) -> Void {
     let doNothing: (UIView) -> Void = { _ in }
     var result: (UIView) -> Void = doNothing
@@ -73,6 +77,7 @@ public func styleFunction(given style: CodableViewStyleProtocol) -> (UIView?) ->
     result <>= (style.alpha ?> (\UIView.alpha *-> set))
     
     result <>= style.cornerRadius ?> (\UIView.layer.cornerRadius *-> set)
+    result <>= style.maskedCorners ?> (\UIView.layer.maskedCorners *-> set)
     result <>= style.isRounded ?> ((setCappedEnds, nil) -**> ifThen)
     
     result <>= style.borderColorHex |> (~>UIColor.init(hexString:) >?> ^\UIColor.cgColor >>> (\UIView.layer.borderColor *-> set))
