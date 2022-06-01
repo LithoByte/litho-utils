@@ -65,7 +65,6 @@
 		7EADBA346095D3CFAB78030009E1251C /* FCBPeripheralManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76DEED194599D576F5BBCC745438469 /* FCBPeripheralManager.swift */; };
 		8226B0EE367E4ED3F8A0407CDEED37CC /* CodableFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AAF60867C40609E1888B62A3FE21554 /* CodableFont.swift */; };
 		84EDCCFF103BDDC06F6290E8D8CAEEFF /* FPUITableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2B24965ABEED9C29E6B84EFC2DF0F2 /* FPUITableViewDataSource.swift */; };
-		86EAB6DDF09E24DFB9F69330FB8ADBAF /* UrlOpening.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D8156505F490D66FBFED0834D7238B /* UrlOpening.swift */; };
 		86F914B3247753E1247EE11C5FE24933 /* Stubbable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9636F27F6151F4AA24391BBAA3FD33 /* Stubbable.swift */; };
 		8CFC60B6E61C3BC7A52BF8C18329A342 /* FCLLocationManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC01C60372AC901ABFA29D1B8820735 /* FCLLocationManagerDelegate.swift */; };
 		91ED025BE7DE35C64313D8C081321D5F /* AccessoryViewConfigurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83F1A4FB71636A594F932035568044C /* AccessoryViewConfigurable.swift */; };
@@ -373,7 +372,6 @@
 		D83E2A27E2F13B75D3D825C575D07179 /* CodableButtonStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CodableButtonStyle.swift; sourceTree = "<group>"; };
 		D9F6C6CAD3C75772E429133567ED34F9 /* Pods-LithoUtils_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LithoUtils_Tests.modulemap"; sourceTree = "<group>"; };
 		E0B189AF4C8715F9C48BDBD9309FB9AB /* Tuples.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Tuples.swift; path = Sources/LithoOperators/Classes/Tuples.swift; sourceTree = "<group>"; };
-		E0D8156505F490D66FBFED0834D7238B /* UrlOpening.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UrlOpening.swift; sourceTree = "<group>"; };
 		E206D0F61EAF77F456EF81F276BF15E5 /* CodableLabelStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CodableLabelStyle.swift; sourceTree = "<group>"; };
 		E2CD7C5EC3510FF63F1E93314C28FE94 /* FunNet-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FunNet-prefix.pch"; sourceTree = "<group>"; };
 		E3B9409315D429E5C6A5D49F281A2114 /* Slippers-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Slippers-prefix.pch"; sourceTree = "<group>"; };
@@ -519,7 +517,6 @@
 			isa = PBXGroup;
 			children = (
 				6BDE82384763EE4136AB84DF13290575 /* iOSFunctions.swift */,
-				E0D8156505F490D66FBFED0834D7238B /* UrlOpening.swift */,
 				2B7F03F597868BD6DEE421DABAF41954 /* Styles.swift */,
 			);
 			path = Functions;
@@ -1427,7 +1424,6 @@
 				B52FD61C1EDA38842EE6613F08D478B3 /* Configurable.swift in Sources */,
 				98692A3206C6DB6C2CBAE76CCDF1DB75 /* iOSFunctions.swift in Sources */,
 				319EB0A06F8BAA59C6CBA22D089B27E5 /* LithoUtils-dummy.m in Sources */,
-				86EAB6DDF09E24DFB9F69330FB8ADBAF /* UrlOpening.swift in Sources */,
 				DFAA6D1EBF54E14BA78CB99103CF6AA4 /* Styles.swift in Sources */,
 				F8C1D24A0F4A067EB4B37FA07F2CA21A /* UIColor+hex.swift in Sources */,
 				FB26BADB327E4D93330EA9F7E3BCAF90 /* UIImage+Insets.swift in Sources */,
