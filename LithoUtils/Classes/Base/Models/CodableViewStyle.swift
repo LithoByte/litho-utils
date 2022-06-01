@@ -54,7 +54,37 @@ open class CodableViewStyle: CodableViewStyleProtocol, Codable {
     open var shadowRadius: CGFloat?
     open var shadowOpacity: Float?
     
-    public init() {}
+    public init(
+        backgroundColorHex: String? = nil,
+        tintColorHex: String? = nil,
+        isHidden: Bool? = nil,
+        isOpaque: Bool? = nil,
+        clipsToBounds: Bool? = nil,
+        alpha: CGFloat? = nil,
+        cornerRadius: CGFloat? = nil,
+        maskedCorners: CACornerMask? = nil,
+        isRounded: Bool? = nil,
+        borderWidth: CGFloat? = nil,
+        borderColorHex: String? = nil,
+        shadowColorHex: String? = nil,
+        shadowRadius: CGFloat? = nil,
+        shadowOpacity: Float? = nil
+    ) {
+        self.backgroundColorHex = backgroundColorHex
+        self.tintColorHex = tintColorHex
+        self.isHidden = isHidden
+        self.isOpaque = isOpaque
+        self.clipsToBounds = clipsToBounds
+        self.alpha = alpha
+        self.cornerRadius = cornerRadius
+        self.maskedCorners = maskedCorners
+        self.isRounded = isRounded
+        self.borderWidth = borderWidth
+        self.borderColorHex = borderColorHex
+        self.shadowColorHex = shadowColorHex
+        self.shadowRadius = shadowRadius
+        self.shadowOpacity = shadowOpacity
+    }
     
     public func apply(to view: UIView?) {
         view |> styleFunction(given: self)
